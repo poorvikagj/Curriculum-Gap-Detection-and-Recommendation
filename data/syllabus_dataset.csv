@@ -1,0 +1,332 @@
+Institute,Semester,Course,Skill
+RVCE,3,Data Structures,Arrays
+RVCE,3,Data Structures,Linked List
+RVCE,3,Data Structures,Stack
+RVCE,3,Data Structures,Queue
+RVCE,3,Data Structures,Trees
+RVCE,3,Data Structures,Graphs
+RVCE,3,Data Structures,Sorting Algorithms
+RVCE,3,Data Structures,Searching Algorithms
+RVCE,3,Data Structures,Time Complexity
+RVCE,3,Operating Systems,Process Management
+RVCE,3,Operating Systems,Threading
+RVCE,3,Operating Systems,Concurrency
+RVCE,3,Operating Systems,CPU Scheduling
+RVCE,3,Operating Systems,Memory Management
+RVCE,3,Operating Systems,Deadlock Handling
+RVCE,3,Operating Systems,System Calls
+RVCE,4,Design and Analysis of Algorithms,Divide and Conquer
+RVCE,4,Design and Analysis of Algorithms,Greedy Algorithms
+RVCE,4,Design and Analysis of Algorithms,Dynamic Programming
+RVCE,4,Design and Analysis of Algorithms,Backtracking
+RVCE,4,Design and Analysis of Algorithms,Complexity Analysis
+RVCE,4,Database Management Systems,SQL
+RVCE,4,Database Management Systems,Advanced SQL
+RVCE,4,Database Management Systems,Normalization
+RVCE,4,Database Management Systems,Indexing
+RVCE,4,Database Management Systems,Transactions
+RVCE,4,Database Management Systems,Query Optimization
+RVCE,5,Computer Networks,TCP/IP
+RVCE,5,Computer Networks,HTTP
+RVCE,5,Computer Networks,Routing
+RVCE,5,Computer Networks,Socket Programming
+RVCE,5,Computer Networks,Network Security
+RVCE,5,Software Engineering,System Design
+RVCE,5,Software Engineering,SDLC
+RVCE,5,Software Engineering,Requirement Analysis
+RVCE,5,Software Engineering,Design Patterns
+RVCE,5,Software Engineering,Software Testing
+RVCE,6,Artificial Intelligence,Machine Learning
+RVCE,6,Artificial Intelligence,Neural Networks
+RVCE,6,Artificial Intelligence,Model Evaluation
+RVCE,6,Artificial Intelligence,Search Algorithms
+RVCE,6,Cloud Computing,Cloud Architecture
+RVCE,6,Cloud Computing,Virtualization
+RVCE,6,Cloud Computing,AWS
+RVCE,6,Cloud Computing,Multi-Cloud
+RVCE,6,Distributed Systems,Distributed Systems
+RVCE,6,Distributed Systems,Consistency Models
+RVCE,6,Distributed Systems,Scalability
+RVCE,7,Information Security,Cryptography
+RVCE,7,Information Security,Access Control
+RVCE,7,Information Security,Network Security
+RVCE,7,Information Security,Cloud Security
+RVCE,7,Data Engineering,Data Engineering
+RVCE,7,Data Engineering,Data Pipelines
+RVCE,7,Data Engineering,MLOps
+MSRIT,3,Data Structures,Arrays
+MSRIT,3,Data Structures,Linked List
+MSRIT,3,Data Structures,Stack
+MSRIT,3,Data Structures,Queue
+MSRIT,3,Data Structures,Trees
+MSRIT,3,Data Structures,Graphs
+MSRIT,3,Data Structures,Hashing
+MSRIT,3,Data Structures,Sorting Algorithms
+MSRIT,3,Data Structures,Searching Algorithms
+MSRIT,3,Data Structures,Time Complexity
+MSRIT,3,Programming Fundamentals,C Programming
+MSRIT,3,Programming Fundamentals,Object Oriented Programming
+MSRIT,3,Programming Fundamentals,Java
+MSRIT,3,Programming Fundamentals,Python Basics
+MSRIT,3,Programming Fundamentals,Data Types and Variables
+MSRIT,4,Design and Analysis of Algorithms,Divide and Conquer
+MSRIT,4,Design and Analysis of Algorithms,Greedy Algorithms
+MSRIT,4,Design and Analysis of Algorithms,Dynamic Programming
+MSRIT,4,Design and Analysis of Algorithms,Backtracking
+MSRIT,4,Design and Analysis of Algorithms,Graph Algorithms
+MSRIT,4,Design and Analysis of Algorithms,Complexity Analysis
+MSRIT,4,Database Management Systems,SQL
+MSRIT,4,Database Management Systems,Advanced SQL
+MSRIT,4,Database Management Systems,Normalization
+MSRIT,4,Database Management Systems,Indexing
+MSRIT,4,Database Management Systems,Transactions
+MSRIT,4,Database Management Systems,Query Optimization
+MSRIT,4,Database Management Systems,ER Modeling
+MSRIT,4,Operating Systems,Process Management
+MSRIT,4,Operating Systems,Threading
+MSRIT,4,Operating Systems,Concurrency
+MSRIT,4,Operating Systems,CPU Scheduling
+MSRIT,4,Operating Systems,Memory Management
+MSRIT,4,Operating Systems,Deadlock Handling
+MSRIT,4,Operating Systems,File Systems
+MSRIT,5,Computer Networks,TCP/IP
+MSRIT,5,Computer Networks,HTTP
+MSRIT,5,Computer Networks,Routing
+MSRIT,5,Computer Networks,Socket Programming
+MSRIT,5,Computer Networks,Network Security
+MSRIT,5,Computer Networks,DNS
+MSRIT,5,Software Engineering,System Design
+MSRIT,5,Software Engineering,SDLC
+MSRIT,5,Software Engineering,Requirement Analysis
+MSRIT,5,Software Engineering,Design Patterns
+MSRIT,5,Software Engineering,Software Testing
+MSRIT,5,Software Engineering,Agile Methodology
+MSRIT,6,Artificial Intelligence,Machine Learning
+MSRIT,6,Artificial Intelligence,Neural Networks
+MSRIT,6,Artificial Intelligence,Deep Learning
+MSRIT,6,Artificial Intelligence,Model Evaluation
+MSRIT,6,Artificial Intelligence,Natural Language Processing
+MSRIT,6,Web Technologies,HTML/CSS
+MSRIT,6,Web Technologies,JavaScript
+MSRIT,6,Web Technologies,ReactJS
+MSRIT,6,Web Technologies,NodeJS
+MSRIT,6,Web Technologies,REST APIs
+MSRIT,6,Cloud Computing,Cloud Architecture
+MSRIT,6,Cloud Computing,AWS
+MSRIT,6,Cloud Computing,Azure
+MSRIT,6,Cloud Computing,Containerization
+MSRIT,7,Information Security,Cryptography
+MSRIT,7,Information Security,Ethical Hacking
+MSRIT,7,Information Security,Network Security
+MSRIT,7,Information Security,Cloud Security
+MSRIT,7,Information Security,Vulnerability Assessment
+MSRIT,7,Data Science,Data Wrangling
+MSRIT,7,Data Science,Statistical Analysis
+MSRIT,7,Data Science,Data Visualization
+MSRIT,7,Data Science,Feature Engineering
+MSRIT,7,Data Science,Model Deployment
+BIT,3,Data Structures,Arrays
+BIT,3,Data Structures,Linked List
+BIT,3,Data Structures,Stack
+BIT,3,Data Structures,Queue
+BIT,3,Data Structures,Trees
+BIT,3,Data Structures,Graphs
+BIT,3,Data Structures,Sorting Algorithms
+BIT,3,Data Structures,Searching Algorithms
+BIT,3,Data Structures,Hashing
+BIT,3,Programming Fundamentals,C Programming
+BIT,3,Programming Fundamentals,Object Oriented Programming
+BIT,3,Programming Fundamentals,Java
+BIT,3,Programming Fundamentals,Python Basics
+BIT,4,Design and Analysis of Algorithms,Divide and Conquer
+BIT,4,Design and Analysis of Algorithms,Greedy Algorithms
+BIT,4,Design and Analysis of Algorithms,Dynamic Programming
+BIT,4,Design and Analysis of Algorithms,Backtracking
+BIT,4,Design and Analysis of Algorithms,Complexity Analysis
+BIT,4,Database Management Systems,SQL
+BIT,4,Database Management Systems,Normalization
+BIT,4,Database Management Systems,Indexing
+BIT,4,Database Management Systems,Transactions
+BIT,4,Database Management Systems,ER Modeling
+BIT,4,Database Management Systems,PL/SQL
+BIT,4,Operating Systems,Process Management
+BIT,4,Operating Systems,CPU Scheduling
+BIT,4,Operating Systems,Memory Management
+BIT,4,Operating Systems,File Systems
+BIT,4,Operating Systems,Deadlock Handling
+BIT,4,Operating Systems,System Calls
+BIT,5,Computer Networks,TCP/IP
+BIT,5,Computer Networks,HTTP
+BIT,5,Computer Networks,Routing
+BIT,5,Computer Networks,Socket Programming
+BIT,5,Computer Networks,Wireless Networks
+BIT,5,Software Engineering,System Design
+BIT,5,Software Engineering,SDLC
+BIT,5,Software Engineering,Requirement Analysis
+BIT,5,Software Engineering,Design Patterns
+BIT,5,Software Engineering,Software Testing
+BIT,5,Web Technologies,HTML/CSS
+BIT,5,Web Technologies,JavaScript
+BIT,5,Web Technologies,ReactJS
+BIT,5,Web Technologies,NodeJS
+BIT,6,Artificial Intelligence,Machine Learning
+BIT,6,Artificial Intelligence,Neural Networks
+BIT,6,Artificial Intelligence,Model Evaluation
+BIT,6,Artificial Intelligence,Computer Vision
+BIT,6,Cloud Computing,Cloud Architecture
+BIT,6,Cloud Computing,AWS
+BIT,6,Cloud Computing,Virtualization
+BIT,6,Cloud Computing,DevOps
+BIT,6,Distributed Systems,Distributed Systems
+BIT,6,Distributed Systems,Microservices
+BIT,6,Distributed Systems,Scalability
+BIT,7,Information Security,Cryptography
+BIT,7,Information Security,Network Security
+BIT,7,Information Security,Access Control
+BIT,7,Information Security,Penetration Testing
+BIT,7,Data Engineering,Data Pipelines
+BIT,7,Data Engineering,ETL Processes
+BIT,7,Data Engineering,Data Warehousing
+BIT,7,Data Engineering,MLOps
+BIT,7,Data Engineering,Big Data
+PESIT,3,Data Structures,Arrays
+PESIT,3,Data Structures,Linked List
+PESIT,3,Data Structures,Stack
+PESIT,3,Data Structures,Queue
+PESIT,3,Data Structures,Trees
+PESIT,3,Data Structures,Graphs
+PESIT,3,Data Structures,Sorting Algorithms
+PESIT,3,Data Structures,Searching Algorithms
+PESIT,3,Data Structures,Time Complexity
+PESIT,3,Data Structures,Space Complexity
+PESIT,3,Programming Fundamentals,C Programming
+PESIT,3,Programming Fundamentals,Java
+PESIT,3,Programming Fundamentals,Python Basics
+PESIT,3,Programming Fundamentals,Object Oriented Programming
+PESIT,4,Design and Analysis of Algorithms,Divide and Conquer
+PESIT,4,Design and Analysis of Algorithms,Greedy Algorithms
+PESIT,4,Design and Analysis of Algorithms,Dynamic Programming
+PESIT,4,Design and Analysis of Algorithms,Backtracking
+PESIT,4,Design and Analysis of Algorithms,Graph Algorithms
+PESIT,4,Design and Analysis of Algorithms,NP Completeness
+PESIT,4,Database Management Systems,SQL
+PESIT,4,Database Management Systems,Advanced SQL
+PESIT,4,Database Management Systems,Normalization
+PESIT,4,Database Management Systems,Indexing
+PESIT,4,Database Management Systems,Transactions
+PESIT,4,Database Management Systems,Query Optimization
+PESIT,4,Database Management Systems,NoSQL
+PESIT,4,Operating Systems,Process Management
+PESIT,4,Operating Systems,Threading
+PESIT,4,Operating Systems,Concurrency
+PESIT,4,Operating Systems,CPU Scheduling
+PESIT,4,Operating Systems,Memory Management
+PESIT,4,Operating Systems,Deadlock Handling
+PESIT,5,Computer Networks,TCP/IP
+PESIT,5,Computer Networks,HTTP
+PESIT,5,Computer Networks,Routing
+PESIT,5,Computer Networks,Socket Programming
+PESIT,5,Computer Networks,Network Security
+PESIT,5,Computer Networks,Protocols
+PESIT,5,Software Engineering,System Design
+PESIT,5,Software Engineering,SDLC
+PESIT,5,Software Engineering,Design Patterns
+PESIT,5,Software Engineering,Software Testing
+PESIT,5,Software Engineering,Agile Methodology
+PESIT,5,Software Engineering,DevOps Practices
+PESIT,5,Web Technologies,HTML/CSS
+PESIT,5,Web Technologies,JavaScript
+PESIT,5,Web Technologies,ReactJS
+PESIT,5,Web Technologies,REST APIs
+PESIT,6,Artificial Intelligence,Machine Learning
+PESIT,6,Artificial Intelligence,Neural Networks
+PESIT,6,Artificial Intelligence,Deep Learning
+PESIT,6,Artificial Intelligence,Natural Language Processing
+PESIT,6,Artificial Intelligence,Reinforcement Learning
+PESIT,6,Cloud Computing,Cloud Architecture
+PESIT,6,Cloud Computing,AWS
+PESIT,6,Cloud Computing,Azure
+PESIT,6,Cloud Computing,GCP
+PESIT,6,Cloud Computing,Kubernetes
+PESIT,6,Distributed Systems,Microservices
+PESIT,6,Distributed Systems,Consistency Models
+PESIT,6,Distributed Systems,Scalability
+PESIT,7,Information Security,Cryptography
+PESIT,7,Information Security,Access Control
+PESIT,7,Information Security,Cloud Security
+PESIT,7,Information Security,Ethical Hacking
+PESIT,7,Information Security,Zero Trust Architecture
+PESIT,7,Data Science,Statistical Analysis
+PESIT,7,Data Science,Data Visualization
+PESIT,7,Data Science,Feature Engineering
+PESIT,7,Data Science,Model Deployment
+PESIT,7,Data Engineering,Data Pipelines
+PESIT,7,Data Engineering,MLOps
+PESIT,7,Data Engineering,Big Data
+DSCE,3,Data Structures,Arrays
+DSCE,3,Data Structures,Linked List
+DSCE,3,Data Structures,Stack
+DSCE,3,Data Structures,Queue
+DSCE,3,Data Structures,Trees
+DSCE,3,Data Structures,Graphs
+DSCE,3,Data Structures,Sorting Algorithms
+DSCE,3,Data Structures,Searching Algorithms
+DSCE,3,Data Structures,Hashing
+DSCE,3,Programming Fundamentals,C Programming
+DSCE,3,Programming Fundamentals,Java
+DSCE,3,Programming Fundamentals,Python Basics
+DSCE,3,Programming Fundamentals,Object Oriented Programming
+DSCE,4,Design and Analysis of Algorithms,Divide and Conquer
+DSCE,4,Design and Analysis of Algorithms,Greedy Algorithms
+DSCE,4,Design and Analysis of Algorithms,Dynamic Programming
+DSCE,4,Design and Analysis of Algorithms,Backtracking
+DSCE,4,Design and Analysis of Algorithms,Complexity Analysis
+DSCE,4,Database Management Systems,SQL
+DSCE,4,Database Management Systems,Normalization
+DSCE,4,Database Management Systems,Indexing
+DSCE,4,Database Management Systems,Transactions
+DSCE,4,Database Management Systems,Query Optimization
+DSCE,4,Database Management Systems,PL/SQL
+DSCE,4,Operating Systems,Process Management
+DSCE,4,Operating Systems,Threading
+DSCE,4,Operating Systems,CPU Scheduling
+DSCE,4,Operating Systems,Memory Management
+DSCE,4,Operating Systems,Deadlock Handling
+DSCE,4,Operating Systems,System Calls
+DSCE,5,Computer Networks,TCP/IP
+DSCE,5,Computer Networks,HTTP
+DSCE,5,Computer Networks,Routing
+DSCE,5,Computer Networks,Socket Programming
+DSCE,5,Computer Networks,Network Security
+DSCE,5,Software Engineering,System Design
+DSCE,5,Software Engineering,SDLC
+DSCE,5,Software Engineering,Requirement Analysis
+DSCE,5,Software Engineering,Design Patterns
+DSCE,5,Software Engineering,Software Testing
+DSCE,5,Web Technologies,HTML/CSS
+DSCE,5,Web Technologies,JavaScript
+DSCE,5,Web Technologies,Angular
+DSCE,5,Web Technologies,NodeJS
+DSCE,6,Artificial Intelligence,Machine Learning
+DSCE,6,Artificial Intelligence,Neural Networks
+DSCE,6,Artificial Intelligence,Deep Learning
+DSCE,6,Artificial Intelligence,Model Evaluation
+DSCE,6,Artificial Intelligence,Computer Vision
+DSCE,6,Cloud Computing,Cloud Architecture
+DSCE,6,Cloud Computing,AWS
+DSCE,6,Cloud Computing,Virtualization
+DSCE,6,Cloud Computing,Containerization
+DSCE,6,Distributed Systems,Distributed Systems
+DSCE,6,Distributed Systems,Microservices
+DSCE,6,Distributed Systems,Scalability
+DSCE,7,Information Security,Cryptography
+DSCE,7,Information Security,Network Security
+DSCE,7,Information Security,Access Control
+DSCE,7,Information Security,Cloud Security
+DSCE,7,Data Engineering,Data Pipelines
+DSCE,7,Data Engineering,ETL Processes
+DSCE,7,Data Engineering,Big Data
+DSCE,7,Data Engineering,MLOps
+DSCE,7,Data Science,Statistical Analysis
+DSCE,7,Data Science,Data Visualization
+DSCE,7,Data Science,Feature Engineering

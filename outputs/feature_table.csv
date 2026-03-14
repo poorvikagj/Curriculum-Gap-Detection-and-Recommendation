@@ -1,0 +1,96 @@
+Skill,Freq,Trend_Slope,Recency_Weight,Upcoming_Flag,Is_Taught_MSRIT,Taught_Elsewhere_Count
+advanced sql,8,-3.999999999999999,0.8125,1,1,2
+api gateway,1,0.0,0.25,0,0,0
+api rate limiting,1,0.0,1.0,0,0,0
+auto scaling,1,0.0,0.5,0,0,0
+aws,29,-1.5714285714285714,0.31896551724137934,0,1,4
+aws ec2,1,0.0,0.0,0,0,0
+azure,3,0.0,0.25,0,1,1
+background job processing,1,0.0,1.0,0,0,0
+blue-green deployment,1,0.0,1.0,0,0,0
+canary deployment,1,0.0,1.0,0,0,0
+ci/cd,10,-0.7692307692307693,0.25,0,0,0
+ci/cd pipelines,1,0.0,0.25,0,0,0
+circuit breaker pattern,1,0.0,0.5,0,0,0
+cloud architecture,6,-1.9999999999999996,0.5833333333333334,0,1,4
+cloud cost optimization,1,0.0,0.75,1,0,0
+cloud security,19,-6.999999999999998,0.8289473684210527,1,1,3
+css,11,-2.9999999999999996,0.09090909090909091,0,0,0
+data structures,4,0.0,0.0,0,0,0
+data visualization,13,1.7857142857142856,0.5769230769230769,0,1,2
+deep learning,21,-1.4999999999999998,0.5357142857142857,0,1,2
+disaster recovery planning,1,0.0,0.75,0,0,0
+distributed systems,17,1.4230769230769231,0.7647058823529411,1,0,3
+docker,14,0.0,0.25,0,0,0
+event-driven architecture,1,0.0,0.5,0,0,0
+excel,6,0.0,0.0,0,0,0
+feature engineering,9,0.0,0.5,0,1,2
+feature stores,1,0.0,0.5,1,0,0
+generative ai,15,-8.999999999999996,0.8,1,0,0
+github actions,1,0.0,0.25,0,0,0
+gitops,1,0.0,0.75,1,0,0
+golang,22,-2.499999999999999,0.6931818181818182,0,0,0
+grpc,1,0.0,0.25,0,0,0
+helm charts,1,0.0,0.75,0,0,0
+html,7,0.0,0.0,0,0,0
+hyperparameter tuning,1,0.0,0.5,0,0,0
+infrastructure as code,1,0.0,0.5,1,0,0
+java,28,-3.1999999999999993,0.1875,0,1,3
+javascript,22,-3.9999999999999987,0.1590909090909091,0,1,3
+jwt authentication,1,0.0,0.25,0,0,0
+kpi tracking,1,0.0,0.0,0,0,0
+kubernetes,45,1.6999999999999995,0.6722222222222223,1,0,1
+lighthouse audits,1,0.0,0.75,0,0,0
+linux,11,0.0,0.0,0,0,0
+llm,15,-6.999999999999998,0.8166666666666667,1,0,0
+llm apis,1,0.0,0.75,1,0,0
+llm fine-tuning,1,0.0,1.0,1,0,0
+load balancing,1,0.0,0.0,0,0,0
+machine learning,9,0.9999999999999998,0.1388888888888889,0,1,4
+message queues,1,0.0,0.5,0,0,0
+microservices,28,0.4000000000000001,0.5357142857142857,0,0,3
+mlops,14,-2.499999999999999,0.6607142857142857,1,0,4
+model deployment,14,-2.5,0.16071428571428573,0,1,1
+model drift detection,1,0.0,1.0,1,0,0
+model monitoring,1,0.0,0.5,1,0,0
+multi-cloud,11,-2.9999999999999996,0.8409090909090909,1,0,1
+multi-cloud strategy,1,0.0,0.75,1,0,0
+multithreading,1,0.0,0.0,0,0,0
+networking,8,0.0,0.0,0,0,0
+next.js,10,0.5000000000000001,0.725,1,0,0
+node.js,12,0.0,0.25,0,0,0
+oauth2,1,0.0,0.25,0,0,0
+observability,1,0.0,1.0,1,0,0
+power bi,14,-1.9999999999999996,0.35714285714285715,0,0,0
+prompt engineering,1,0.0,0.75,1,0,0
+python,36,-2.5,0.3263888888888889,0,0,0
+react,24,-3.3999999999999995,0.4479166666666667,0,0,0
+react query,1,0.0,0.25,0,0,0
+redis caching,1,0.0,0.0,0,0,0
+rest apis,12,-0.2285714285714287,0.3958333333333333,0,1,1
+retrieval augmented generation (rag),1,0.0,1.0,1,0,0
+scikit-learn,6,0.0,0.0,0,0,0
+security auditing,1,0.0,0.25,0,0,0
+server components,1,0.0,0.75,1,0,0
+service mesh (istio),1,0.0,0.75,1,0,0
+shap,1,0.0,0.5,1,0,0
+shell scripting,3,0.0,0.0,0,0,0
+siem tools,1,0.0,0.25,1,0,0
+spring boot,6,0.0,0.0,0,0,0
+sql,42,-1.9999999999999996,0.11904761904761904,0,1,4
+sql optimization,1,0.0,0.0,0,0,0
+sql window functions,1,0.0,0.0,0,0,0
+sre practices,1,0.0,1.0,1,0,0
+statistics,4,0.0,0.0,0,0,0
+system design,19,0.20000000000000018,0.5263157894736842,0,1,4
+tableau,6,0.0,0.0,0,0,0
+tensorflow,22,7.999999999999998,0.42045454545454547,0,0,0
+terraform,17,-0.2999999999999998,0.6029411764705882,1,0,0
+threat intelligence,1,0.0,1.0,0,0,0
+time series forecasting,1,0.0,0.5,0,0,0
+typescript,9,-0.9999999999999998,0.6111111111111112,0,0,0
+vector embeddings,1,0.0,0.75,1,0,0
+vpc configuration,1,0.0,0.0,0,0,0
+vulnerability scanning,1,0.0,0.25,0,0,0
+web performance optimization,1,0.0,0.75,0,0,0
+zero trust architecture,1,0.0,1.0,1,0,1
