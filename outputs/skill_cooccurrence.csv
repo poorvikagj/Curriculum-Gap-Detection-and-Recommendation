@@ -1,0 +1,271 @@
+Skill_A,Skill_B,Co_Count
+java,sql,21
+power bi,python,14
+cloud security,kubernetes,14
+generative ai,llm,13
+java,system design,12
+kubernetes,terraform,12
+golang,kubernetes,12
+data visualization,python,12
+aws,kubernetes,11
+css,javascript,11
+microservices,system design,11
+microservices,rest apis,11
+deep learning,tensorflow,9
+react,typescript,9
+golang,microservices,9
+feature engineering,tensorflow,9
+machine learning,python,9
+javascript,react,9
+cloud security,multi-cloud,9
+deep learning,feature engineering,9
+power bi,sql,8
+aws,terraform,8
+python,sql,8
+model deployment,tensorflow,8
+linux,networking,8
+aws,linux,8
+aws,networking,8
+docker,model deployment,7
+node.js,sql,7
+react,sql,7
+node.js,react,7
+html,javascript,7
+css,html,7
+advanced sql,python,7
+java,microservices,7
+distributed systems,golang,7
+distributed systems,kubernetes,7
+distributed systems,system design,7
+kubernetes,multi-cloud,7
+docker,tensorflow,7
+sql,system design,6
+excel,sql,6
+sql,tableau,6
+excel,tableau,6
+java,javascript,6
+cloud security,terraform,6
+ci/cd,docker,6
+advanced sql,data visualization,6
+aws,docker,6
+data visualization,power bi,6
+mlops,tensorflow,6
+kubernetes,mlops,6
+kubernetes,tensorflow,6
+aws,ci/cd,6
+python,scikit-learn,6
+model deployment,python,6
+model deployment,scikit-learn,6
+spring boot,sql,6
+java,spring boot,6
+next.js,react,6
+llm,mlops,6
+deep learning,llm,6
+deep learning,generative ai,6
+javascript,sql,6
+golang,rest apis,5
+javascript,typescript,5
+node.js,rest apis,5
+cloud architecture,kubernetes,5
+aws,cloud architecture,5
+deep learning,machine learning,5
+microservices,node.js,5
+distributed systems,microservices,5
+generative ai,mlops,5
+deep learning,python,5
+css,react,4
+machine learning,statistics,4
+golang,next.js,4
+python,statistics,4
+next.js,typescript,4
+data structures,sql,4
+kubernetes,next.js,4
+data structures,java,4
+azure,terraform,3
+microservices,react,3
+golang,react,3
+aws,azure,3
+ci/cd,linux,3
+linux,shell scripting,3
+ci/cd,shell scripting,3
+circuit breaker pattern,microservices,1
+circuit breaker pattern,rest apis,1
+event-driven architecture,golang,1
+event-driven architecture,message queues,1
+event-driven architecture,microservices,1
+event-driven architecture,rest apis,1
+golang,message queues,1
+message queues,microservices,1
+message queues,rest apis,1
+lighthouse audits,next.js,1
+lighthouse audits,react,1
+lighthouse audits,server components,1
+lighthouse audits,typescript,1
+lighthouse audits,web performance optimization,1
+next.js,server components,1
+next.js,web performance optimization,1
+cloud cost optimization,multi-cloud strategy,1
+cloud security,disaster recovery planning,1
+cloud security,multi-cloud strategy,1
+disaster recovery planning,kubernetes,1
+disaster recovery planning,multi-cloud,1
+disaster recovery planning,multi-cloud strategy,1
+kubernetes,multi-cloud strategy,1
+multi-cloud,multi-cloud strategy,1
+blue-green deployment,canary deployment,1
+blue-green deployment,cloud security,1
+blue-green deployment,kubernetes,1
+blue-green deployment,sre practices,1
+deep learning,time series forecasting,1
+feature engineering,hyperparameter tuning,1
+feature engineering,shap,1
+feature engineering,time series forecasting,1
+hyperparameter tuning,shap,1
+hyperparameter tuning,tensorflow,1
+hyperparameter tuning,time series forecasting,1
+shap,tensorflow,1
+shap,time series forecasting,1
+tensorflow,time series forecasting,1
+cloud cost optimization,cloud security,1
+cloud cost optimization,disaster recovery planning,1
+cloud cost optimization,kubernetes,1
+cloud cost optimization,multi-cloud,1
+load balancing,vpc configuration,1
+networking,vpc configuration,1
+security auditing,siem tools,1
+security auditing,vulnerability scanning,1
+siem tools,vulnerability scanning,1
+deep learning,hyperparameter tuning,1
+deep learning,shap,1
+canary deployment,cloud security,1
+canary deployment,kubernetes,1
+canary deployment,sre practices,1
+cloud security,sre practices,1
+kubernetes,sre practices,1
+java,redis caching,1
+java,rest apis,1
+java,sql optimization,1
+microservices,redis caching,1
+microservices,spring boot,1
+microservices,sql,1
+microservices,sql optimization,1
+redis caching,rest apis,1
+redis caching,spring boot,1
+redis caching,sql,1
+redis caching,sql optimization,1
+rest apis,spring boot,1
+rest apis,sql,1
+rest apis,sql optimization,1
+spring boot,sql optimization,1
+sql,sql optimization,1
+aws,ci/cd pipelines,1
+aws,github actions,1
+ci/cd,ci/cd pipelines,1
+ci/cd,github actions,1
+ci/cd,kubernetes,1
+ci/cd pipelines,docker,1
+ci/cd pipelines,github actions,1
+ci/cd pipelines,kubernetes,1
+docker,github actions,1
+docker,kubernetes,1
+github actions,kubernetes,1
+aws,aws ec2,1
+aws,load balancing,1
+aws,vpc configuration,1
+aws ec2,linux,1
+aws ec2,load balancing,1
+aws ec2,networking,1
+aws ec2,vpc configuration,1
+linux,load balancing,1
+linux,vpc configuration,1
+load balancing,networking,1
+feature stores,kubernetes,1
+feature stores,mlops,1
+feature stores,model deployment,1
+feature stores,model monitoring,1
+feature stores,tensorflow,1
+kubernetes,model deployment,1
+kubernetes,model monitoring,1
+mlops,model deployment,1
+mlops,model monitoring,1
+model deployment,model monitoring,1
+model monitoring,tensorflow,1
+generative ai,llm apis,1
+generative ai,prompt engineering,1
+generative ai,vector embeddings,1
+llm,llm apis,1
+llm,prompt engineering,1
+llm,vector embeddings,1
+llm apis,mlops,1
+llm apis,prompt engineering,1
+llm apis,vector embeddings,1
+mlops,prompt engineering,1
+mlops,vector embeddings,1
+prompt engineering,vector embeddings,1
+deep learning,llm fine-tuning,1
+deep learning,model drift detection,1
+deep learning,retrieval augmented generation (rag),1
+llm fine-tuning,model drift detection,1
+llm fine-tuning,retrieval augmented generation (rag),1
+model drift detection,retrieval augmented generation (rag),1
+data structures,distributed systems,1
+data structures,multithreading,1
+data structures,system design,1
+distributed systems,java,1
+distributed systems,multithreading,1
+distributed systems,sql,1
+java,multithreading,1
+multithreading,sql,1
+multithreading,system design,1
+api gateway,grpc,1
+api gateway,oauth2,1
+grpc,oauth2,1
+auto scaling,infrastructure as code,1
+auto scaling,terraform,1
+infrastructure as code,terraform,1
+gitops,helm charts,1
+gitops,service mesh (istio),1
+helm charts,service mesh (istio),1
+cloud security,threat intelligence,1
+cloud security,zero trust architecture,1
+threat intelligence,zero trust architecture,1
+data visualization,excel,1
+data visualization,kpi tracking,1
+data visualization,sql,1
+data visualization,sql window functions,1
+data visualization,tableau,1
+excel,kpi tracking,1
+excel,sql window functions,1
+kpi tracking,sql,1
+kpi tracking,sql window functions,1
+kpi tracking,tableau,1
+sql,sql window functions,1
+sql window functions,tableau,1
+jwt authentication,next.js,1
+jwt authentication,node.js,1
+jwt authentication,react,1
+jwt authentication,react query,1
+jwt authentication,sql,1
+next.js,node.js,1
+next.js,react query,1
+next.js,sql,1
+node.js,react query,1
+react,react query,1
+react query,sql,1
+circuit breaker pattern,event-driven architecture,1
+circuit breaker pattern,golang,1
+circuit breaker pattern,message queues,1
+react,server components,1
+react,web performance optimization,1
+server components,typescript,1
+server components,web performance optimization,1
+typescript,web performance optimization,1
+api rate limiting,background job processing,1
+api rate limiting,golang,1
+api rate limiting,microservices,1
+api rate limiting,observability,1
+background job processing,golang,1
+background job processing,microservices,1
+background job processing,observability,1
+golang,observability,1
+microservices,observability,1

@@ -1,713 +1,711 @@
-Company,Year,Role,Skill,Skill_Type,Upcoming_Flag
-Oracle,2021,Backend Developer,java,Traditional,0
-Oracle,2021,Backend Developer,spring boot,Transitional,0
-Oracle,2021,Backend Developer,sql,Transitional,0
-Oracle,2021,Software Engineer,java,Traditional,0
-Oracle,2021,Software Engineer,data structures,Transitional,0
-Oracle,2021,Software Engineer,sql,Transitional,0
-Oracle,2021,Data Scientist,python,Traditional,0
-Oracle,2021,Data Scientist,statistics,Transitional,0
-Oracle,2021,Data Scientist,machine learning,Transitional,0
-Oracle,2021,Frontend Developer,html,Transitional,0
-Oracle,2021,Frontend Developer,css,Transitional,0
-Oracle,2021,Frontend Developer,javascript,Transitional,0
-Oracle,2021,Cloud Engineer,aws,Traditional,0
-Oracle,2021,Cloud Engineer,networking,Transitional,0
-Oracle,2021,Cloud Engineer,linux,Transitional,0
-Oracle,2021,Software Engineer,system design,Traditional,0
-Oracle,2021,Software Engineer,multithreading,Traditional,0
-Oracle,2021,Software Engineer,distributed systems,Transitional,0
-Oracle,2022,Backend Developer,grpc,Transitional,0
-Oracle,2022,Backend Developer,api gateway,Transitional,0
-Oracle,2022,Backend Developer,oauth2,Traditional,0
-Oracle,2022,Full Stack Developer,node.js,Transitional,0
-Oracle,2022,Full Stack Developer,react,Traditional,0
-Oracle,2022,Full Stack Developer,sql,Transitional,0
-Oracle,2022,Frontend Developer,javascript,Transitional,0
-Oracle,2022,Frontend Developer,react,Traditional,0
-Oracle,2022,Frontend Developer,css,Transitional,0
-Oracle,2022,Data Scientist,python,Traditional,0
-Oracle,2022,Data Scientist,machine learning,Transitional,0
-Oracle,2022,Data Scientist,deep learning,Traditional,0
-Oracle,2022,Software Engineer,java,Traditional,0
-Oracle,2022,Software Engineer,system design,Traditional,0
-Oracle,2022,Software Engineer,sql,Transitional,0
-Oracle,2022,Data Analyst,sql,Transitional,0
-Oracle,2022,Data Analyst,power bi,Transitional,0
-Oracle,2022,Data Analyst,python,Traditional,0
-Oracle,2023,Backend Developer,golang,Transitional,0
-Oracle,2023,Backend Developer,rest apis,Transitional,0
-Oracle,2023,Backend Developer,microservices,Traditional,0
-Oracle,2023,Machine Learning Engineer,mlops,Transitional,0
-Oracle,2023,Machine Learning Engineer,tensorflow,Transitional,0
-Oracle,2023,Machine Learning Engineer,kubernetes,Transitional,0
-Oracle,2023,Software Engineer,java,Traditional,0
-Oracle,2023,Software Engineer,microservices,Traditional,0
-Oracle,2023,Software Engineer,system design,Traditional,0
-Oracle,2023,DevOps Engineer,kubernetes,Transitional,0
-Oracle,2023,DevOps Engineer,terraform,Traditional,0
-Oracle,2023,DevOps Engineer,aws,Traditional,0
-Oracle,2023,Data Scientist,deep learning,Traditional,0
-Oracle,2023,Data Scientist,tensorflow,Transitional,0
-Oracle,2023,Data Scientist,feature engineering,Transitional,0
-Oracle,2023,Cloud Engineer,terraform,Upcoming,1
-Oracle,2023,Cloud Engineer,infrastructure as code,Upcoming,1
-Oracle,2023,Cloud Engineer,auto scaling,Transitional,0
-Oracle,2024,DevOps Engineer,gitops,Upcoming,1
-Oracle,2024,DevOps Engineer,helm charts,Transitional,0
-Oracle,2024,DevOps Engineer,service mesh (istio),Upcoming,1
-Oracle,2024,Full Stack Developer,next.js,Upcoming,1
-Oracle,2024,Full Stack Developer,golang,Transitional,0
-Oracle,2024,Full Stack Developer,kubernetes,Transitional,0
-Oracle,2024,Cloud Engineer,cloud security,Upcoming,1
-Oracle,2024,Cloud Engineer,kubernetes,Transitional,0
-Oracle,2024,Cloud Engineer,multi-cloud,Upcoming,1
-Oracle,2024,Data Analyst,python,Traditional,0
-Oracle,2024,Data Analyst,data visualization,Transitional,0
-Oracle,2024,Data Analyst,advanced sql,Upcoming,1
-Oracle,2024,Machine Learning Engineer,mlops,Transitional,0
-Oracle,2024,Machine Learning Engineer,llm,Upcoming,1
-Oracle,2024,Machine Learning Engineer,generative ai,Upcoming,1
-Oracle,2024,Software Engineer,distributed systems,Upcoming,1
-Oracle,2024,Software Engineer,system design,Traditional,0
-Oracle,2024,Software Engineer,microservices,Traditional,0
-Oracle,2025,Software Engineer,distributed systems,Upcoming,1
-Oracle,2025,Software Engineer,system design,Traditional,0
-Oracle,2025,Backend Developer,golang,Transitional,0
-Oracle,2025,Backend Developer,kubernetes,Transitional,0
-Oracle,2025,Cloud Engineer,multi-cloud,Upcoming,1
-Oracle,2025,Cloud Engineer,cloud security,Upcoming,1
-Oracle,2025,Cybersecurity Analyst,zero trust architecture,Upcoming,1
-Oracle,2025,Cybersecurity Analyst,cloud security,Transitional,0
-Oracle,2025,Cybersecurity Analyst,threat intelligence,Transitional,0
-IBM,2021,Cloud Engineer,aws,Traditional,0
-IBM,2021,Cloud Engineer,networking,Transitional,0
-IBM,2021,Cloud Engineer,linux,Transitional,0
-IBM,2021,Full Stack Developer,java,Traditional,0
-IBM,2021,Full Stack Developer,javascript,Transitional,0
-IBM,2021,Full Stack Developer,sql,Transitional,0
-IBM,2021,Data Scientist,python,Traditional,0
-IBM,2021,Data Scientist,statistics,Transitional,0
-IBM,2021,Data Scientist,machine learning,Transitional,0
-IBM,2021,Machine Learning Engineer,python,Traditional,0
-IBM,2021,Machine Learning Engineer,scikit-learn,Transitional,0
-IBM,2021,Machine Learning Engineer,model deployment,Transitional,0
-IBM,2021,Data Analyst,sql,Transitional,0
-IBM,2021,Data Analyst,excel,Transitional,0
-IBM,2021,Data Analyst,tableau,Transitional,0
-IBM,2022,Machine Learning Engineer,tensorflow,Transitional,0
-IBM,2022,Machine Learning Engineer,model deployment,Transitional,0
-IBM,2022,Machine Learning Engineer,docker,Transitional,0
-IBM,2022,Full Stack Developer,node.js,Transitional,0
-IBM,2022,Full Stack Developer,react,Traditional,0
-IBM,2022,Full Stack Developer,sql,Transitional,0
-IBM,2022,DevOps Engineer,docker,Transitional,0
-IBM,2022,DevOps Engineer,ci/cd,Transitional,0
-IBM,2022,DevOps Engineer,aws,Traditional,0
-IBM,2022,Data Analyst,sql,Transitional,0
-IBM,2022,Data Analyst,power bi,Transitional,0
-IBM,2022,Data Analyst,python,Traditional,0
-IBM,2022,Frontend Developer,javascript,Transitional,0
-IBM,2022,Frontend Developer,react,Traditional,0
-IBM,2022,Frontend Developer,css,Transitional,0
-IBM,2023,Software Engineer,java,Traditional,0
-IBM,2023,Software Engineer,microservices,Traditional,0
-IBM,2023,Software Engineer,system design,Traditional,0
-IBM,2023,Frontend Developer,react,Traditional,0
-IBM,2023,Frontend Developer,typescript,Transitional,0
-IBM,2023,Frontend Developer,javascript,Transitional,0
-IBM,2023,Data Scientist,deep learning,Traditional,0
-IBM,2023,Data Scientist,tensorflow,Transitional,0
-IBM,2023,Data Scientist,feature engineering,Transitional,0
-IBM,2023,Full Stack Developer,react,Traditional,0
-IBM,2023,Full Stack Developer,golang,Transitional,0
-IBM,2023,Full Stack Developer,microservices,Traditional,0
-IBM,2023,DevOps Engineer,kubernetes,Transitional,0
-IBM,2023,DevOps Engineer,terraform,Traditional,0
-IBM,2023,DevOps Engineer,aws,Traditional,0
-IBM,2024,Data Analyst,python,Traditional,0
-IBM,2024,Data Analyst,data visualization,Transitional,0
-IBM,2024,Data Analyst,advanced sql,Upcoming,1
-IBM,2024,Frontend Developer,react,Traditional,0
-IBM,2024,Frontend Developer,typescript,Transitional,0
-IBM,2024,Frontend Developer,next.js,Upcoming,1
-IBM,2024,Backend Developer,golang,Transitional,0
-IBM,2024,Backend Developer,kubernetes,Transitional,0
-IBM,2024,Backend Developer,distributed systems,Upcoming,1
-IBM,2024,DevOps Engineer,kubernetes,Transitional,0
-IBM,2024,DevOps Engineer,terraform,Traditional,0
-IBM,2024,DevOps Engineer,cloud security,Upcoming,1
-IBM,2024,Software Engineer,distributed systems,Upcoming,1
-IBM,2024,Software Engineer,system design,Traditional,0
-IBM,2024,Software Engineer,microservices,Traditional,0
-IBM,2025,Data Scientist,generative ai,Upcoming,1
-IBM,2025,Data Scientist,llm,Upcoming,1
-IBM,2025,Machine Learning Engineer,mlops,Transitional,0
-IBM,2025,Machine Learning Engineer,llm,Upcoming,1
-IBM,2025,DevOps Engineer,kubernetes,Transitional,0
-IBM,2025,DevOps Engineer,terraform,Traditional,0
-Morgan Stanley,2021,Backend Developer,java,Traditional,0
-Morgan Stanley,2021,Backend Developer,spring boot,Transitional,0
-Morgan Stanley,2021,Backend Developer,sql,Transitional,0
-Morgan Stanley,2021,Machine Learning Engineer,python,Traditional,0
-Morgan Stanley,2021,Machine Learning Engineer,scikit-learn,Transitional,0
-Morgan Stanley,2021,Machine Learning Engineer,model deployment,Transitional,0
-Morgan Stanley,2021,Software Engineer,java,Traditional,0
-Morgan Stanley,2021,Software Engineer,data structures,Transitional,0
-Morgan Stanley,2021,Software Engineer,sql,Transitional,0
-Morgan Stanley,2021,Frontend Developer,html,Transitional,0
-Morgan Stanley,2021,Frontend Developer,css,Transitional,0
-Morgan Stanley,2021,Frontend Developer,javascript,Transitional,0
-Morgan Stanley,2021,Data Scientist,python,Traditional,0
-Morgan Stanley,2021,Data Scientist,statistics,Transitional,0
-Morgan Stanley,2021,Data Scientist,machine learning,Transitional,0
-Morgan Stanley,2022,Data Analyst,sql,Transitional,0
-Morgan Stanley,2022,Data Analyst,power bi,Transitional,0
-Morgan Stanley,2022,Data Analyst,python,Traditional,0
-Morgan Stanley,2022,Software Engineer,java,Traditional,0
-Morgan Stanley,2022,Software Engineer,system design,Traditional,0
-Morgan Stanley,2022,Software Engineer,sql,Transitional,0
-Morgan Stanley,2022,Data Scientist,python,Traditional,0
-Morgan Stanley,2022,Data Scientist,machine learning,Transitional,0
-Morgan Stanley,2022,Data Scientist,deep learning,Traditional,0
-Morgan Stanley,2022,Full Stack Developer,node.js,Transitional,0
-Morgan Stanley,2022,Full Stack Developer,react,Traditional,0
-Morgan Stanley,2022,Full Stack Developer,sql,Transitional,0
-Morgan Stanley,2022,Cloud Engineer,aws,Traditional,0
-Morgan Stanley,2022,Cloud Engineer,azure,Transitional,0
-Morgan Stanley,2022,Cloud Engineer,terraform,Traditional,0
-Morgan Stanley,2023,Backend Developer,golang,Transitional,0
-Morgan Stanley,2023,Backend Developer,rest apis,Transitional,0
-Morgan Stanley,2023,Backend Developer,microservices,Traditional,0
-Morgan Stanley,2023,Machine Learning Engineer,mlops,Transitional,0
-Morgan Stanley,2023,Machine Learning Engineer,tensorflow,Transitional,0
-Morgan Stanley,2023,Machine Learning Engineer,kubernetes,Transitional,0
-Morgan Stanley,2023,Software Engineer,java,Traditional,0
-Morgan Stanley,2023,Software Engineer,microservices,Traditional,0
-Morgan Stanley,2023,Software Engineer,system design,Traditional,0
-Morgan Stanley,2023,Data Analyst,python,Traditional,0
-Morgan Stanley,2023,Data Analyst,power bi,Transitional,0
-Morgan Stanley,2023,Data Analyst,data visualization,Transitional,0
-Morgan Stanley,2023,Frontend Developer,react,Traditional,0
-Morgan Stanley,2023,Frontend Developer,typescript,Transitional,0
-Morgan Stanley,2023,Frontend Developer,javascript,Transitional,0
-Morgan Stanley,2024,Data Scientist,generative ai,Upcoming,1
-Morgan Stanley,2024,Data Scientist,llm,Upcoming,1
-Morgan Stanley,2024,Data Scientist,deep learning,Traditional,0
-Morgan Stanley,2024,Full Stack Developer,next.js,Upcoming,1
-Morgan Stanley,2024,Full Stack Developer,golang,Transitional,0
-Morgan Stanley,2024,Full Stack Developer,kubernetes,Transitional,0
-Morgan Stanley,2024,Cloud Engineer,cloud security,Upcoming,1
-Morgan Stanley,2024,Cloud Engineer,kubernetes,Transitional,0
-Morgan Stanley,2024,Cloud Engineer,multi-cloud,Upcoming,1
-Morgan Stanley,2024,Software Engineer,distributed systems,Upcoming,1
-Morgan Stanley,2024,Software Engineer,system design,Traditional,0
-Morgan Stanley,2024,Software Engineer,microservices,Traditional,0
-Morgan Stanley,2024,Machine Learning Engineer,mlops,Transitional,0
-Morgan Stanley,2024,Machine Learning Engineer,llm,Upcoming,1
-Morgan Stanley,2024,Machine Learning Engineer,generative ai,Upcoming,1
-Morgan Stanley,2025,Data Analyst,advanced sql,Upcoming,1
-Morgan Stanley,2025,Data Analyst,python,Traditional,0
-Morgan Stanley,2025,Software Engineer,microservices,Traditional,0
-Morgan Stanley,2025,Backend Developer,distributed systems,Upcoming,1
-Morgan Stanley,2025,Cloud Engineer,aws,Traditional,0
-SAP Labs,2021,Full Stack Developer,java,Traditional,0
-SAP Labs,2021,Full Stack Developer,javascript,Transitional,0
-SAP Labs,2021,Full Stack Developer,sql,Transitional,0
-SAP Labs,2021,Data Analyst,sql,Transitional,0
-SAP Labs,2021,Data Analyst,excel,Transitional,0
-SAP Labs,2021,Data Analyst,tableau,Transitional,0
-SAP Labs,2021,Software Engineer,java,Traditional,0
-SAP Labs,2021,Software Engineer,data structures,Transitional,0
-SAP Labs,2021,Software Engineer,sql,Transitional,0
-SAP Labs,2021,Backend Developer,java,Traditional,0
-SAP Labs,2021,Backend Developer,spring boot,Transitional,0
-SAP Labs,2021,Backend Developer,sql,Transitional,0
-SAP Labs,2021,Machine Learning Engineer,python,Traditional,0
-SAP Labs,2021,Machine Learning Engineer,scikit-learn,Transitional,0
-SAP Labs,2021,Machine Learning Engineer,model deployment,Transitional,0
-SAP Labs,2021,Data Analyst,sql window functions,Traditional,0
-SAP Labs,2021,Data Analyst,data visualization,Traditional,0
-SAP Labs,2021,Data Analyst,kpi tracking,Traditional,0
-SAP Labs,2022,Full Stack Developer,react query,Transitional,0
-SAP Labs,2022,Full Stack Developer,jwt authentication,Traditional,0
-SAP Labs,2022,Full Stack Developer,next.js,Transitional,0
-SAP Labs,2022,Machine Learning Engineer,tensorflow,Transitional,0
-SAP Labs,2022,Machine Learning Engineer,model deployment,Transitional,0
-SAP Labs,2022,Machine Learning Engineer,docker,Transitional,0
-SAP Labs,2022,Data Analyst,sql,Transitional,0
-SAP Labs,2022,Data Analyst,power bi,Transitional,0
-SAP Labs,2022,Data Analyst,python,Traditional,0
-SAP Labs,2022,Full Stack Developer,node.js,Transitional,0
-SAP Labs,2022,Full Stack Developer,react,Traditional,0
-SAP Labs,2022,Full Stack Developer,sql,Transitional,0
-SAP Labs,2022,Data Scientist,python,Traditional,0
-SAP Labs,2022,Data Scientist,machine learning,Transitional,0
-SAP Labs,2022,Data Scientist,deep learning,Traditional,0
-SAP Labs,2022,Frontend Developer,javascript,Transitional,0
-SAP Labs,2022,Frontend Developer,react,Traditional,0
-SAP Labs,2022,Frontend Developer,css,Transitional,0
-SAP Labs,2023,Frontend Developer,react,Traditional,0
-SAP Labs,2023,Frontend Developer,typescript,Transitional,0
-SAP Labs,2023,Frontend Developer,javascript,Transitional,0
-SAP Labs,2023,Data Scientist,deep learning,Traditional,0
-SAP Labs,2023,Data Scientist,tensorflow,Transitional,0
-SAP Labs,2023,Data Scientist,feature engineering,Transitional,0
-SAP Labs,2023,Cloud Engineer,aws,Traditional,0
-SAP Labs,2023,Cloud Engineer,kubernetes,Transitional,0
-SAP Labs,2023,Cloud Engineer,cloud architecture,Transitional,0
-SAP Labs,2023,Backend Developer,golang,Transitional,0
-SAP Labs,2023,Backend Developer,rest apis,Transitional,0
-SAP Labs,2023,Backend Developer,microservices,Traditional,0
-SAP Labs,2023,Machine Learning Engineer,mlops,Transitional,0
-SAP Labs,2023,Machine Learning Engineer,tensorflow,Transitional,0
-SAP Labs,2023,Machine Learning Engineer,kubernetes,Transitional,0
-SAP Labs,2023,Backend Developer,event-driven architecture,Transitional,0
-SAP Labs,2023,Backend Developer,message queues,Transitional,0
-SAP Labs,2023,Backend Developer,circuit breaker pattern,Traditional,0
-SAP Labs,2024,Frontend Developer,server components,Upcoming,1
-SAP Labs,2024,Frontend Developer,web performance optimization,Transitional,0
-SAP Labs,2024,Frontend Developer,lighthouse audits,Transitional,0
-SAP Labs,2024,Backend Developer,golang,Transitional,0
-SAP Labs,2024,Backend Developer,kubernetes,Transitional,0
-SAP Labs,2024,Backend Developer,distributed systems,Upcoming,1
-SAP Labs,2024,Frontend Developer,react,Traditional,0
-SAP Labs,2024,Frontend Developer,typescript,Transitional,0
-SAP Labs,2024,Frontend Developer,next.js,Upcoming,1
-SAP Labs,2024,Data Analyst,python,Traditional,0
-SAP Labs,2024,Data Analyst,data visualization,Transitional,0
-SAP Labs,2024,Data Analyst,advanced sql,Upcoming,1
-SAP Labs,2024,Data Scientist,generative ai,Upcoming,1
-SAP Labs,2024,Data Scientist,llm,Upcoming,1
-SAP Labs,2024,Data Scientist,deep learning,Traditional,0
-SAP Labs,2024,Cloud Engineer,cloud security,Upcoming,1
-SAP Labs,2024,Cloud Engineer,kubernetes,Transitional,0
-SAP Labs,2024,Cloud Engineer,multi-cloud,Upcoming,1
-SAP Labs,2025,Backend Developer,golang,Transitional,0
-SAP Labs,2025,Backend Developer,microservices,Traditional,0
-SAP Labs,2025,Full Stack Developer,next.js,Upcoming,1
-SAP Labs,2025,Full Stack Developer,react,Traditional,0
-SAP Labs,2025,Cloud Engineer,cloud architecture,Transitional,0
-SAP Labs,2025,Backend Developer,api rate limiting,Transitional,0
-SAP Labs,2025,Backend Developer,background job processing,Traditional,0
-SAP Labs,2025,Backend Developer,observability,Upcoming,1
-HPE,2021,Frontend Developer,html,Transitional,0
-HPE,2021,Frontend Developer,css,Transitional,0
-HPE,2021,Frontend Developer,javascript,Transitional,0
-HPE,2021,DevOps Engineer,linux,Transitional,0
-HPE,2021,DevOps Engineer,shell scripting,Transitional,0
-HPE,2021,DevOps Engineer,ci/cd,Transitional,0
-HPE,2021,Full Stack Developer,java,Traditional,0
-HPE,2021,Full Stack Developer,javascript,Transitional,0
-HPE,2021,Full Stack Developer,sql,Transitional,0
-HPE,2021,Cloud Engineer,aws,Traditional,0
-HPE,2021,Cloud Engineer,networking,Transitional,0
-HPE,2021,Cloud Engineer,linux,Transitional,0
-HPE,2021,Data Analyst,sql,Transitional,0
-HPE,2021,Data Analyst,excel,Transitional,0
-HPE,2021,Data Analyst,tableau,Transitional,0
-HPE,2021,Cloud Engineer,aws ec2,Transitional,0
-HPE,2021,Cloud Engineer,vpc configuration,Transitional,0
-HPE,2021,Cloud Engineer,load balancing,Transitional,0
-HPE,2022,Cybersecurity Analyst,vulnerability scanning,Transitional,0
-HPE,2022,Cybersecurity Analyst,security auditing,Traditional,0
-HPE,2022,Cybersecurity Analyst,siem tools,Upcoming,1
-HPE,2022,Full Stack Developer,node.js,Transitional,0
-HPE,2022,Full Stack Developer,react,Traditional,0
-HPE,2022,Full Stack Developer,sql,Transitional,0
-HPE,2022,Data Scientist,python,Traditional,0
-HPE,2022,Data Scientist,machine learning,Transitional,0
-HPE,2022,Data Scientist,deep learning,Traditional,0
-HPE,2022,Machine Learning Engineer,tensorflow,Transitional,0
-HPE,2022,Machine Learning Engineer,model deployment,Transitional,0
-HPE,2022,Machine Learning Engineer,docker,Transitional,0
-HPE,2022,Software Engineer,java,Traditional,0
-HPE,2022,Software Engineer,system design,Traditional,0
-HPE,2022,Software Engineer,sql,Transitional,0
-HPE,2022,Backend Developer,node.js,Transitional,0
-HPE,2022,Backend Developer,microservices,Traditional,0
-HPE,2022,Backend Developer,rest apis,Transitional,0
-HPE,2023,Software Engineer,java,Traditional,0
-HPE,2023,Software Engineer,microservices,Traditional,0
-HPE,2023,Software Engineer,system design,Traditional,0
-HPE,2023,Data Scientist,deep learning,Traditional,0
-HPE,2023,Data Scientist,tensorflow,Transitional,0
-HPE,2023,Data Scientist,feature engineering,Transitional,0
-HPE,2023,Full Stack Developer,react,Traditional,0
-HPE,2023,Full Stack Developer,golang,Transitional,0
-HPE,2023,Full Stack Developer,microservices,Traditional,0
-HPE,2023,Frontend Developer,react,Traditional,0
-HPE,2023,Frontend Developer,typescript,Transitional,0
-HPE,2023,Frontend Developer,javascript,Transitional,0
-HPE,2023,Cloud Engineer,aws,Traditional,0
-HPE,2023,Cloud Engineer,kubernetes,Transitional,0
-HPE,2023,Cloud Engineer,cloud architecture,Transitional,0
-HPE,2023,Data Scientist,shap,Upcoming,1
-HPE,2023,Data Scientist,hyperparameter tuning,Traditional,0
-HPE,2023,Data Scientist,time series forecasting,Transitional,0
-HPE,2024,Cloud Engineer,cloud cost optimization,Upcoming,1
-HPE,2024,Cloud Engineer,multi-cloud strategy,Upcoming,1
-HPE,2024,Cloud Engineer,disaster recovery planning,Transitional,0
-HPE,2024,Full Stack Developer,next.js,Upcoming,1
-HPE,2024,Full Stack Developer,golang,Transitional,0
-HPE,2024,Full Stack Developer,kubernetes,Transitional,0
-HPE,2024,Data Scientist,generative ai,Upcoming,1
-HPE,2024,Data Scientist,llm,Upcoming,1
-HPE,2024,Data Scientist,deep learning,Traditional,0
-HPE,2024,Backend Developer,golang,Transitional,0
-HPE,2024,Backend Developer,kubernetes,Transitional,0
-HPE,2024,Backend Developer,distributed systems,Upcoming,1
-HPE,2024,DevOps Engineer,kubernetes,Transitional,0
-HPE,2024,DevOps Engineer,terraform,Traditional,0
-HPE,2024,DevOps Engineer,cloud security,Upcoming,1
-HPE,2024,Cloud Engineer,cloud security,Upcoming,1
-HPE,2024,Cloud Engineer,kubernetes,Transitional,0
-HPE,2024,Cloud Engineer,multi-cloud,Upcoming,1
-HPE,2025,DevOps Engineer,kubernetes,Transitional,0
-HPE,2025,DevOps Engineer,cloud security,Upcoming,1
-HPE,2025,Cloud Engineer,multi-cloud,Upcoming,1
-HPE,2025,Backend Developer,golang,Transitional,0
-HPE,2025,Software Engineer,distributed systems,Upcoming,1
-HPE,2025,DevOps Engineer,blue-green deployment,Transitional,0
-HPE,2025,DevOps Engineer,canary deployment,Transitional,0
-HPE,2025,DevOps Engineer,sre practices,Upcoming,1
-Microsoft,2021,Machine Learning Engineer,python,Traditional,0
-Microsoft,2021,Machine Learning Engineer,scikit-learn,Transitional,0
-Microsoft,2021,Machine Learning Engineer,model deployment,Transitional,0
-Microsoft,2021,DevOps Engineer,linux,Transitional,0
-Microsoft,2021,DevOps Engineer,shell scripting,Transitional,0
-Microsoft,2021,DevOps Engineer,ci/cd,Transitional,0
-Microsoft,2021,Backend Developer,java,Traditional,0
-Microsoft,2021,Backend Developer,spring boot,Transitional,0
-Microsoft,2021,Backend Developer,sql,Transitional,0
-Microsoft,2021,Frontend Developer,html,Transitional,0
-Microsoft,2021,Frontend Developer,css,Transitional,0
-Microsoft,2021,Frontend Developer,javascript,Transitional,0
-Microsoft,2021,Cloud Engineer,aws,Traditional,0
-Microsoft,2021,Cloud Engineer,networking,Transitional,0
-Microsoft,2021,Cloud Engineer,linux,Transitional,0
-Microsoft,2021,Backend Developer,rest apis,Traditional,0
-Microsoft,2021,Backend Developer,sql optimization,Traditional,0
-Microsoft,2021,Backend Developer,redis caching,Transitional,0
-Microsoft,2021,Backend Developer,microservices,Transitional,0
-Microsoft,2022,DevOps Engineer,docker,Transitional,0
-Microsoft,2022,DevOps Engineer,ci/cd pipelines,Transitional,0
-Microsoft,2022,DevOps Engineer,github actions,Transitional,0
-Microsoft,2022,DevOps Engineer,kubernetes,Upcoming,1
-Microsoft,2022,Full Stack Developer,node.js,Transitional,0
-Microsoft,2022,Full Stack Developer,react,Traditional,0
-Microsoft,2022,Full Stack Developer,sql,Transitional,0
-Microsoft,2022,Data Analyst,sql,Transitional,0
-Microsoft,2022,Data Analyst,power bi,Transitional,0
-Microsoft,2022,Data Analyst,python,Traditional,0
-Microsoft,2022,Data Scientist,python,Traditional,0
-Microsoft,2022,Data Scientist,machine learning,Transitional,0
-Microsoft,2022,Data Scientist,deep learning,Traditional,0
-Microsoft,2022,DevOps Engineer,docker,Transitional,0
-Microsoft,2022,DevOps Engineer,ci/cd,Transitional,0
-Microsoft,2022,DevOps Engineer,aws,Traditional,0
-Microsoft,2022,Cloud Engineer,aws,Traditional,0
-Microsoft,2022,Cloud Engineer,azure,Transitional,0
-Microsoft,2022,Cloud Engineer,terraform,Traditional,0
-Microsoft,2023,Machine Learning Engineer,mlops,Transitional,0
-Microsoft,2023,Machine Learning Engineer,tensorflow,Transitional,0
-Microsoft,2023,Machine Learning Engineer,kubernetes,Transitional,0
-Microsoft,2023,Data Scientist,deep learning,Traditional,0
-Microsoft,2023,Data Scientist,tensorflow,Transitional,0
-Microsoft,2023,Data Scientist,feature engineering,Transitional,0
-Microsoft,2023,Backend Developer,golang,Transitional,0
-Microsoft,2023,Backend Developer,rest apis,Transitional,0
-Microsoft,2023,Backend Developer,microservices,Traditional,0
-Microsoft,2023,Cloud Engineer,aws,Traditional,0
-Microsoft,2023,Cloud Engineer,kubernetes,Transitional,0
-Microsoft,2023,Cloud Engineer,cloud architecture,Transitional,0
-Microsoft,2023,Data Analyst,python,Traditional,0
-Microsoft,2023,Data Analyst,power bi,Transitional,0
-Microsoft,2023,Data Analyst,data visualization,Transitional,0
-Microsoft,2023,Machine Learning Engineer,model deployment,Transitional,0
-Microsoft,2023,Machine Learning Engineer,mlops,Upcoming,1
-Microsoft,2023,Machine Learning Engineer,feature stores,Upcoming,1
-Microsoft,2023,Machine Learning Engineer,model monitoring,Upcoming,1
-Microsoft,2024,Machine Learning Engineer,generative ai,Upcoming,1
-Microsoft,2024,Machine Learning Engineer,llm apis,Upcoming,1
-Microsoft,2024,Machine Learning Engineer,prompt engineering,Upcoming,1
-Microsoft,2024,Machine Learning Engineer,vector embeddings,Upcoming,1
-Microsoft,2024,DevOps Engineer,kubernetes,Transitional,0
-Microsoft,2024,DevOps Engineer,terraform,Traditional,0
-Microsoft,2024,DevOps Engineer,cloud security,Upcoming,1
-Microsoft,2024,Backend Developer,golang,Transitional,0
-Microsoft,2024,Backend Developer,kubernetes,Transitional,0
-Microsoft,2024,Backend Developer,distributed systems,Upcoming,1
-Microsoft,2024,Machine Learning Engineer,mlops,Transitional,0
-Microsoft,2024,Machine Learning Engineer,llm,Upcoming,1
-Microsoft,2024,Machine Learning Engineer,generative ai,Upcoming,1
-Microsoft,2024,Software Engineer,distributed systems,Upcoming,1
-Microsoft,2024,Software Engineer,system design,Traditional,0
-Microsoft,2024,Software Engineer,microservices,Traditional,0
-Microsoft,2024,Data Scientist,generative ai,Upcoming,1
-Microsoft,2024,Data Scientist,llm,Upcoming,1
-Microsoft,2024,Data Scientist,deep learning,Traditional,0
-Microsoft,2025,Machine Learning Engineer,generative ai,Upcoming,1
-Microsoft,2025,Machine Learning Engineer,llm,Upcoming,1
-Microsoft,2025,Software Engineer,system design,Traditional,0
-Microsoft,2025,Cloud Engineer,kubernetes,Transitional,0
-Microsoft,2025,Data Scientist,deep learning,Traditional,0
-Microsoft,2025,Data Scientist,llm fine-tuning,Upcoming,1
-Microsoft,2025,Data Scientist,retrieval augmented generation (rag),Upcoming,1
-Microsoft,2025,Data Scientist,model drift detection,Upcoming,1
-Thales,2021,Frontend Developer,html,Transitional,0
-Thales,2021,Frontend Developer,css,Transitional,0
-Thales,2021,Frontend Developer,javascript,Transitional,0
-Thales,2021,Cloud Engineer,aws,Traditional,0
-Thales,2021,Cloud Engineer,networking,Transitional,0
-Thales,2021,Cloud Engineer,linux,Transitional,0
-Thales,2021,Machine Learning Engineer,python,Traditional,0
-Thales,2021,Machine Learning Engineer,scikit-learn,Transitional,0
-Thales,2021,Machine Learning Engineer,model deployment,Transitional,0
-Thales,2021,Data Scientist,python,Traditional,0
-Thales,2021,Data Scientist,statistics,Transitional,0
-Thales,2021,Data Scientist,machine learning,Transitional,0
-Thales,2021,Full Stack Developer,java,Traditional,0
-Thales,2021,Full Stack Developer,javascript,Transitional,0
-Thales,2021,Full Stack Developer,sql,Transitional,0
-Thales,2022,Backend Developer,node.js,Transitional,0
-Thales,2022,Backend Developer,microservices,Traditional,0
-Thales,2022,Backend Developer,rest apis,Transitional,0
-Thales,2022,Machine Learning Engineer,tensorflow,Transitional,0
-Thales,2022,Machine Learning Engineer,model deployment,Transitional,0
-Thales,2022,Machine Learning Engineer,docker,Transitional,0
-Thales,2022,Full Stack Developer,node.js,Transitional,0
-Thales,2022,Full Stack Developer,react,Traditional,0
-Thales,2022,Full Stack Developer,sql,Transitional,0
-Thales,2022,Data Analyst,sql,Transitional,0
-Thales,2022,Data Analyst,power bi,Transitional,0
-Thales,2022,Data Analyst,python,Traditional,0
-Thales,2022,DevOps Engineer,docker,Transitional,0
-Thales,2022,DevOps Engineer,ci/cd,Transitional,0
-Thales,2022,DevOps Engineer,aws,Traditional,0
-Thales,2023,Cloud Engineer,aws,Traditional,0
-Thales,2023,Cloud Engineer,kubernetes,Transitional,0
-Thales,2023,Cloud Engineer,cloud architecture,Transitional,0
-Thales,2023,Data Analyst,python,Traditional,0
-Thales,2023,Data Analyst,power bi,Transitional,0
-Thales,2023,Data Analyst,data visualization,Transitional,0
-Thales,2023,DevOps Engineer,kubernetes,Transitional,0
-Thales,2023,DevOps Engineer,terraform,Traditional,0
-Thales,2023,DevOps Engineer,aws,Traditional,0
-Thales,2023,Software Engineer,java,Traditional,0
-Thales,2023,Software Engineer,microservices,Traditional,0
-Thales,2023,Software Engineer,system design,Traditional,0
-Thales,2023,Data Scientist,deep learning,Traditional,0
-Thales,2023,Data Scientist,tensorflow,Transitional,0
-Thales,2023,Data Scientist,feature engineering,Transitional,0
-Thales,2024,Cloud Engineer,cloud security,Upcoming,1
-Thales,2024,Cloud Engineer,kubernetes,Transitional,0
-Thales,2024,Cloud Engineer,multi-cloud,Upcoming,1
-Thales,2024,Data Analyst,python,Traditional,0
-Thales,2024,Data Analyst,data visualization,Transitional,0
-Thales,2024,Data Analyst,advanced sql,Upcoming,1
-Thales,2024,Machine Learning Engineer,mlops,Transitional,0
-Thales,2024,Machine Learning Engineer,llm,Upcoming,1
-Thales,2024,Machine Learning Engineer,generative ai,Upcoming,1
-Thales,2024,Data Scientist,generative ai,Upcoming,1
-Thales,2024,Data Scientist,llm,Upcoming,1
-Thales,2024,Data Scientist,deep learning,Traditional,0
-Thales,2024,Frontend Developer,react,Traditional,0
-Thales,2024,Frontend Developer,typescript,Transitional,0
-Thales,2024,Frontend Developer,next.js,Upcoming,1
-Thales,2025,Cloud Engineer,cloud security,Upcoming,1
-Thales,2025,Cloud Engineer,multi-cloud,Upcoming,1
-Thales,2025,Cybersecurity Analyst,cloud security,Upcoming,1
-Thales,2025,Backend Developer,rest apis,Transitional,0
-Zebra Technologies,2021,Backend Developer,java,Traditional,0
-Zebra Technologies,2021,Backend Developer,spring boot,Transitional,0
-Zebra Technologies,2021,Backend Developer,sql,Transitional,0
-Zebra Technologies,2021,Data Analyst,sql,Transitional,0
-Zebra Technologies,2021,Data Analyst,excel,Transitional,0
-Zebra Technologies,2021,Data Analyst,tableau,Transitional,0
-Zebra Technologies,2021,Full Stack Developer,java,Traditional,0
-Zebra Technologies,2021,Full Stack Developer,javascript,Transitional,0
-Zebra Technologies,2021,Full Stack Developer,sql,Transitional,0
-Zebra Technologies,2021,Cloud Engineer,aws,Traditional,0
-Zebra Technologies,2021,Cloud Engineer,networking,Transitional,0
-Zebra Technologies,2021,Cloud Engineer,linux,Transitional,0
-Zebra Technologies,2021,Machine Learning Engineer,python,Traditional,0
-Zebra Technologies,2021,Machine Learning Engineer,scikit-learn,Transitional,0
-Zebra Technologies,2021,Machine Learning Engineer,model deployment,Transitional,0
-Zebra Technologies,2022,Software Engineer,java,Traditional,0
-Zebra Technologies,2022,Software Engineer,system design,Traditional,0
-Zebra Technologies,2022,Software Engineer,sql,Transitional,0
-Zebra Technologies,2022,Data Analyst,sql,Transitional,0
-Zebra Technologies,2022,Data Analyst,power bi,Transitional,0
-Zebra Technologies,2022,Data Analyst,python,Traditional,0
-Zebra Technologies,2022,DevOps Engineer,docker,Transitional,0
-Zebra Technologies,2022,DevOps Engineer,ci/cd,Transitional,0
-Zebra Technologies,2022,DevOps Engineer,aws,Traditional,0
-Zebra Technologies,2022,Backend Developer,node.js,Transitional,0
-Zebra Technologies,2022,Backend Developer,microservices,Traditional,0
-Zebra Technologies,2022,Backend Developer,rest apis,Transitional,0
-Zebra Technologies,2022,Machine Learning Engineer,tensorflow,Transitional,0
-Zebra Technologies,2022,Machine Learning Engineer,model deployment,Transitional,0
-Zebra Technologies,2022,Machine Learning Engineer,docker,Transitional,0
-Zebra Technologies,2023,Backend Developer,golang,Transitional,0
-Zebra Technologies,2023,Backend Developer,rest apis,Transitional,0
-Zebra Technologies,2023,Backend Developer,microservices,Traditional,0
-Zebra Technologies,2023,Data Analyst,python,Traditional,0
-Zebra Technologies,2023,Data Analyst,power bi,Transitional,0
-Zebra Technologies,2023,Data Analyst,data visualization,Transitional,0
-Zebra Technologies,2023,Machine Learning Engineer,mlops,Transitional,0
-Zebra Technologies,2023,Machine Learning Engineer,tensorflow,Transitional,0
-Zebra Technologies,2023,Machine Learning Engineer,kubernetes,Transitional,0
-Zebra Technologies,2023,Data Scientist,deep learning,Traditional,0
-Zebra Technologies,2023,Data Scientist,tensorflow,Transitional,0
-Zebra Technologies,2023,Data Scientist,feature engineering,Transitional,0
-Zebra Technologies,2023,DevOps Engineer,kubernetes,Transitional,0
-Zebra Technologies,2023,DevOps Engineer,terraform,Traditional,0
-Zebra Technologies,2023,DevOps Engineer,aws,Traditional,0
-Zebra Technologies,2024,Full Stack Developer,next.js,Upcoming,1
-Zebra Technologies,2024,Full Stack Developer,golang,Transitional,0
-Zebra Technologies,2024,Full Stack Developer,kubernetes,Transitional,0
-Zebra Technologies,2024,Frontend Developer,react,Traditional,0
-Zebra Technologies,2024,Frontend Developer,typescript,Transitional,0
-Zebra Technologies,2024,Frontend Developer,next.js,Upcoming,1
-Zebra Technologies,2024,DevOps Engineer,kubernetes,Transitional,0
-Zebra Technologies,2024,DevOps Engineer,terraform,Traditional,0
-Zebra Technologies,2024,DevOps Engineer,cloud security,Upcoming,1
-Zebra Technologies,2024,Backend Developer,golang,Transitional,0
-Zebra Technologies,2024,Backend Developer,kubernetes,Transitional,0
-Zebra Technologies,2024,Backend Developer,distributed systems,Upcoming,1
-Zebra Technologies,2024,Data Analyst,python,Traditional,0
-Zebra Technologies,2024,Data Analyst,data visualization,Transitional,0
-Zebra Technologies,2024,Data Analyst,advanced sql,Upcoming,1
-Zebra Technologies,2025,Software Engineer,java,Traditional,0
-Zebra Technologies,2025,Backend Developer,microservices,Traditional,0
-Zebra Technologies,2025,DevOps Engineer,ci/cd,Transitional,0
-Zebra Technologies,2025,Cloud Engineer,aws,Traditional,0
-BT Group,2021,Cloud Engineer,aws,Traditional,0
-BT Group,2021,Cloud Engineer,networking,Transitional,0
-BT Group,2021,Cloud Engineer,linux,Transitional,0
-BT Group,2021,Software Engineer,java,Traditional,0
-BT Group,2021,Software Engineer,data structures,Transitional,0
-BT Group,2021,Software Engineer,sql,Transitional,0
-BT Group,2021,Data Analyst,sql,Transitional,0
-BT Group,2021,Data Analyst,excel,Transitional,0
-BT Group,2021,Data Analyst,tableau,Transitional,0
-BT Group,2021,Frontend Developer,html,Transitional,0
-BT Group,2021,Frontend Developer,css,Transitional,0
-BT Group,2021,Frontend Developer,javascript,Transitional,0
-BT Group,2021,Full Stack Developer,java,Traditional,0
-BT Group,2021,Full Stack Developer,javascript,Transitional,0
-BT Group,2021,Full Stack Developer,sql,Transitional,0
-BT Group,2022,Software Engineer,java,Traditional,0
-BT Group,2022,Software Engineer,system design,Traditional,0
-BT Group,2022,Software Engineer,sql,Transitional,0
-BT Group,2022,Backend Developer,node.js,Transitional,0
-BT Group,2022,Backend Developer,microservices,Traditional,0
-BT Group,2022,Backend Developer,rest apis,Transitional,0
-BT Group,2022,Frontend Developer,javascript,Transitional,0
-BT Group,2022,Frontend Developer,react,Traditional,0
-BT Group,2022,Frontend Developer,css,Transitional,0
-BT Group,2022,Machine Learning Engineer,tensorflow,Transitional,0
-BT Group,2022,Machine Learning Engineer,model deployment,Transitional,0
-BT Group,2022,Machine Learning Engineer,docker,Transitional,0
-BT Group,2022,DevOps Engineer,docker,Transitional,0
-BT Group,2022,DevOps Engineer,ci/cd,Transitional,0
-BT Group,2022,DevOps Engineer,aws,Traditional,0
-BT Group,2023,Software Engineer,java,Traditional,0
-BT Group,2023,Software Engineer,microservices,Traditional,0
-BT Group,2023,Software Engineer,system design,Traditional,0
-BT Group,2023,Full Stack Developer,react,Traditional,0
-BT Group,2023,Full Stack Developer,golang,Transitional,0
-BT Group,2023,Full Stack Developer,microservices,Traditional,0
-BT Group,2023,Data Analyst,python,Traditional,0
-BT Group,2023,Data Analyst,power bi,Transitional,0
-BT Group,2023,Data Analyst,data visualization,Transitional,0
-BT Group,2023,Cloud Engineer,aws,Traditional,0
-BT Group,2023,Cloud Engineer,kubernetes,Transitional,0
-BT Group,2023,Cloud Engineer,cloud architecture,Transitional,0
-BT Group,2023,Data Scientist,deep learning,Traditional,0
-BT Group,2023,Data Scientist,tensorflow,Transitional,0
-BT Group,2023,Data Scientist,feature engineering,Transitional,0
-BT Group,2024,DevOps Engineer,kubernetes,Transitional,0
-BT Group,2024,DevOps Engineer,terraform,Traditional,0
-BT Group,2024,DevOps Engineer,cloud security,Upcoming,1
-BT Group,2024,Backend Developer,golang,Transitional,0
-BT Group,2024,Backend Developer,kubernetes,Transitional,0
-BT Group,2024,Backend Developer,distributed systems,Upcoming,1
-BT Group,2024,Machine Learning Engineer,mlops,Transitional,0
-BT Group,2024,Machine Learning Engineer,llm,Upcoming,1
-BT Group,2024,Machine Learning Engineer,generative ai,Upcoming,1
-BT Group,2024,Data Analyst,python,Traditional,0
-BT Group,2024,Data Analyst,data visualization,Transitional,0
-BT Group,2024,Data Analyst,advanced sql,Upcoming,1
-BT Group,2024,Cloud Engineer,cloud security,Upcoming,1
-BT Group,2024,Cloud Engineer,kubernetes,Transitional,0
-BT Group,2024,Cloud Engineer,multi-cloud,Upcoming,1
-BT Group,2025,Cloud Engineer,multi-cloud,Upcoming,1
-BT Group,2025,DevOps Engineer,terraform,Traditional,0
-BT Group,2025,Software Engineer,distributed systems,Upcoming,1
-BT Group,2025,Data Scientist,generative ai,Upcoming,1
-NatWest,2021,Frontend Developer,html,Transitional,0
-NatWest,2021,Frontend Developer,css,Transitional,0
-NatWest,2021,Frontend Developer,javascript,Transitional,0
-NatWest,2021,DevOps Engineer,linux,Transitional,0
-NatWest,2021,DevOps Engineer,shell scripting,Transitional,0
-NatWest,2021,DevOps Engineer,ci/cd,Transitional,0
-NatWest,2021,Data Analyst,sql,Transitional,0
-NatWest,2021,Data Analyst,excel,Transitional,0
-NatWest,2021,Data Analyst,tableau,Transitional,0
-NatWest,2021,Backend Developer,java,Traditional,0
-NatWest,2021,Backend Developer,spring boot,Transitional,0
-NatWest,2021,Backend Developer,sql,Transitional,0
-NatWest,2021,Cloud Engineer,aws,Traditional,0
-NatWest,2021,Cloud Engineer,networking,Transitional,0
-NatWest,2021,Cloud Engineer,linux,Transitional,0
-NatWest,2022,Cloud Engineer,aws,Traditional,0
-NatWest,2022,Cloud Engineer,azure,Transitional,0
-NatWest,2022,Cloud Engineer,terraform,Traditional,0
-NatWest,2022,Machine Learning Engineer,tensorflow,Transitional,0
-NatWest,2022,Machine Learning Engineer,model deployment,Transitional,0
-NatWest,2022,Machine Learning Engineer,docker,Transitional,0
-NatWest,2022,Backend Developer,node.js,Transitional,0
-NatWest,2022,Backend Developer,microservices,Traditional,0
-NatWest,2022,Backend Developer,rest apis,Transitional,0
-NatWest,2022,Data Analyst,sql,Transitional,0
-NatWest,2022,Data Analyst,power bi,Transitional,0
-NatWest,2022,Data Analyst,python,Traditional,0
-NatWest,2022,DevOps Engineer,docker,Transitional,0
-NatWest,2022,DevOps Engineer,ci/cd,Transitional,0
-NatWest,2022,DevOps Engineer,aws,Traditional,0
-NatWest,2023,Data Analyst,python,Traditional,0
-NatWest,2023,Data Analyst,power bi,Transitional,0
-NatWest,2023,Data Analyst,data visualization,Transitional,0
-NatWest,2023,Machine Learning Engineer,mlops,Transitional,0
-NatWest,2023,Machine Learning Engineer,tensorflow,Transitional,0
-NatWest,2023,Machine Learning Engineer,kubernetes,Transitional,0
-NatWest,2023,Data Scientist,deep learning,Traditional,0
-NatWest,2023,Data Scientist,tensorflow,Transitional,0
-NatWest,2023,Data Scientist,feature engineering,Transitional,0
-NatWest,2023,DevOps Engineer,kubernetes,Transitional,0
-NatWest,2023,DevOps Engineer,terraform,Traditional,0
-NatWest,2023,DevOps Engineer,aws,Traditional,0
-NatWest,2023,Frontend Developer,react,Traditional,0
-NatWest,2023,Frontend Developer,typescript,Transitional,0
-NatWest,2023,Frontend Developer,javascript,Transitional,0
-NatWest,2024,DevOps Engineer,kubernetes,Transitional,0
-NatWest,2024,DevOps Engineer,terraform,Traditional,0
-NatWest,2024,DevOps Engineer,cloud security,Upcoming,1
-NatWest,2024,Cloud Engineer,cloud security,Upcoming,1
-NatWest,2024,Cloud Engineer,kubernetes,Transitional,0
-NatWest,2024,Cloud Engineer,multi-cloud,Upcoming,1
-NatWest,2024,Software Engineer,distributed systems,Upcoming,1
-NatWest,2024,Software Engineer,system design,Traditional,0
-NatWest,2024,Software Engineer,microservices,Traditional,0
-NatWest,2024,Backend Developer,golang,Transitional,0
-NatWest,2024,Backend Developer,kubernetes,Transitional,0
-NatWest,2024,Backend Developer,distributed systems,Upcoming,1
-NatWest,2024,Data Scientist,generative ai,Upcoming,1
-NatWest,2024,Data Scientist,llm,Upcoming,1
-NatWest,2024,Data Scientist,deep learning,Traditional,0
-NatWest,2025,Data Analyst,advanced sql,Upcoming,1
-NatWest,2025,Data Scientist,llm,Upcoming,1
-NatWest,2025,Machine Learning Engineer,mlops,Transitional,0
-NatWest,2025,Cloud Engineer,cloud security,Upcoming,1
+Company,Year,Role,Skill,Skill_Type,Upcoming_Flag,Taught_Institute_Count,Is_Taught_MSRIT,Institutional_Gap_Score
+Oracle,2021,Backend Developer,java,Traditional,0,4,1,0.2
+Oracle,2021,Backend Developer,spring boot,Transitional,0,0,0,1.0
+Oracle,2021,Backend Developer,sql,Transitional,0,5,1,0.0
+Oracle,2021,Software Engineer,java,Traditional,0,4,1,0.2
+Oracle,2021,Software Engineer,data structures,Transitional,0,0,0,1.0
+Oracle,2021,Software Engineer,sql,Transitional,0,5,1,0.0
+Oracle,2021,Data Scientist,python,Traditional,0,4,1,0.2
+Oracle,2021,Data Scientist,statistics,Transitional,0,3,1,0.4
+Oracle,2021,Data Scientist,machine learning,Transitional,0,5,1,0.0
+Oracle,2021,Frontend Developer,html,Transitional,0,4,1,0.2
+Oracle,2021,Frontend Developer,css,Transitional,0,0,0,1.0
+Oracle,2021,Frontend Developer,javascript,Transitional,0,4,1,0.2
+Oracle,2021,Cloud Engineer,aws,Traditional,0,5,1,0.0
+Oracle,2021,Cloud Engineer,networking,Transitional,0,0,0,1.0
+Oracle,2021,Cloud Engineer,linux,Transitional,0,0,0,1.0
+Oracle,2021,Software Engineer,system design,Traditional,0,5,1,0.0
+Oracle,2021,Software Engineer,multithreading,Traditional,0,0,0,1.0
+Oracle,2021,Software Engineer,distributed systems,Transitional,0,3,0,0.4
+Oracle,2022,Backend Developer,grpc,Transitional,0,0,0,1.0
+Oracle,2022,Backend Developer,api gateway,Transitional,0,0,0,1.0
+Oracle,2022,Backend Developer,oauth2,Traditional,0,0,0,1.0
+Oracle,2022,Full Stack Developer,node.js,Transitional,0,3,1,0.4
+Oracle,2022,Full Stack Developer,react,Traditional,0,3,1,0.4
+Oracle,2022,Full Stack Developer,sql,Transitional,0,5,1,0.0
+Oracle,2022,Frontend Developer,javascript,Transitional,0,4,1,0.2
+Oracle,2022,Frontend Developer,react,Traditional,0,3,1,0.4
+Oracle,2022,Frontend Developer,css,Transitional,0,0,0,1.0
+Oracle,2022,Data Scientist,python,Traditional,0,4,1,0.2
+Oracle,2022,Data Scientist,machine learning,Transitional,0,5,1,0.0
+Oracle,2022,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Oracle,2022,Software Engineer,java,Traditional,0,4,1,0.2
+Oracle,2022,Software Engineer,system design,Traditional,0,5,1,0.0
+Oracle,2022,Software Engineer,sql,Transitional,0,5,1,0.0
+Oracle,2022,Data Analyst,sql,Transitional,0,5,1,0.0
+Oracle,2022,Data Analyst,power bi,Transitional,0,0,0,1.0
+Oracle,2022,Data Analyst,python,Traditional,0,4,1,0.2
+Oracle,2023,Backend Developer,golang,Transitional,0,0,0,1.0
+Oracle,2023,Backend Developer,rest apis,Transitional,0,2,1,0.6
+Oracle,2023,Backend Developer,microservices,Traditional,0,3,0,0.4
+Oracle,2023,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+Oracle,2023,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+Oracle,2023,Machine Learning Engineer,kubernetes,Transitional,0,1,0,0.8
+Oracle,2023,Software Engineer,java,Traditional,0,4,1,0.2
+Oracle,2023,Software Engineer,microservices,Traditional,0,3,0,0.4
+Oracle,2023,Software Engineer,system design,Traditional,0,5,1,0.0
+Oracle,2023,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+Oracle,2023,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+Oracle,2023,DevOps Engineer,aws,Traditional,0,5,1,0.0
+Oracle,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Oracle,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+Oracle,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+Oracle,2023,Cloud Engineer,terraform,Upcoming,1,0,0,1.0
+Oracle,2023,Cloud Engineer,infrastructure as code,Upcoming,1,0,0,1.0
+Oracle,2023,Cloud Engineer,auto scaling,Transitional,0,0,0,1.0
+Oracle,2024,DevOps Engineer,gitops,Upcoming,1,0,0,1.0
+Oracle,2024,DevOps Engineer,helm charts,Transitional,0,0,0,1.0
+Oracle,2024,DevOps Engineer,service mesh (istio),Upcoming,1,0,0,1.0
+Oracle,2024,Full Stack Developer,next.js,Upcoming,1,0,0,1.0
+Oracle,2024,Full Stack Developer,golang,Transitional,0,0,0,1.0
+Oracle,2024,Full Stack Developer,kubernetes,Transitional,0,1,0,0.8
+Oracle,2024,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+Oracle,2024,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+Oracle,2024,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+Oracle,2024,Data Analyst,python,Traditional,0,4,1,0.2
+Oracle,2024,Data Analyst,data visualization,Transitional,0,3,1,0.4
+Oracle,2024,Data Analyst,advanced sql,Upcoming,1,3,1,0.4
+Oracle,2024,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+Oracle,2024,Machine Learning Engineer,llm,Upcoming,1,0,0,1.0
+Oracle,2024,Machine Learning Engineer,generative ai,Upcoming,1,0,0,1.0
+Oracle,2024,Software Engineer,distributed systems,Upcoming,1,3,0,0.4
+Oracle,2024,Software Engineer,system design,Traditional,0,5,1,0.0
+Oracle,2024,Software Engineer,microservices,Traditional,0,3,0,0.4
+Oracle,2025,Software Engineer,distributed systems,Upcoming,1,3,0,0.4
+Oracle,2025,Software Engineer,system design,Traditional,0,5,1,0.0
+Oracle,2025,Backend Developer,golang,Transitional,0,0,0,1.0
+Oracle,2025,Backend Developer,kubernetes,Transitional,0,1,0,0.8
+Oracle,2025,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+Oracle,2025,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+Oracle,2025,Cybersecurity Analyst,zero trust architecture,Upcoming,1,1,0,0.8
+Oracle,2025,Cybersecurity Analyst,cloud security,Transitional,0,4,1,0.2
+Oracle,2025,Cybersecurity Analyst,threat intelligence,Transitional,0,0,0,1.0
+IBM,2021,Cloud Engineer,aws,Traditional,0,5,1,0.0
+IBM,2021,Cloud Engineer,networking,Transitional,0,0,0,1.0
+IBM,2021,Cloud Engineer,linux,Transitional,0,0,0,1.0
+IBM,2021,Full Stack Developer,java,Traditional,0,4,1,0.2
+IBM,2021,Full Stack Developer,javascript,Transitional,0,4,1,0.2
+IBM,2021,Full Stack Developer,sql,Transitional,0,5,1,0.0
+IBM,2021,Data Scientist,python,Traditional,0,4,1,0.2
+IBM,2021,Data Scientist,statistics,Transitional,0,3,1,0.4
+IBM,2021,Data Scientist,machine learning,Transitional,0,5,1,0.0
+IBM,2021,Machine Learning Engineer,python,Traditional,0,4,1,0.2
+IBM,2021,Machine Learning Engineer,scikit-learn,Transitional,0,0,0,1.0
+IBM,2021,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+IBM,2021,Data Analyst,sql,Transitional,0,5,1,0.0
+IBM,2021,Data Analyst,excel,Transitional,0,0,0,1.0
+IBM,2021,Data Analyst,tableau,Transitional,0,0,0,1.0
+IBM,2022,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+IBM,2022,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+IBM,2022,Machine Learning Engineer,docker,Transitional,0,0,0,1.0
+IBM,2022,Full Stack Developer,node.js,Transitional,0,3,1,0.4
+IBM,2022,Full Stack Developer,react,Traditional,0,3,1,0.4
+IBM,2022,Full Stack Developer,sql,Transitional,0,5,1,0.0
+IBM,2022,DevOps Engineer,docker,Transitional,0,0,0,1.0
+IBM,2022,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+IBM,2022,DevOps Engineer,aws,Traditional,0,5,1,0.0
+IBM,2022,Data Analyst,sql,Transitional,0,5,1,0.0
+IBM,2022,Data Analyst,power bi,Transitional,0,0,0,1.0
+IBM,2022,Data Analyst,python,Traditional,0,4,1,0.2
+IBM,2022,Frontend Developer,javascript,Transitional,0,4,1,0.2
+IBM,2022,Frontend Developer,react,Traditional,0,3,1,0.4
+IBM,2022,Frontend Developer,css,Transitional,0,0,0,1.0
+IBM,2023,Software Engineer,java,Traditional,0,4,1,0.2
+IBM,2023,Software Engineer,microservices,Traditional,0,3,0,0.4
+IBM,2023,Software Engineer,system design,Traditional,0,5,1,0.0
+IBM,2023,Frontend Developer,react,Traditional,0,3,1,0.4
+IBM,2023,Frontend Developer,typescript,Transitional,0,0,0,1.0
+IBM,2023,Frontend Developer,javascript,Transitional,0,4,1,0.2
+IBM,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+IBM,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+IBM,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+IBM,2023,Full Stack Developer,react,Traditional,0,3,1,0.4
+IBM,2023,Full Stack Developer,golang,Transitional,0,0,0,1.0
+IBM,2023,Full Stack Developer,microservices,Traditional,0,3,0,0.4
+IBM,2023,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+IBM,2023,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+IBM,2023,DevOps Engineer,aws,Traditional,0,5,1,0.0
+IBM,2024,Data Analyst,python,Traditional,0,4,1,0.2
+IBM,2024,Data Analyst,data visualization,Transitional,0,3,1,0.4
+IBM,2024,Data Analyst,advanced sql,Upcoming,1,3,1,0.4
+IBM,2024,Frontend Developer,react,Traditional,0,3,1,0.4
+IBM,2024,Frontend Developer,typescript,Transitional,0,0,0,1.0
+IBM,2024,Frontend Developer,next.js,Upcoming,1,0,0,1.0
+IBM,2024,Backend Developer,golang,Transitional,0,0,0,1.0
+IBM,2024,Backend Developer,kubernetes,Transitional,0,1,0,0.8
+IBM,2024,Backend Developer,distributed systems,Upcoming,1,3,0,0.4
+IBM,2024,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+IBM,2024,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+IBM,2024,DevOps Engineer,cloud security,Upcoming,1,4,1,0.2
+IBM,2024,Software Engineer,distributed systems,Upcoming,1,3,0,0.4
+IBM,2024,Software Engineer,system design,Traditional,0,5,1,0.0
+IBM,2024,Software Engineer,microservices,Traditional,0,3,0,0.4
+IBM,2025,Data Scientist,generative ai,Upcoming,1,0,0,1.0
+IBM,2025,Data Scientist,llm,Upcoming,1,0,0,1.0
+IBM,2025,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+IBM,2025,Machine Learning Engineer,llm,Upcoming,1,0,0,1.0
+IBM,2025,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+IBM,2025,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+Morgan Stanley,2021,Backend Developer,java,Traditional,0,4,1,0.2
+Morgan Stanley,2021,Backend Developer,spring boot,Transitional,0,0,0,1.0
+Morgan Stanley,2021,Backend Developer,sql,Transitional,0,5,1,0.0
+Morgan Stanley,2021,Machine Learning Engineer,python,Traditional,0,4,1,0.2
+Morgan Stanley,2021,Machine Learning Engineer,scikit-learn,Transitional,0,0,0,1.0
+Morgan Stanley,2021,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+Morgan Stanley,2021,Software Engineer,java,Traditional,0,4,1,0.2
+Morgan Stanley,2021,Software Engineer,data structures,Transitional,0,0,0,1.0
+Morgan Stanley,2021,Software Engineer,sql,Transitional,0,5,1,0.0
+Morgan Stanley,2021,Frontend Developer,html,Transitional,0,4,1,0.2
+Morgan Stanley,2021,Frontend Developer,css,Transitional,0,0,0,1.0
+Morgan Stanley,2021,Frontend Developer,javascript,Transitional,0,4,1,0.2
+Morgan Stanley,2021,Data Scientist,python,Traditional,0,4,1,0.2
+Morgan Stanley,2021,Data Scientist,statistics,Transitional,0,3,1,0.4
+Morgan Stanley,2021,Data Scientist,machine learning,Transitional,0,5,1,0.0
+Morgan Stanley,2022,Data Analyst,sql,Transitional,0,5,1,0.0
+Morgan Stanley,2022,Data Analyst,power bi,Transitional,0,0,0,1.0
+Morgan Stanley,2022,Data Analyst,python,Traditional,0,4,1,0.2
+Morgan Stanley,2022,Software Engineer,java,Traditional,0,4,1,0.2
+Morgan Stanley,2022,Software Engineer,system design,Traditional,0,5,1,0.0
+Morgan Stanley,2022,Software Engineer,sql,Transitional,0,5,1,0.0
+Morgan Stanley,2022,Data Scientist,python,Traditional,0,4,1,0.2
+Morgan Stanley,2022,Data Scientist,machine learning,Transitional,0,5,1,0.0
+Morgan Stanley,2022,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Morgan Stanley,2022,Full Stack Developer,node.js,Transitional,0,3,1,0.4
+Morgan Stanley,2022,Full Stack Developer,react,Traditional,0,3,1,0.4
+Morgan Stanley,2022,Full Stack Developer,sql,Transitional,0,5,1,0.0
+Morgan Stanley,2022,Cloud Engineer,aws,Traditional,0,5,1,0.0
+Morgan Stanley,2022,Cloud Engineer,azure,Transitional,0,2,1,0.6
+Morgan Stanley,2022,Cloud Engineer,terraform,Traditional,0,0,0,1.0
+Morgan Stanley,2023,Backend Developer,golang,Transitional,0,0,0,1.0
+Morgan Stanley,2023,Backend Developer,rest apis,Transitional,0,2,1,0.6
+Morgan Stanley,2023,Backend Developer,microservices,Traditional,0,3,0,0.4
+Morgan Stanley,2023,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+Morgan Stanley,2023,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+Morgan Stanley,2023,Machine Learning Engineer,kubernetes,Transitional,0,1,0,0.8
+Morgan Stanley,2023,Software Engineer,java,Traditional,0,4,1,0.2
+Morgan Stanley,2023,Software Engineer,microservices,Traditional,0,3,0,0.4
+Morgan Stanley,2023,Software Engineer,system design,Traditional,0,5,1,0.0
+Morgan Stanley,2023,Data Analyst,python,Traditional,0,4,1,0.2
+Morgan Stanley,2023,Data Analyst,power bi,Transitional,0,0,0,1.0
+Morgan Stanley,2023,Data Analyst,data visualization,Transitional,0,3,1,0.4
+Morgan Stanley,2023,Frontend Developer,react,Traditional,0,3,1,0.4
+Morgan Stanley,2023,Frontend Developer,typescript,Transitional,0,0,0,1.0
+Morgan Stanley,2023,Frontend Developer,javascript,Transitional,0,4,1,0.2
+Morgan Stanley,2024,Data Scientist,generative ai,Upcoming,1,0,0,1.0
+Morgan Stanley,2024,Data Scientist,llm,Upcoming,1,0,0,1.0
+Morgan Stanley,2024,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Morgan Stanley,2024,Full Stack Developer,next.js,Upcoming,1,0,0,1.0
+Morgan Stanley,2024,Full Stack Developer,golang,Transitional,0,0,0,1.0
+Morgan Stanley,2024,Full Stack Developer,kubernetes,Transitional,0,1,0,0.8
+Morgan Stanley,2024,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+Morgan Stanley,2024,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+Morgan Stanley,2024,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+Morgan Stanley,2024,Software Engineer,distributed systems,Upcoming,1,3,0,0.4
+Morgan Stanley,2024,Software Engineer,system design,Traditional,0,5,1,0.0
+Morgan Stanley,2024,Software Engineer,microservices,Traditional,0,3,0,0.4
+Morgan Stanley,2024,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+Morgan Stanley,2024,Machine Learning Engineer,llm,Upcoming,1,0,0,1.0
+Morgan Stanley,2024,Machine Learning Engineer,generative ai,Upcoming,1,0,0,1.0
+Morgan Stanley,2025,Data Analyst,advanced sql,Upcoming,1,3,1,0.4
+Morgan Stanley,2025,Data Analyst,python,Traditional,0,4,1,0.2
+Morgan Stanley,2025,Software Engineer,microservices,Traditional,0,3,0,0.4
+Morgan Stanley,2025,Backend Developer,distributed systems,Upcoming,1,3,0,0.4
+Morgan Stanley,2025,Cloud Engineer,aws,Traditional,0,5,1,0.0
+SAP Labs,2021,Full Stack Developer,java,Traditional,0,4,1,0.2
+SAP Labs,2021,Full Stack Developer,javascript,Transitional,0,4,1,0.2
+SAP Labs,2021,Full Stack Developer,sql,Transitional,0,5,1,0.0
+SAP Labs,2021,Data Analyst,sql,Transitional,0,5,1,0.0
+SAP Labs,2021,Data Analyst,excel,Transitional,0,0,0,1.0
+SAP Labs,2021,Data Analyst,tableau,Transitional,0,0,0,1.0
+SAP Labs,2021,Software Engineer,java,Traditional,0,4,1,0.2
+SAP Labs,2021,Software Engineer,data structures,Transitional,0,0,0,1.0
+SAP Labs,2021,Software Engineer,sql,Transitional,0,5,1,0.0
+SAP Labs,2021,Backend Developer,java,Traditional,0,4,1,0.2
+SAP Labs,2021,Backend Developer,spring boot,Transitional,0,0,0,1.0
+SAP Labs,2021,Backend Developer,sql,Transitional,0,5,1,0.0
+SAP Labs,2021,Machine Learning Engineer,python,Traditional,0,4,1,0.2
+SAP Labs,2021,Machine Learning Engineer,scikit-learn,Transitional,0,0,0,1.0
+SAP Labs,2021,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+SAP Labs,2021,Data Analyst,sql window functions,Traditional,0,0,0,1.0
+SAP Labs,2021,Data Analyst,data visualization,Traditional,0,3,1,0.4
+SAP Labs,2021,Data Analyst,kpi tracking,Traditional,0,0,0,1.0
+SAP Labs,2022,Full Stack Developer,react query,Transitional,0,0,0,1.0
+SAP Labs,2022,Full Stack Developer,jwt authentication,Traditional,0,0,0,1.0
+SAP Labs,2022,Full Stack Developer,next.js,Transitional,0,0,0,1.0
+SAP Labs,2022,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+SAP Labs,2022,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+SAP Labs,2022,Machine Learning Engineer,docker,Transitional,0,0,0,1.0
+SAP Labs,2022,Data Analyst,sql,Transitional,0,5,1,0.0
+SAP Labs,2022,Data Analyst,power bi,Transitional,0,0,0,1.0
+SAP Labs,2022,Data Analyst,python,Traditional,0,4,1,0.2
+SAP Labs,2022,Full Stack Developer,node.js,Transitional,0,3,1,0.4
+SAP Labs,2022,Full Stack Developer,react,Traditional,0,3,1,0.4
+SAP Labs,2022,Full Stack Developer,sql,Transitional,0,5,1,0.0
+SAP Labs,2022,Data Scientist,python,Traditional,0,4,1,0.2
+SAP Labs,2022,Data Scientist,machine learning,Transitional,0,5,1,0.0
+SAP Labs,2022,Data Scientist,deep learning,Traditional,0,5,1,0.0
+SAP Labs,2022,Frontend Developer,javascript,Transitional,0,4,1,0.2
+SAP Labs,2022,Frontend Developer,react,Traditional,0,3,1,0.4
+SAP Labs,2022,Frontend Developer,css,Transitional,0,0,0,1.0
+SAP Labs,2023,Frontend Developer,react,Traditional,0,3,1,0.4
+SAP Labs,2023,Frontend Developer,typescript,Transitional,0,0,0,1.0
+SAP Labs,2023,Frontend Developer,javascript,Transitional,0,4,1,0.2
+SAP Labs,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+SAP Labs,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+SAP Labs,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+SAP Labs,2023,Cloud Engineer,aws,Traditional,0,5,1,0.0
+SAP Labs,2023,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+SAP Labs,2023,Cloud Engineer,cloud architecture,Transitional,0,5,1,0.0
+SAP Labs,2023,Backend Developer,golang,Transitional,0,0,0,1.0
+SAP Labs,2023,Backend Developer,rest apis,Transitional,0,2,1,0.6
+SAP Labs,2023,Backend Developer,microservices,Traditional,0,3,0,0.4
+SAP Labs,2023,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+SAP Labs,2023,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+SAP Labs,2023,Machine Learning Engineer,kubernetes,Transitional,0,1,0,0.8
+SAP Labs,2023,Backend Developer,event-driven architecture,Transitional,0,0,0,1.0
+SAP Labs,2023,Backend Developer,message queues,Transitional,0,0,0,1.0
+SAP Labs,2023,Backend Developer,circuit breaker pattern,Traditional,0,0,0,1.0
+SAP Labs,2024,Frontend Developer,server components,Upcoming,1,0,0,1.0
+SAP Labs,2024,Frontend Developer,web performance optimization,Transitional,0,0,0,1.0
+SAP Labs,2024,Frontend Developer,lighthouse audits,Transitional,0,0,0,1.0
+SAP Labs,2024,Backend Developer,golang,Transitional,0,0,0,1.0
+SAP Labs,2024,Backend Developer,kubernetes,Transitional,0,1,0,0.8
+SAP Labs,2024,Backend Developer,distributed systems,Upcoming,1,3,0,0.4
+SAP Labs,2024,Frontend Developer,react,Traditional,0,3,1,0.4
+SAP Labs,2024,Frontend Developer,typescript,Transitional,0,0,0,1.0
+SAP Labs,2024,Frontend Developer,next.js,Upcoming,1,0,0,1.0
+SAP Labs,2024,Data Analyst,python,Traditional,0,4,1,0.2
+SAP Labs,2024,Data Analyst,data visualization,Transitional,0,3,1,0.4
+SAP Labs,2024,Data Analyst,advanced sql,Upcoming,1,3,1,0.4
+SAP Labs,2024,Data Scientist,generative ai,Upcoming,1,0,0,1.0
+SAP Labs,2024,Data Scientist,llm,Upcoming,1,0,0,1.0
+SAP Labs,2024,Data Scientist,deep learning,Traditional,0,5,1,0.0
+SAP Labs,2024,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+SAP Labs,2024,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+SAP Labs,2024,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+SAP Labs,2025,Backend Developer,golang,Transitional,0,0,0,1.0
+SAP Labs,2025,Backend Developer,microservices,Traditional,0,3,0,0.4
+SAP Labs,2025,Full Stack Developer,next.js,Upcoming,1,0,0,1.0
+SAP Labs,2025,Full Stack Developer,react,Traditional,0,3,1,0.4
+SAP Labs,2025,Cloud Engineer,cloud architecture,Transitional,0,5,1,0.0
+SAP Labs,2025,Backend Developer,api rate limiting,Transitional,0,0,0,1.0
+SAP Labs,2025,Backend Developer,background job processing,Traditional,0,0,0,1.0
+SAP Labs,2025,Backend Developer,observability,Upcoming,1,0,0,1.0
+HPE,2021,Frontend Developer,html,Transitional,0,4,1,0.2
+HPE,2021,Frontend Developer,css,Transitional,0,0,0,1.0
+HPE,2021,Frontend Developer,javascript,Transitional,0,4,1,0.2
+HPE,2021,DevOps Engineer,linux,Transitional,0,0,0,1.0
+HPE,2021,DevOps Engineer,shell scripting,Transitional,0,0,0,1.0
+HPE,2021,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+HPE,2021,Full Stack Developer,java,Traditional,0,4,1,0.2
+HPE,2021,Full Stack Developer,javascript,Transitional,0,4,1,0.2
+HPE,2021,Full Stack Developer,sql,Transitional,0,5,1,0.0
+HPE,2021,Cloud Engineer,aws,Traditional,0,5,1,0.0
+HPE,2021,Cloud Engineer,networking,Transitional,0,0,0,1.0
+HPE,2021,Cloud Engineer,linux,Transitional,0,0,0,1.0
+HPE,2021,Data Analyst,sql,Transitional,0,5,1,0.0
+HPE,2021,Data Analyst,excel,Transitional,0,0,0,1.0
+HPE,2021,Data Analyst,tableau,Transitional,0,0,0,1.0
+HPE,2021,Cloud Engineer,aws ec2,Transitional,0,0,0,1.0
+HPE,2021,Cloud Engineer,vpc configuration,Transitional,0,0,0,1.0
+HPE,2021,Cloud Engineer,load balancing,Transitional,0,0,0,1.0
+HPE,2022,Cybersecurity Analyst,vulnerability scanning,Transitional,0,1,1,0.8
+HPE,2022,Cybersecurity Analyst,security auditing,Traditional,0,0,0,1.0
+HPE,2022,Cybersecurity Analyst,siem tools,Upcoming,1,0,0,1.0
+HPE,2022,Full Stack Developer,node.js,Transitional,0,3,1,0.4
+HPE,2022,Full Stack Developer,react,Traditional,0,3,1,0.4
+HPE,2022,Full Stack Developer,sql,Transitional,0,5,1,0.0
+HPE,2022,Data Scientist,python,Traditional,0,4,1,0.2
+HPE,2022,Data Scientist,machine learning,Transitional,0,5,1,0.0
+HPE,2022,Data Scientist,deep learning,Traditional,0,5,1,0.0
+HPE,2022,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+HPE,2022,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+HPE,2022,Machine Learning Engineer,docker,Transitional,0,0,0,1.0
+HPE,2022,Software Engineer,java,Traditional,0,4,1,0.2
+HPE,2022,Software Engineer,system design,Traditional,0,5,1,0.0
+HPE,2022,Software Engineer,sql,Transitional,0,5,1,0.0
+HPE,2022,Backend Developer,node.js,Transitional,0,3,1,0.4
+HPE,2022,Backend Developer,microservices,Traditional,0,3,0,0.4
+HPE,2022,Backend Developer,rest apis,Transitional,0,2,1,0.6
+HPE,2023,Software Engineer,java,Traditional,0,4,1,0.2
+HPE,2023,Software Engineer,microservices,Traditional,0,3,0,0.4
+HPE,2023,Software Engineer,system design,Traditional,0,5,1,0.0
+HPE,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+HPE,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+HPE,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+HPE,2023,Full Stack Developer,react,Traditional,0,3,1,0.4
+HPE,2023,Full Stack Developer,golang,Transitional,0,0,0,1.0
+HPE,2023,Full Stack Developer,microservices,Traditional,0,3,0,0.4
+HPE,2023,Frontend Developer,react,Traditional,0,3,1,0.4
+HPE,2023,Frontend Developer,typescript,Transitional,0,0,0,1.0
+HPE,2023,Frontend Developer,javascript,Transitional,0,4,1,0.2
+HPE,2023,Cloud Engineer,aws,Traditional,0,5,1,0.0
+HPE,2023,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+HPE,2023,Cloud Engineer,cloud architecture,Transitional,0,5,1,0.0
+HPE,2023,Data Scientist,shap,Upcoming,1,0,0,1.0
+HPE,2023,Data Scientist,hyperparameter tuning,Traditional,0,0,0,1.0
+HPE,2023,Data Scientist,time series forecasting,Transitional,0,0,0,1.0
+HPE,2024,Cloud Engineer,cloud cost optimization,Upcoming,1,0,0,1.0
+HPE,2024,Cloud Engineer,multi-cloud strategy,Upcoming,1,0,0,1.0
+HPE,2024,Cloud Engineer,disaster recovery planning,Transitional,0,0,0,1.0
+HPE,2024,Full Stack Developer,next.js,Upcoming,1,0,0,1.0
+HPE,2024,Full Stack Developer,golang,Transitional,0,0,0,1.0
+HPE,2024,Full Stack Developer,kubernetes,Transitional,0,1,0,0.8
+HPE,2024,Data Scientist,generative ai,Upcoming,1,0,0,1.0
+HPE,2024,Data Scientist,llm,Upcoming,1,0,0,1.0
+HPE,2024,Data Scientist,deep learning,Traditional,0,5,1,0.0
+HPE,2024,Backend Developer,golang,Transitional,0,0,0,1.0
+HPE,2024,Backend Developer,kubernetes,Transitional,0,1,0,0.8
+HPE,2024,Backend Developer,distributed systems,Upcoming,1,3,0,0.4
+HPE,2024,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+HPE,2024,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+HPE,2024,DevOps Engineer,cloud security,Upcoming,1,4,1,0.2
+HPE,2024,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+HPE,2024,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+HPE,2024,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+HPE,2025,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+HPE,2025,DevOps Engineer,cloud security,Upcoming,1,4,1,0.2
+HPE,2025,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+HPE,2025,Backend Developer,golang,Transitional,0,0,0,1.0
+HPE,2025,Software Engineer,distributed systems,Upcoming,1,3,0,0.4
+HPE,2025,DevOps Engineer,blue-green deployment,Transitional,0,0,0,1.0
+HPE,2025,DevOps Engineer,canary deployment,Transitional,0,0,0,1.0
+HPE,2025,DevOps Engineer,sre practices,Upcoming,1,0,0,1.0
+Microsoft,2021,Machine Learning Engineer,python,Traditional,0,4,1,0.2
+Microsoft,2021,Machine Learning Engineer,scikit-learn,Transitional,0,0,0,1.0
+Microsoft,2021,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+Microsoft,2021,DevOps Engineer,linux,Transitional,0,0,0,1.0
+Microsoft,2021,DevOps Engineer,shell scripting,Transitional,0,0,0,1.0
+Microsoft,2021,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+Microsoft,2021,Backend Developer,java,Traditional,0,4,1,0.2
+Microsoft,2021,Backend Developer,spring boot,Transitional,0,0,0,1.0
+Microsoft,2021,Backend Developer,sql,Transitional,0,5,1,0.0
+Microsoft,2021,Frontend Developer,html,Transitional,0,4,1,0.2
+Microsoft,2021,Frontend Developer,css,Transitional,0,0,0,1.0
+Microsoft,2021,Frontend Developer,javascript,Transitional,0,4,1,0.2
+Microsoft,2021,Cloud Engineer,aws,Traditional,0,5,1,0.0
+Microsoft,2021,Cloud Engineer,networking,Transitional,0,0,0,1.0
+Microsoft,2021,Cloud Engineer,linux,Transitional,0,0,0,1.0
+Microsoft,2021,Backend Developer,rest apis,Traditional,0,2,1,0.6
+Microsoft,2021,Backend Developer,sql optimization,Traditional,0,4,1,0.2
+Microsoft,2021,Backend Developer,redis caching,Transitional,0,0,0,1.0
+Microsoft,2021,Backend Developer,microservices,Transitional,0,3,0,0.4
+Microsoft,2022,DevOps Engineer,docker,Transitional,0,0,0,1.0
+Microsoft,2022,DevOps Engineer,ci/cd pipelines,Transitional,0,0,0,1.0
+Microsoft,2022,DevOps Engineer,github actions,Transitional,0,0,0,1.0
+Microsoft,2022,DevOps Engineer,kubernetes,Upcoming,1,1,0,0.8
+Microsoft,2022,Full Stack Developer,node.js,Transitional,0,3,1,0.4
+Microsoft,2022,Full Stack Developer,react,Traditional,0,3,1,0.4
+Microsoft,2022,Full Stack Developer,sql,Transitional,0,5,1,0.0
+Microsoft,2022,Data Analyst,sql,Transitional,0,5,1,0.0
+Microsoft,2022,Data Analyst,power bi,Transitional,0,0,0,1.0
+Microsoft,2022,Data Analyst,python,Traditional,0,4,1,0.2
+Microsoft,2022,Data Scientist,python,Traditional,0,4,1,0.2
+Microsoft,2022,Data Scientist,machine learning,Transitional,0,5,1,0.0
+Microsoft,2022,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Microsoft,2022,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+Microsoft,2022,DevOps Engineer,aws,Traditional,0,5,1,0.0
+Microsoft,2022,Cloud Engineer,aws,Traditional,0,5,1,0.0
+Microsoft,2022,Cloud Engineer,azure,Transitional,0,2,1,0.6
+Microsoft,2022,Cloud Engineer,terraform,Traditional,0,0,0,1.0
+Microsoft,2023,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+Microsoft,2023,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+Microsoft,2023,Machine Learning Engineer,kubernetes,Transitional,0,1,0,0.8
+Microsoft,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Microsoft,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+Microsoft,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+Microsoft,2023,Backend Developer,golang,Transitional,0,0,0,1.0
+Microsoft,2023,Backend Developer,rest apis,Transitional,0,2,1,0.6
+Microsoft,2023,Backend Developer,microservices,Traditional,0,3,0,0.4
+Microsoft,2023,Cloud Engineer,aws,Traditional,0,5,1,0.0
+Microsoft,2023,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+Microsoft,2023,Cloud Engineer,cloud architecture,Transitional,0,5,1,0.0
+Microsoft,2023,Data Analyst,python,Traditional,0,4,1,0.2
+Microsoft,2023,Data Analyst,power bi,Transitional,0,0,0,1.0
+Microsoft,2023,Data Analyst,data visualization,Transitional,0,3,1,0.4
+Microsoft,2023,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+Microsoft,2023,Machine Learning Engineer,mlops,Upcoming,1,4,0,0.2
+Microsoft,2023,Machine Learning Engineer,feature stores,Upcoming,1,0,0,1.0
+Microsoft,2023,Machine Learning Engineer,model monitoring,Upcoming,1,0,0,1.0
+Microsoft,2024,Machine Learning Engineer,generative ai,Upcoming,1,0,0,1.0
+Microsoft,2024,Machine Learning Engineer,llm apis,Upcoming,1,0,0,1.0
+Microsoft,2024,Machine Learning Engineer,prompt engineering,Upcoming,1,0,0,1.0
+Microsoft,2024,Machine Learning Engineer,vector embeddings,Upcoming,1,0,0,1.0
+Microsoft,2024,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+Microsoft,2024,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+Microsoft,2024,DevOps Engineer,cloud security,Upcoming,1,4,1,0.2
+Microsoft,2024,Backend Developer,golang,Transitional,0,0,0,1.0
+Microsoft,2024,Backend Developer,kubernetes,Transitional,0,1,0,0.8
+Microsoft,2024,Backend Developer,distributed systems,Upcoming,1,3,0,0.4
+Microsoft,2024,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+Microsoft,2024,Machine Learning Engineer,llm,Upcoming,1,0,0,1.0
+Microsoft,2024,Software Engineer,distributed systems,Upcoming,1,3,0,0.4
+Microsoft,2024,Software Engineer,system design,Traditional,0,5,1,0.0
+Microsoft,2024,Software Engineer,microservices,Traditional,0,3,0,0.4
+Microsoft,2024,Data Scientist,generative ai,Upcoming,1,0,0,1.0
+Microsoft,2024,Data Scientist,llm,Upcoming,1,0,0,1.0
+Microsoft,2024,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Microsoft,2025,Machine Learning Engineer,generative ai,Upcoming,1,0,0,1.0
+Microsoft,2025,Machine Learning Engineer,llm,Upcoming,1,0,0,1.0
+Microsoft,2025,Software Engineer,system design,Traditional,0,5,1,0.0
+Microsoft,2025,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+Microsoft,2025,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Microsoft,2025,Data Scientist,llm fine-tuning,Upcoming,1,0,0,1.0
+Microsoft,2025,Data Scientist,retrieval augmented generation (rag),Upcoming,1,0,0,1.0
+Microsoft,2025,Data Scientist,model drift detection,Upcoming,1,0,0,1.0
+Thales,2021,Frontend Developer,html,Transitional,0,4,1,0.2
+Thales,2021,Frontend Developer,css,Transitional,0,0,0,1.0
+Thales,2021,Frontend Developer,javascript,Transitional,0,4,1,0.2
+Thales,2021,Cloud Engineer,aws,Traditional,0,5,1,0.0
+Thales,2021,Cloud Engineer,networking,Transitional,0,0,0,1.0
+Thales,2021,Cloud Engineer,linux,Transitional,0,0,0,1.0
+Thales,2021,Machine Learning Engineer,python,Traditional,0,4,1,0.2
+Thales,2021,Machine Learning Engineer,scikit-learn,Transitional,0,0,0,1.0
+Thales,2021,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+Thales,2021,Data Scientist,python,Traditional,0,4,1,0.2
+Thales,2021,Data Scientist,statistics,Transitional,0,3,1,0.4
+Thales,2021,Data Scientist,machine learning,Transitional,0,5,1,0.0
+Thales,2021,Full Stack Developer,java,Traditional,0,4,1,0.2
+Thales,2021,Full Stack Developer,javascript,Transitional,0,4,1,0.2
+Thales,2021,Full Stack Developer,sql,Transitional,0,5,1,0.0
+Thales,2022,Backend Developer,node.js,Transitional,0,3,1,0.4
+Thales,2022,Backend Developer,microservices,Traditional,0,3,0,0.4
+Thales,2022,Backend Developer,rest apis,Transitional,0,2,1,0.6
+Thales,2022,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+Thales,2022,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+Thales,2022,Machine Learning Engineer,docker,Transitional,0,0,0,1.0
+Thales,2022,Full Stack Developer,node.js,Transitional,0,3,1,0.4
+Thales,2022,Full Stack Developer,react,Traditional,0,3,1,0.4
+Thales,2022,Full Stack Developer,sql,Transitional,0,5,1,0.0
+Thales,2022,Data Analyst,sql,Transitional,0,5,1,0.0
+Thales,2022,Data Analyst,power bi,Transitional,0,0,0,1.0
+Thales,2022,Data Analyst,python,Traditional,0,4,1,0.2
+Thales,2022,DevOps Engineer,docker,Transitional,0,0,0,1.0
+Thales,2022,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+Thales,2022,DevOps Engineer,aws,Traditional,0,5,1,0.0
+Thales,2023,Cloud Engineer,aws,Traditional,0,5,1,0.0
+Thales,2023,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+Thales,2023,Cloud Engineer,cloud architecture,Transitional,0,5,1,0.0
+Thales,2023,Data Analyst,python,Traditional,0,4,1,0.2
+Thales,2023,Data Analyst,power bi,Transitional,0,0,0,1.0
+Thales,2023,Data Analyst,data visualization,Transitional,0,3,1,0.4
+Thales,2023,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+Thales,2023,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+Thales,2023,DevOps Engineer,aws,Traditional,0,5,1,0.0
+Thales,2023,Software Engineer,java,Traditional,0,4,1,0.2
+Thales,2023,Software Engineer,microservices,Traditional,0,3,0,0.4
+Thales,2023,Software Engineer,system design,Traditional,0,5,1,0.0
+Thales,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Thales,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+Thales,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+Thales,2024,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+Thales,2024,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+Thales,2024,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+Thales,2024,Data Analyst,python,Traditional,0,4,1,0.2
+Thales,2024,Data Analyst,data visualization,Transitional,0,3,1,0.4
+Thales,2024,Data Analyst,advanced sql,Upcoming,1,3,1,0.4
+Thales,2024,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+Thales,2024,Machine Learning Engineer,llm,Upcoming,1,0,0,1.0
+Thales,2024,Machine Learning Engineer,generative ai,Upcoming,1,0,0,1.0
+Thales,2024,Data Scientist,generative ai,Upcoming,1,0,0,1.0
+Thales,2024,Data Scientist,llm,Upcoming,1,0,0,1.0
+Thales,2024,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Thales,2024,Frontend Developer,react,Traditional,0,3,1,0.4
+Thales,2024,Frontend Developer,typescript,Transitional,0,0,0,1.0
+Thales,2024,Frontend Developer,next.js,Upcoming,1,0,0,1.0
+Thales,2025,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+Thales,2025,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+Thales,2025,Cybersecurity Analyst,cloud security,Upcoming,1,4,1,0.2
+Thales,2025,Backend Developer,rest apis,Transitional,0,2,1,0.6
+Zebra Technologies,2021,Backend Developer,java,Traditional,0,4,1,0.2
+Zebra Technologies,2021,Backend Developer,spring boot,Transitional,0,0,0,1.0
+Zebra Technologies,2021,Backend Developer,sql,Transitional,0,5,1,0.0
+Zebra Technologies,2021,Data Analyst,sql,Transitional,0,5,1,0.0
+Zebra Technologies,2021,Data Analyst,excel,Transitional,0,0,0,1.0
+Zebra Technologies,2021,Data Analyst,tableau,Transitional,0,0,0,1.0
+Zebra Technologies,2021,Full Stack Developer,java,Traditional,0,4,1,0.2
+Zebra Technologies,2021,Full Stack Developer,javascript,Transitional,0,4,1,0.2
+Zebra Technologies,2021,Full Stack Developer,sql,Transitional,0,5,1,0.0
+Zebra Technologies,2021,Cloud Engineer,aws,Traditional,0,5,1,0.0
+Zebra Technologies,2021,Cloud Engineer,networking,Transitional,0,0,0,1.0
+Zebra Technologies,2021,Cloud Engineer,linux,Transitional,0,0,0,1.0
+Zebra Technologies,2021,Machine Learning Engineer,python,Traditional,0,4,1,0.2
+Zebra Technologies,2021,Machine Learning Engineer,scikit-learn,Transitional,0,0,0,1.0
+Zebra Technologies,2021,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+Zebra Technologies,2022,Software Engineer,java,Traditional,0,4,1,0.2
+Zebra Technologies,2022,Software Engineer,system design,Traditional,0,5,1,0.0
+Zebra Technologies,2022,Software Engineer,sql,Transitional,0,5,1,0.0
+Zebra Technologies,2022,Data Analyst,sql,Transitional,0,5,1,0.0
+Zebra Technologies,2022,Data Analyst,power bi,Transitional,0,0,0,1.0
+Zebra Technologies,2022,Data Analyst,python,Traditional,0,4,1,0.2
+Zebra Technologies,2022,DevOps Engineer,docker,Transitional,0,0,0,1.0
+Zebra Technologies,2022,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+Zebra Technologies,2022,DevOps Engineer,aws,Traditional,0,5,1,0.0
+Zebra Technologies,2022,Backend Developer,node.js,Transitional,0,3,1,0.4
+Zebra Technologies,2022,Backend Developer,microservices,Traditional,0,3,0,0.4
+Zebra Technologies,2022,Backend Developer,rest apis,Transitional,0,2,1,0.6
+Zebra Technologies,2022,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+Zebra Technologies,2022,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+Zebra Technologies,2022,Machine Learning Engineer,docker,Transitional,0,0,0,1.0
+Zebra Technologies,2023,Backend Developer,golang,Transitional,0,0,0,1.0
+Zebra Technologies,2023,Backend Developer,rest apis,Transitional,0,2,1,0.6
+Zebra Technologies,2023,Backend Developer,microservices,Traditional,0,3,0,0.4
+Zebra Technologies,2023,Data Analyst,python,Traditional,0,4,1,0.2
+Zebra Technologies,2023,Data Analyst,power bi,Transitional,0,0,0,1.0
+Zebra Technologies,2023,Data Analyst,data visualization,Transitional,0,3,1,0.4
+Zebra Technologies,2023,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+Zebra Technologies,2023,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+Zebra Technologies,2023,Machine Learning Engineer,kubernetes,Transitional,0,1,0,0.8
+Zebra Technologies,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+Zebra Technologies,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+Zebra Technologies,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+Zebra Technologies,2023,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+Zebra Technologies,2023,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+Zebra Technologies,2023,DevOps Engineer,aws,Traditional,0,5,1,0.0
+Zebra Technologies,2024,Full Stack Developer,next.js,Upcoming,1,0,0,1.0
+Zebra Technologies,2024,Full Stack Developer,golang,Transitional,0,0,0,1.0
+Zebra Technologies,2024,Full Stack Developer,kubernetes,Transitional,0,1,0,0.8
+Zebra Technologies,2024,Frontend Developer,react,Traditional,0,3,1,0.4
+Zebra Technologies,2024,Frontend Developer,typescript,Transitional,0,0,0,1.0
+Zebra Technologies,2024,Frontend Developer,next.js,Upcoming,1,0,0,1.0
+Zebra Technologies,2024,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+Zebra Technologies,2024,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+Zebra Technologies,2024,DevOps Engineer,cloud security,Upcoming,1,4,1,0.2
+Zebra Technologies,2024,Backend Developer,golang,Transitional,0,0,0,1.0
+Zebra Technologies,2024,Backend Developer,kubernetes,Transitional,0,1,0,0.8
+Zebra Technologies,2024,Backend Developer,distributed systems,Upcoming,1,3,0,0.4
+Zebra Technologies,2024,Data Analyst,python,Traditional,0,4,1,0.2
+Zebra Technologies,2024,Data Analyst,data visualization,Transitional,0,3,1,0.4
+Zebra Technologies,2024,Data Analyst,advanced sql,Upcoming,1,3,1,0.4
+Zebra Technologies,2025,Software Engineer,java,Traditional,0,4,1,0.2
+Zebra Technologies,2025,Backend Developer,microservices,Traditional,0,3,0,0.4
+Zebra Technologies,2025,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+Zebra Technologies,2025,Cloud Engineer,aws,Traditional,0,5,1,0.0
+BT Group,2021,Cloud Engineer,aws,Traditional,0,5,1,0.0
+BT Group,2021,Cloud Engineer,networking,Transitional,0,0,0,1.0
+BT Group,2021,Cloud Engineer,linux,Transitional,0,0,0,1.0
+BT Group,2021,Software Engineer,java,Traditional,0,4,1,0.2
+BT Group,2021,Software Engineer,data structures,Transitional,0,0,0,1.0
+BT Group,2021,Software Engineer,sql,Transitional,0,5,1,0.0
+BT Group,2021,Data Analyst,sql,Transitional,0,5,1,0.0
+BT Group,2021,Data Analyst,excel,Transitional,0,0,0,1.0
+BT Group,2021,Data Analyst,tableau,Transitional,0,0,0,1.0
+BT Group,2021,Frontend Developer,html,Transitional,0,4,1,0.2
+BT Group,2021,Frontend Developer,css,Transitional,0,0,0,1.0
+BT Group,2021,Frontend Developer,javascript,Transitional,0,4,1,0.2
+BT Group,2021,Full Stack Developer,java,Traditional,0,4,1,0.2
+BT Group,2021,Full Stack Developer,javascript,Transitional,0,4,1,0.2
+BT Group,2021,Full Stack Developer,sql,Transitional,0,5,1,0.0
+BT Group,2022,Software Engineer,java,Traditional,0,4,1,0.2
+BT Group,2022,Software Engineer,system design,Traditional,0,5,1,0.0
+BT Group,2022,Software Engineer,sql,Transitional,0,5,1,0.0
+BT Group,2022,Backend Developer,node.js,Transitional,0,3,1,0.4
+BT Group,2022,Backend Developer,microservices,Traditional,0,3,0,0.4
+BT Group,2022,Backend Developer,rest apis,Transitional,0,2,1,0.6
+BT Group,2022,Frontend Developer,javascript,Transitional,0,4,1,0.2
+BT Group,2022,Frontend Developer,react,Traditional,0,3,1,0.4
+BT Group,2022,Frontend Developer,css,Transitional,0,0,0,1.0
+BT Group,2022,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+BT Group,2022,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+BT Group,2022,Machine Learning Engineer,docker,Transitional,0,0,0,1.0
+BT Group,2022,DevOps Engineer,docker,Transitional,0,0,0,1.0
+BT Group,2022,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+BT Group,2022,DevOps Engineer,aws,Traditional,0,5,1,0.0
+BT Group,2023,Software Engineer,java,Traditional,0,4,1,0.2
+BT Group,2023,Software Engineer,microservices,Traditional,0,3,0,0.4
+BT Group,2023,Software Engineer,system design,Traditional,0,5,1,0.0
+BT Group,2023,Full Stack Developer,react,Traditional,0,3,1,0.4
+BT Group,2023,Full Stack Developer,golang,Transitional,0,0,0,1.0
+BT Group,2023,Full Stack Developer,microservices,Traditional,0,3,0,0.4
+BT Group,2023,Data Analyst,python,Traditional,0,4,1,0.2
+BT Group,2023,Data Analyst,power bi,Transitional,0,0,0,1.0
+BT Group,2023,Data Analyst,data visualization,Transitional,0,3,1,0.4
+BT Group,2023,Cloud Engineer,aws,Traditional,0,5,1,0.0
+BT Group,2023,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+BT Group,2023,Cloud Engineer,cloud architecture,Transitional,0,5,1,0.0
+BT Group,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+BT Group,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+BT Group,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+BT Group,2024,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+BT Group,2024,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+BT Group,2024,DevOps Engineer,cloud security,Upcoming,1,4,1,0.2
+BT Group,2024,Backend Developer,golang,Transitional,0,0,0,1.0
+BT Group,2024,Backend Developer,kubernetes,Transitional,0,1,0,0.8
+BT Group,2024,Backend Developer,distributed systems,Upcoming,1,3,0,0.4
+BT Group,2024,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+BT Group,2024,Machine Learning Engineer,llm,Upcoming,1,0,0,1.0
+BT Group,2024,Machine Learning Engineer,generative ai,Upcoming,1,0,0,1.0
+BT Group,2024,Data Analyst,python,Traditional,0,4,1,0.2
+BT Group,2024,Data Analyst,data visualization,Transitional,0,3,1,0.4
+BT Group,2024,Data Analyst,advanced sql,Upcoming,1,3,1,0.4
+BT Group,2024,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+BT Group,2024,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+BT Group,2024,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+BT Group,2025,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+BT Group,2025,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+BT Group,2025,Software Engineer,distributed systems,Upcoming,1,3,0,0.4
+BT Group,2025,Data Scientist,generative ai,Upcoming,1,0,0,1.0
+NatWest,2021,Frontend Developer,html,Transitional,0,4,1,0.2
+NatWest,2021,Frontend Developer,css,Transitional,0,0,0,1.0
+NatWest,2021,Frontend Developer,javascript,Transitional,0,4,1,0.2
+NatWest,2021,DevOps Engineer,linux,Transitional,0,0,0,1.0
+NatWest,2021,DevOps Engineer,shell scripting,Transitional,0,0,0,1.0
+NatWest,2021,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+NatWest,2021,Data Analyst,sql,Transitional,0,5,1,0.0
+NatWest,2021,Data Analyst,excel,Transitional,0,0,0,1.0
+NatWest,2021,Data Analyst,tableau,Transitional,0,0,0,1.0
+NatWest,2021,Backend Developer,java,Traditional,0,4,1,0.2
+NatWest,2021,Backend Developer,spring boot,Transitional,0,0,0,1.0
+NatWest,2021,Backend Developer,sql,Transitional,0,5,1,0.0
+NatWest,2021,Cloud Engineer,aws,Traditional,0,5,1,0.0
+NatWest,2021,Cloud Engineer,networking,Transitional,0,0,0,1.0
+NatWest,2021,Cloud Engineer,linux,Transitional,0,0,0,1.0
+NatWest,2022,Cloud Engineer,aws,Traditional,0,5,1,0.0
+NatWest,2022,Cloud Engineer,azure,Transitional,0,2,1,0.6
+NatWest,2022,Cloud Engineer,terraform,Traditional,0,0,0,1.0
+NatWest,2022,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+NatWest,2022,Machine Learning Engineer,model deployment,Transitional,0,2,1,0.6
+NatWest,2022,Machine Learning Engineer,docker,Transitional,0,0,0,1.0
+NatWest,2022,Backend Developer,node.js,Transitional,0,3,1,0.4
+NatWest,2022,Backend Developer,microservices,Traditional,0,3,0,0.4
+NatWest,2022,Backend Developer,rest apis,Transitional,0,2,1,0.6
+NatWest,2022,Data Analyst,sql,Transitional,0,5,1,0.0
+NatWest,2022,Data Analyst,power bi,Transitional,0,0,0,1.0
+NatWest,2022,Data Analyst,python,Traditional,0,4,1,0.2
+NatWest,2022,DevOps Engineer,docker,Transitional,0,0,0,1.0
+NatWest,2022,DevOps Engineer,ci/cd,Transitional,0,0,0,1.0
+NatWest,2022,DevOps Engineer,aws,Traditional,0,5,1,0.0
+NatWest,2023,Data Analyst,python,Traditional,0,4,1,0.2
+NatWest,2023,Data Analyst,power bi,Transitional,0,0,0,1.0
+NatWest,2023,Data Analyst,data visualization,Transitional,0,3,1,0.4
+NatWest,2023,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+NatWest,2023,Machine Learning Engineer,tensorflow,Transitional,0,0,0,1.0
+NatWest,2023,Machine Learning Engineer,kubernetes,Transitional,0,1,0,0.8
+NatWest,2023,Data Scientist,deep learning,Traditional,0,5,1,0.0
+NatWest,2023,Data Scientist,tensorflow,Transitional,0,0,0,1.0
+NatWest,2023,Data Scientist,feature engineering,Transitional,0,3,1,0.4
+NatWest,2023,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+NatWest,2023,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+NatWest,2023,DevOps Engineer,aws,Traditional,0,5,1,0.0
+NatWest,2023,Frontend Developer,react,Traditional,0,3,1,0.4
+NatWest,2023,Frontend Developer,typescript,Transitional,0,0,0,1.0
+NatWest,2023,Frontend Developer,javascript,Transitional,0,4,1,0.2
+NatWest,2024,DevOps Engineer,kubernetes,Transitional,0,1,0,0.8
+NatWest,2024,DevOps Engineer,terraform,Traditional,0,0,0,1.0
+NatWest,2024,DevOps Engineer,cloud security,Upcoming,1,4,1,0.2
+NatWest,2024,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
+NatWest,2024,Cloud Engineer,kubernetes,Transitional,0,1,0,0.8
+NatWest,2024,Cloud Engineer,multi-cloud,Upcoming,1,1,0,0.8
+NatWest,2024,Software Engineer,distributed systems,Upcoming,1,3,0,0.4
+NatWest,2024,Software Engineer,system design,Traditional,0,5,1,0.0
+NatWest,2024,Software Engineer,microservices,Traditional,0,3,0,0.4
+NatWest,2024,Backend Developer,golang,Transitional,0,0,0,1.0
+NatWest,2024,Backend Developer,kubernetes,Transitional,0,1,0,0.8
+NatWest,2024,Backend Developer,distributed systems,Upcoming,1,3,0,0.4
+NatWest,2024,Data Scientist,generative ai,Upcoming,1,0,0,1.0
+NatWest,2024,Data Scientist,llm,Upcoming,1,0,0,1.0
+NatWest,2024,Data Scientist,deep learning,Traditional,0,5,1,0.0
+NatWest,2025,Data Analyst,advanced sql,Upcoming,1,3,1,0.4
+NatWest,2025,Data Scientist,llm,Upcoming,1,0,0,1.0
+NatWest,2025,Machine Learning Engineer,mlops,Transitional,0,4,0,0.2
+NatWest,2025,Cloud Engineer,cloud security,Upcoming,1,4,1,0.2
