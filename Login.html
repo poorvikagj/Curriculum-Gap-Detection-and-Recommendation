@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Login | MSRIT AI</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-container": "#a8406a",
+                        "surface-container": "#eeeeee",
+                        "primary": "#892852",
+                        "on-primary": "#ffffff",
+                        "background": "#f9f9f9",
+                        "surface-container-highest": "#e2e2e2",
+                        "on-surface": "#1a1c1c",
+                        "on-secondary-container": "#5f2600",
+                        "on-surface-variant": "#544247",
+                        "on-tertiary-container": "#d9e3ff",
+                        "inverse-surface": "#2f3131",
+                        "tertiary-fixed": "#d8e2ff",
+                        "outline-variant": "#dac0c6",
+                        "on-tertiary-fixed-variant": "#28457d",
+                        "on-tertiary-fixed": "#001a42",
+                        "outline": "#877177",
+                        "surface-tint": "#9f3963",
+                        "secondary": "#9d4400",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-secondary-fixed-variant": "#783200",
+                        "primary-fixed": "#ffd9e3",
+                        "tertiary-fixed-dim": "#aec6ff",
+                        "secondary-fixed": "#ffdbca",
+                        "on-error-container": "#93000a",
+                        "tertiary-container": "#48649e",
+                        "surface-container-low": "#f3f3f3",
+                        "tertiary": "#2f4c84",
+                        "primary-fixed-dim": "#ffb0c9",
+                        "on-background": "#1a1c1c",
+                        "surface": "#f9f9f9",
+                        "surface-variant": "#e2e2e2",
+                        "error-container": "#ffdad6",
+                        "inverse-primary": "#ffb0c9",
+                        "on-secondary-fixed": "#331100",
+                        "secondary-container": "#fc7c2a",
+                        "surface-dim": "#dadada",
+                        "surface-bright": "#f9f9f9",
+                        "on-secondary": "#ffffff",
+                        "on-primary-container": "#ffdae4",
+                        "error": "#ba1a1a",
+                        "on-primary-fixed-variant": "#81214b",
+                        "on-primary-fixed": "#3e001e",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-high": "#e8e8e8",
+                        "inverse-on-surface": "#f1f1f1",
+                        "secondary-fixed-dim": "#ffb690"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="flex min-h-screen items-center justify-center p-4">
+<!-- Background Decoration -->
+<div class="fixed inset-0 -z-10 overflow-hidden">
+<div class="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] rounded-full bg-primary/5 blur-[120px]"></div>
+<div class="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] rounded-full bg-tertiary/5 blur-[120px]"></div>
+</div>
+<!-- Main Login Shell -->
+<main class="w-full max-w-[1100px] grid md:grid-cols-2 bg-surface-container-lowest rounded-full shadow-xl shadow-on-surface/5 overflow-hidden">
+<!-- Branding / Hero Side -->
+<section class="hidden md:flex flex-col justify-between p-12 bg-surface-container-low relative overflow-hidden">
+<div class="relative z-10">
+<div class="flex items-center gap-3 mb-12">
+<div class="w-10 h-10 bg-primary flex items-center justify-center rounded-xl shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined text-on-primary" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+<span class="text-xl font-bold tracking-tighter text-primary">MSRIT AI</span>
+</div>
+<h1 class="text-5xl font-extrabold tracking-tight text-on-surface leading-[1.1] mb-6">
+                    The Academic <br/><span class="text-primary">Curator.</span>
+</h1>
+<p class="text-on-surface-variant text-lg leading-relaxed max-w-sm">
+                    Enter the gateway to precision-guided academic assistance, powered by the collective intelligence of Ramaiah Institute of Technology.
+                </p>
+</div>
+<div class="relative z-10 bg-white/40 backdrop-blur-md p-6 rounded-xl border border-white/40 shadow-sm max-w-xs">
+<div class="flex gap-1 mb-3">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-sm font-medium italic text-on-surface-variant italic">"A transformative approach to university workflows and student support."</p>
+</div>
+<!-- Background Texture for Side -->
+<div class="absolute bottom-0 right-0 w-64 h-64 opacity-5 pointer-events-none">
+<img class="w-full h-full object-contain" data-alt="abstract geometric pattern of interconnected lines and dots suggesting a neural network or academic structure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApzrOQ1rIZLJuNn5FZ7TutIwZCGb34UBQpuxtXWcYKjb7552wkj4EfzR-zNznbQ4bvrjLN-oma7wqZks_Cog_6bhOPDKM4J6CX_MNEQAM6Zj289qW7Yvv--hoH926B1g42edJ0Z79CU0exdODjVU388UtTqUpp3Uz16_llXaaSEyeuhTQvRShROBnseWeDfEmzwBUGL_-qBFqczg-gxtFnqQL4e2R3--CfbVyw8Xd-RFDAhBeqFB30AkJwRioagZTJ6KvAUCmmyfze"/>
+</div>
+</section>
+<!-- Form Side -->
+<section class="flex flex-col justify-center p-8 md:p-16 bg-surface-container-lowest">
+<div class="mb-10 text-center md:text-left">
+<h2 class="text-3xl font-bold text-on-surface mb-2">Welcome Back</h2>
+<p class="text-on-surface-variant text-sm font-medium">Please sign in to access your dashboard</p>
+</div>
+<!-- Error Message State -->
+<div class="mb-6 p-4 rounded-xl bg-error-container/40 border border-error/10 flex items-start gap-3">
+<span class="material-symbols-outlined text-error text-[20px]">error</span>
+<p class="text-sm font-semibold text-on-error-container">Only MSRIT domain emails are allowed</p>
+</div>
+<form class="space-y-6" onsubmit="return false;">
+<!-- Email Field -->
+<div class="space-y-2">
+<label class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant ml-1" for="email">University Email</label>
+<div class="relative group">
+<div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">alternate_email</span>
+</div>
+<input class="block w-full pl-12 pr-4 py-4 bg-surface-container-low border-0 rounded-xl focus:ring-2 focus:ring-primary/20 focus:bg-white text-on-surface placeholder:text-outline-variant transition-all outline-none" id="email" placeholder="username@msrit.edu" type="email" value="student@gmail.com"/>
+<div class="absolute inset-y-0 right-4 flex items-center">
+<span class="material-symbols-outlined text-error text-[18px]">warning</span>
+</div>
+</div>
+</div>
+<!-- Password Field -->
+<div class="space-y-2">
+<div class="flex justify-between items-center px-1">
+<label class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant" for="password">Security Key</label>
+<a class="text-[10px] font-bold text-primary hover:underline transition-all" href="#">FORGOT?</a>
+</div>
+<div class="relative group">
+<div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">lock</span>
+</div>
+<input class="block w-full pl-12 pr-12 py-4 bg-surface-container-low border-0 rounded-xl focus:ring-2 focus:ring-primary/20 focus:bg-white text-on-surface placeholder:text-outline-variant transition-all outline-none" id="password" placeholder="••••••••" type="password"/>
+<button class="absolute inset-y-0 right-4 flex items-center text-on-surface-variant hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined">visibility</span>
+</button>
+</div>
+</div>
+<!-- Remember Me -->
+<div class="flex items-center gap-2 px-1">
+<input class="w-4 h-4 rounded-lg border-outline-variant text-primary focus:ring-primary/20 transition-all cursor-pointer" id="remember" type="checkbox"/>
+<label class="text-xs font-medium text-on-surface-variant cursor-pointer" for="remember">Keep me logged in for 30 days</label>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-4 px-6 bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold rounded-xl shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 active:scale-[0.98] transition-all flex items-center justify-center gap-3" type="submit">
+<span>Log In to Curator</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</form>
+<div class="mt-12 pt-8 border-t border-surface-container flex flex-col items-center gap-4">
+<p class="text-xs text-on-surface-variant">Institutional single sign-on powered by</p>
+<div class="flex items-center gap-8 opacity-60 hover:opacity-100 transition-opacity">
+<img class="h-5 grayscale hover:grayscale-0 transition-all" data-alt="Microsoft company logo minimalist" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2Hs_wzvz2L-z3whVbXyQVsVEaCcA4-RWoqOJHukF3JnSZ8omCf0LTe615nvO0gQy6ZrH9v0sBpdCljOAnARjnn0WlAD6AoyDRovqQBSC2Orqy2YN4ad0B8tnwXotPaSNqm0Zga4JdK0Bia7o3ByBBZUgqEXxSO2AAPlDstyAQGgwyMWReqjzamFcI18mW_8l5IuSPohpe-gfUcCwWKgA_1PNI3yMdvfVF2UL_FyoIDHcEvG_TqgSg6jhjt4GfWn6Hgqj0Iv90MSac"/>
+<img class="h-5 grayscale hover:grayscale-0 transition-all" data-alt="Google workspace logo minimalist" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJkjz4VvCQo5-GGCqTOxz5is7BcHaNNnjIMJ9XVOfyW2kAeX6CbBVaXyN-z7gMgZPbSkSqNQu07neypf1vXjKhNXlRFxH7AvpKCIrFQLdSBn-xlfH-VIULwH-ZuS9Eqn6VtXTTBnDxHsy74Sx9MErduNQXmvDayiuBLi_9AxgM-MzFr5VAUzq301XyNJ7XsphFr0LWm7dMua21lxGpug8f5lSTXmKJQYR41YxnklDJvZzcg5D8Dx__4UqHCJoEp_8KZJ0hCWSzS2VQ"/>
+</div>
+</div>
+<p class="mt-8 text-center text-[10px] text-on-surface-variant leading-relaxed">
+                By logging in, you agree to the MSRIT AI System's Terms of Service and Privacy Policy. <br/>Authorized access only.
+            </p>
+</section>
+</main>
+<!-- Footer Decoration for Mobile -->
+<div class="fixed bottom-4 left-0 w-full md:hidden flex justify-center px-6">
+<div class="flex items-center gap-2 px-4 py-2 bg-surface-container-low/80 backdrop-blur rounded-full border border-white/20">
+<div class="w-2 h-2 rounded-full bg-emerald-500"></div>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant">System Online: v2.4.0-Academic</span>
+</div>
+</div>
+<script>
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const errorMessage = document.querySelector('.mb-6.p-4');
+    const errorText = errorMessage.querySelector('p');
+    const warningIcon = document.querySelector('.absolute.inset-y-0.right-4 .material-symbols-outlined');
+    
+    if (email.endsWith('@msrit.edu') && password) {
+        localStorage.setItem('msritStudentEmail', email.toLowerCase());
+        window.location.href = 'Student.html';
+    } else {
+        if (!email.endsWith('@msrit.edu')) {
+            errorText.textContent = 'Only MSRIT domain emails are allowed';
+            warningIcon.style.display = 'block';
+        } else {
+            errorText.textContent = 'Invalid password';
+            warningIcon.style.display = 'none';
+        }
+        errorMessage.style.display = 'flex';
+    }
+});
+</script>
+</body></html>

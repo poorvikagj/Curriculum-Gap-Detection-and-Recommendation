@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Staff Dashboard - MSRIT AI</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary-container": "#a8406a",
+                    "surface-container": "#eeeeee",
+                    "primary": "#892852",
+                    "on-primary": "#ffffff",
+                    "background": "#f9f9f9",
+                    "surface-container-highest": "#e2e2e2",
+                    "on-surface": "#1a1c1c",
+                    "on-secondary-container": "#5f2600",
+                    "on-surface-variant": "#544247",
+                    "on-tertiary-container": "#d9e3ff",
+                    "inverse-surface": "#2f3131",
+                    "tertiary-fixed": "#d8e2ff",
+                    "outline-variant": "#dac0c6",
+                    "on-tertiary-fixed-variant": "#28457d",
+                    "on-tertiary-fixed": "#001a42",
+                    "outline": "#877177",
+                    "surface-tint": "#9f3963",
+                    "secondary": "#9d4400",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "on-secondary-fixed-variant": "#783200",
+                    "primary-fixed": "#ffd9e3",
+                    "tertiary-fixed-dim": "#aec6ff",
+                    "secondary-fixed": "#ffdbca",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#48649e",
+                    "surface-container-low": "#f3f3f3",
+                    "tertiary": "#2f4c84",
+                    "primary-fixed-dim": "#ffb0c9",
+                    "on-background": "#1a1c1c",
+                    "surface": "#f9f9f9",
+                    "surface-variant": "#e2e2e2",
+                    "error-container": "#ffdad6",
+                    "inverse-primary": "#ffb0c9",
+                    "on-secondary-fixed": "#331100",
+                    "secondary-container": "#fc7c2a",
+                    "surface-dim": "#dadada",
+                    "surface-bright": "#f9f9f9",
+                    "on-secondary": "#ffffff",
+                    "on-primary-container": "#ffdae4",
+                    "error": "#ba1a1a",
+                    "on-primary-fixed-variant": "#81214b",
+                    "on-primary-fixed": "#3e001e",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-high": "#e8e8e8",
+                    "inverse-on-surface": "#f1f1f1",
+                    "secondary-fixed-dim": "#ffb690"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-headline { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .chat-scroll::-webkit-scrollbar { width: 4px; }
+        .chat-scroll::-webkit-scrollbar-track { background: transparent; }
+        .chat-scroll::-webkit-scrollbar-thumb { background: #e2e2e2; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen">
+<!-- Main Canvas -->
+<main class="py-12 px-6 lg:px-12">
+<div class="max-w-6xl mx-auto">
+<!-- Hero Greeting -->
+<section class="mb-8">
+<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-on-surface mb-2 font-headline">Syllabus Analysis Assistant</h1>
+<p class="text-on-surface-variant max-w-2xl text-lg">Interact with AI to refine curriculum, identify gaps, and generate industry-aligned visualizations.</p>
+</section>
+<!-- Chatbot Section -->
+<section class="mb-12 bg-surface-container-low rounded-xl p-6 shadow-sm border border-outline-variant/20">
+<div class="flex flex-col h-[400px]">
+<!-- Chat History Area -->
+<div class="flex-1 overflow-y-auto pr-2 mb-4 chat-scroll space-y-4">
+<!-- AI Message -->
+<div class="flex gap-3 max-w-[85%]">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white text-sm">smart_toy</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-2xl rounded-tl-none shadow-sm text-sm text-on-surface">
+<p>Hello! I've analyzed <strong>CSE-402-AI-2024.pdf</strong>. I can suggest improvements, identify skill gaps, or generate visualizations based on industry demand. How can I help you today?</p>
+</div>
+</div>
+<!-- User Message -->
+<div class="flex gap-3 max-w-[85%] ml-auto flex-row-reverse">
+<div class="w-8 h-8 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white text-sm">person</span>
+</div>
+<div class="bg-primary text-on-primary p-4 rounded-2xl rounded-tr-none shadow-sm text-sm">
+<p>Can you show me a visualization of current industry demand for AI skills versus our current syllabus coverage?</p>
+</div>
+</div>
+<!-- AI Message with Visual Feedback -->
+<div class="flex gap-3 max-w-[85%]">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-white text-sm">smart_toy</span>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-2xl rounded-tl-none shadow-sm text-sm text-on-surface">
+<p>Certainly. I've updated the <strong>Analysis Results</strong> section below with a visualization comparing industry needs and your syllabus modules.</p>
+</div>
+</div>
+</div>
+<!-- Input Area -->
+<div class="relative mt-auto">
+<input class="w-full bg-surface-container-lowest border-outline-variant rounded-full py-4 pl-6 pr-14 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm outline-none shadow-sm" placeholder="Ask about the syllabus or request a visualization..." type="text"/>
+<button class="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-primary text-on-primary rounded-full flex items-center justify-center hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Output Section -->
+<section class="space-y-6">
+<h2 class="text-2xl font-bold font-headline mb-6">Analysis Results</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Suggested Improvements -->
+<div class="space-y-4">
+<div class="flex items-center gap-2 mb-2">
+<span class="text-xl">📌</span>
+<h3 class="font-bold text-lg font-headline">Suggested Improvements</h3>
+</div>
+<div class="bg-surface-container-lowest rounded-xl shadow-sm border-l-4 border-primary p-5 group hover:shadow-md transition-all">
+<div class="flex justify-between items-start cursor-pointer">
+<div>
+<h4 class="font-bold text-on-surface mb-2">Update Machine Learning Modules</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">The current syllabus focuses heavily on legacy regression models. It is recommended to introduce Transformer architectures and Large Language Model (LLM) fine-tuning techniques early in Module 3.</p>
+</div>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl shadow-sm border-l-4 border-primary p-5 group hover:shadow-md transition-all">
+<div class="flex justify-between items-start cursor-pointer">
+<div>
+<h4 class="font-bold text-on-surface mb-2">Integrate Ethical AI Frameworks</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Lack of ethical discourse in the primary chapters. Suggested inclusion: Bias mitigation in datasets and European AI Act compliance overviews.</p>
+</div>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl shadow-sm border-l-4 border-primary p-5 group hover:shadow-md transition-all">
+<div class="flex justify-between items-start cursor-pointer">
+<div>
+<h4 class="font-bold text-on-surface mb-2">Hands-on Cloud Labs</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Shift the final project focus from local Jupyter notebooks to scalable AWS Sagemaker or Azure ML deployments to mirror industry environments.</p>
+</div>
+<span class="material-symbols-outlined text-primary">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Skill Gaps & Visualizations -->
+<div class="space-y-4">
+<div class="flex items-center gap-2 mb-2">
+<span class="text-xl">📊</span>
+<h3 class="font-bold text-lg font-headline">Skill Gaps &amp; Industry Insights</h3>
+</div>
+<!-- Dynamic Data Visualization -->
+<div class="p-6 bg-surface-container-lowest border border-outline-variant/20 rounded-xl shadow-sm">
+<h4 class="text-sm font-bold text-on-surface mb-4">Skill Gap Analysis: Syllabus vs. Industry</h4>
+<img alt="Data Analytics Visualization" class="w-full h-48 object-cover rounded-lg mb-4" data-alt="Close up of a computer screen showing complex data analytics charts and heatmaps in deep blue and purple tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbJsoUnx9Il6oiWwgrKIEKSRP_Tjv5oY0aGe-4jaMP6x7jJ30SO_xhRbizHADMjrMLiZah2QGl1ZS4hZe2_njKK8MWNdzwOy9IGulJeL_bn6x6BKF-PQ47CYk3Wznwkn6eRznmYlvAEL_GTFJApNN3rscxgltwA6d8JtAczlivBdo0wDw5WcGd-M8xn06mrm4l9NBj8hOiYDTPVeDSH1ARZWRF6H8tPvWksfRFOmAQuaK9cMoUyw4CKo6OBQHyuqlaUhaCsWMmqqY-"/>
+<p class="text-xs text-on-surface-variant italic">AI generated visualization based on current job market data for AI Engineers (2024).</p>
+</div>
+<div class="bg-surface-container-low rounded-xl p-6 relative overflow-hidden">
+<div class="relative z-10">
+<div class="bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded inline-block mb-3">Critical Gap</div>
+<p class="text-on-surface font-medium mb-4">"The syllabus lacks modern AI tools like Vector Databases (Pinecone/ChromaDB) which are essential for contemporary RAG architectures."</p>
+<div class="flex items-center gap-4">
+<div class="flex-1 h-2 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="w-[85%] h-full bg-secondary"></div>
+</div>
+<span class="text-xs font-bold text-secondary">85% Industry Demand</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl p-6">
+<div class="bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded inline-block mb-3">Technical Gap</div>
+<p class="text-on-surface font-medium mb-4">"Missing emphasis on PyTorch Lightning and modern MLOps pipelines. Students may struggle with enterprise-scale code management."</p>
+<div class="flex items-center gap-4">
+<div class="flex-1 h-2 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="w-[60%] h-full bg-tertiary"></div>
+</div>
+<span class="text-xs font-bold text-tertiary">60% Industry Demand</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+</body></html>
