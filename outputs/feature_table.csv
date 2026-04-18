@@ -1,96 +1,96 @@
-Skill,Freq,Trend_Slope,Recency_Weight,Upcoming_Flag,Is_Taught_MSRIT,Taught_Institute_Count,Institutional_Gap_Score,Company_Spread,Company_Spread_Norm,Velocity,Volatility
-advanced sql,8,-3.999999999999999,0.8125,1,1,3,0.4,8,0.8,-4.0,2.60768096208106
-api gateway,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-api rate limiting,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-auto scaling,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-aws,29,-1.5714285714285714,0.31896551724137934,0,1,5,0.0,10,1.0,-2.0,4.494441010848846
-aws ec2,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-azure,3,0.0,0.25,0,1,2,0.6,3,0.3,0.0,1.3416407864998738
-background job processing,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-blue-green deployment,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-canary deployment,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-ci/cd,10,-0.7692307692307693,0.25,0,0,0,1.0,7,0.7,-1.0,2.5495097567963922
-ci/cd pipelines,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-circuit breaker pattern,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-cloud architecture,6,-1.9999999999999996,0.5833333333333334,0,1,5,0.0,5,0.5,-4.0,2.16794833886788
-cloud cost optimization,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-cloud security,19,-6.999999999999998,0.8289473684210527,1,1,4,0.2,10,1.0,-7.0,5.761944116355173
-css,11,-2.9999999999999996,0.09090909090909091,0,0,0,1.0,9,0.9,-3.0,3.1937438845342627
-data structures,4,0.0,0.0,0,0,0,1.0,4,0.4,0.0,1.7888543819998322
-data visualization,13,1.7857142857142856,0.5769230769230769,0,1,3,0.4,9,0.9,2.5,3.1304951684997055
-deep learning,21,-1.4999999999999998,0.5357142857142857,0,1,5,0.0,10,1.0,-1.3333333333333333,3.7013511046643495
-disaster recovery planning,1,0.0,0.75,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-distributed systems,17,1.4230769230769231,0.7647058823529411,1,0,3,0.4,9,0.9,1.5,5.079370039680118
-docker,13,0.0,0.25,0,0,0,1.0,8,0.8,0.0,5.813776741499454
-event-driven architecture,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-excel,6,0.0,0.0,0,0,0,1.0,6,0.6,0.0,2.6832815729997477
-feature engineering,9,0.0,0.5,0,1,3,0.4,9,0.9,0.0,4.024922359499622
-feature stores,1,0.0,0.5,1,0,0,1.0,1,0.1,0.0,0.44721359549995804
-generative ai,14,-7.999999999999998,0.8035714285714286,1,0,0,1.0,9,0.9,-8.0,4.764451699828638
-github actions,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-gitops,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-golang,22,-2.499999999999999,0.6931818181818182,0,0,0,1.0,9,0.9,-2.5,4.929503017546495
-grpc,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-helm charts,1,0.0,0.75,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-html,7,0.0,0.0,0,1,4,0.2,7,0.7,0.0,3.1304951684997055
-hyperparameter tuning,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-infrastructure as code,1,0.0,0.5,1,0,0,1.0,1,0.1,0.0,0.44721359549995804
-java,28,-3.1999999999999993,0.1875,0,1,4,0.2,10,1.0,-5.0,6.348228099241551
-javascript,22,-3.9999999999999987,0.1590909090909091,0,1,4,0.2,10,1.0,-4.0,5.319774431308154
-jwt authentication,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-kpi tracking,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-kubernetes,45,1.6999999999999995,0.6722222222222223,1,0,1,0.8,10,1.0,1.0,10.535653752852738
-lighthouse audits,1,0.0,0.75,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-linux,11,0.0,0.0,0,0,0,1.0,8,0.8,0.0,4.919349550499538
-llm,15,-6.999999999999998,0.8166666666666667,1,0,0,1.0,9,0.9,-7.0,4.795831523312719
-llm apis,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-llm fine-tuning,1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-load balancing,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-machine learning,9,0.9999999999999998,0.1388888888888889,0,1,5,0.0,7,0.7,1.0,2.489979919597747
-message queues,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-microservices,28,0.4000000000000001,0.5357142857142857,0,0,3,0.4,10,1.0,0.5,4.979959839195493
-mlops,14,-2.499999999999999,0.6607142857142857,1,0,4,0.2,9,0.9,-2.5,3.1144823004794877
-model deployment,14,-2.5,0.16071428571428573,0,1,2,0.6,9,0.9,-2.5,3.420526275297414
-model drift detection,1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-model monitoring,1,0.0,0.5,1,0,0,1.0,1,0.1,0.0,0.44721359549995804
-multi-cloud,11,-2.9999999999999996,0.8409090909090909,1,0,1,0.8,7,0.7,-3.0,3.1937438845342627
-multi-cloud strategy,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-multithreading,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-networking,8,0.0,0.0,0,0,0,1.0,8,0.8,0.0,3.5777087639996643
-next.js,10,0.5000000000000001,0.725,1,0,0,1.0,7,0.7,0.0,3.391164991562634
-node.js,12,0.0,0.25,0,1,3,0.4,10,1.0,0.0,5.366563145999495
-oauth2,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-observability,1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-power bi,14,-1.9999999999999996,0.35714285714285715,0,0,0,1.0,9,0.9,-2.0,3.8987177379235853
-prompt engineering,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-python,36,-2.5,0.3263888888888889,0,1,4,0.2,10,1.0,-2.25,4.54972526643093
-react,24,-3.3999999999999995,0.4479166666666667,0,1,3,0.4,10,1.0,-3.3333333333333335,4.658325879540846
-react query,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-redis caching,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-rest apis,12,-0.2285714285714287,0.3958333333333333,0,1,2,0.6,9,0.9,0.0,2.4083189157584592
-retrieval augmented generation (rag),1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-scikit-learn,6,0.0,0.0,0,0,0,1.0,6,0.6,0.0,2.6832815729997477
-security auditing,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-server components,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-service mesh (istio),1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-shap,1,0.0,0.5,1,0,0,1.0,1,0.1,0.0,0.44721359549995804
-shell scripting,3,0.0,0.0,0,0,0,1.0,3,0.3,0.0,1.3416407864998738
-siem tools,1,0.0,0.25,1,0,0,1.0,1,0.1,0.0,0.44721359549995804
-spring boot,6,0.0,0.0,0,0,0,1.0,6,0.6,0.0,2.6832815729997477
-sql,42,-1.9999999999999996,0.11904761904761904,0,1,5,0.0,10,1.0,-2.0,11.523888232710346
-sql optimization,1,0.0,0.0,0,1,4,0.2,1,0.1,0.0,0.44721359549995804
-sql window functions,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-sre practices,1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-statistics,4,0.0,0.0,0,1,3,0.4,4,0.4,0.0,1.7888543819998322
-system design,19,0.20000000000000018,0.5263157894736842,0,1,5,0.0,9,0.9,0.25,2.16794833886788
-tableau,6,0.0,0.0,0,0,0,1.0,6,0.6,0.0,2.6832815729997477
-tensorflow,22,7.999999999999998,0.42045454545454547,0,0,0,1.0,10,1.0,8.0,6.6558245169174945
-terraform,17,-0.2999999999999998,0.6029411764705882,1,0,0,1.0,9,0.9,-0.3333333333333333,2.6076809620810595
-threat intelligence,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-time series forecasting,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-typescript,9,-0.9999999999999998,0.6111111111111112,0,0,0,1.0,7,0.7,-1.0,2.489979919597747
-vector embeddings,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958
-vpc configuration,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804
-vulnerability scanning,1,0.0,0.25,0,1,1,0.8,1,0.1,0.0,0.44721359549995804
-web performance optimization,1,0.0,0.75,0,0,0,1.0,1,0.1,0.0,0.447213595499958
-zero trust architecture,1,0.0,1.0,1,0,1,0.8,1,0.1,0.0,0.447213595499958
+Skill,Freq,Trend_Slope,Recency_Weight,Upcoming_Flag,Is_Taught_MSRIT,Taught_Institute_Count,Institutional_Gap_Score,Company_Spread,Company_Spread_Norm,Velocity,Volatility,Semantic_Centrality,Semantic_Gap_Distance,NLP_Rarity_Score,Skill_Cluster,Cluster_0,Cluster_1,Cluster_2,Cluster_3,Cluster_4,Cluster_5,Cluster_6,Cluster_7,Skill_Domain,Domain_AI/ML,Domain_Cloud,Domain_Data,Domain_DevOps,Domain_Other,Domain_Security,Domain_Systems/Infra,Domain_Web/Mobile
+advanced sql,8,-3.999999999999999,0.8125,1,1,3,0.4,8,0.8,-4.0,2.60768096208106,0.3796,0.5925,0.00743,5,False,False,False,False,False,True,False,False,Data,False,False,True,False,False,False,False,False
+api gateway,1,0.0,0.25,0,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.3058,0.7144,0.00746,3,False,False,False,True,False,False,False,False,Other,False,False,False,False,True,False,False,False
+api rate limiting,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958,0.2549,0.8071,0.00963,3,False,False,False,True,False,False,False,False,Other,False,False,False,False,True,False,False,False
+auto scaling,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.3381,0.688,0.00747,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+aws,29,-1.5714285714285714,0.31896551724137934,0,0,0,1.0,10,1.0,-2.0,4.494441010848846,0.5493,0.4713,0.00431,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+aws ec2,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.4414,0.5926,0.00746,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+azure,3,0.0,0.25,0,1,2,0.6,3,0.3,0.0,1.3416407864998738,0.4603,0.5066,0.00431,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+background job processing,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958,0.3587,0.6787,0.00964,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+blue-green deployment,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958,0.3046,0.7145,0.00962,6,False,False,False,False,False,False,True,False,Other,False,False,False,False,True,False,False,False
+canary deployment,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958,0.3212,0.7153,0.00745,6,False,False,False,False,False,False,True,False,Other,False,False,False,False,True,False,False,False
+ci/cd,10,-0.7692307692307693,0.25,0,0,0,1.0,7,0.7,-1.0,2.5495097567963922,0.3192,0.7023,0.00747,7,False,False,False,False,False,False,False,True,DevOps,False,False,False,True,False,False,False,False
+ci/cd pipelines,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.272,0.7624,0.00963,7,False,False,False,False,False,False,False,True,Data,False,False,True,False,False,False,False,False
+circuit breaker pattern,1,0.0,0.5,0,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.1695,0.8309,0.00964,7,False,False,False,False,False,False,False,True,Other,False,False,False,False,True,False,False,False
+cloud architecture,6,-1.9999999999999996,0.5833333333333334,0,1,5,0.0,5,0.5,-4.0,2.16794833886788,0.5765,0.4093,0.00742,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+cloud cost optimization,1,0.0,0.75,1,1,1,0.8,1,0.1,0.0,0.447213595499958,0.4278,0.5698,0.00959,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+cloud security,19,-6.999999999999998,0.8289473684210527,1,1,4,0.2,10,1.0,-7.0,5.761944116355173,0.5357,0.4634,0.00743,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+css,11,-2.9999999999999996,0.09090909090909091,0,1,1,0.8,9,0.9,-3.0,3.1937438845342627,0.474,0.4972,0.00431,1,False,True,False,False,False,False,False,False,Web/Mobile,False,False,False,False,False,False,False,True
+data structures,4,0.0,0.0,0,1,1,0.8,4,0.4,0.0,1.7888543819998322,0.4864,0.4817,0.00746,1,False,True,False,False,False,False,False,False,Data,False,False,True,False,False,False,False,False
+data visualization,13,1.7857142857142856,0.5769230769230769,0,1,3,0.4,9,0.9,2.5,3.1304951684997055,0.4177,0.5332,0.00746,1,False,True,False,False,False,False,False,False,Data,False,False,True,False,False,False,False,False
+deep learning,21,-1.4999999999999998,0.5357142857142857,0,1,5,0.0,10,1.0,-1.3333333333333333,3.7013511046643495,0.5402,0.4543,0.00746,1,False,True,False,False,False,False,False,False,AI/ML,True,False,False,False,False,False,False,False
+disaster recovery planning,1,0.0,0.75,0,1,1,0.8,1,0.1,0.0,0.447213595499958,0.3026,0.698,0.00964,2,False,False,True,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+distributed systems,17,1.4230769230769231,0.7647058823529411,1,1,4,0.2,9,0.9,1.5,5.079370039680118,0.5716,0.4347,0.00747,0,True,False,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+docker,13,0.0,0.25,0,1,1,0.8,8,0.8,0.0,5.813776741499454,0.407,0.5744,0.00431,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+event-driven architecture,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.4584,0.5656,0.00962,2,False,False,True,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+excel,6,0.0,0.0,0,1,1,0.8,6,0.6,0.0,2.6832815729997477,0.4053,0.5276,0.00431,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+feature engineering,9,0.0,0.5,0,1,3,0.4,9,0.9,0.0,4.024922359499622,0.5052,0.4736,0.00746,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+feature stores,1,0.0,0.5,1,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.4377,0.5381,0.00746,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+generative ai,14,-7.999999999999998,0.8035714285714286,1,1,1,0.8,9,0.9,-8.0,4.764451699828638,0.4525,0.5422,0.00747,1,False,True,False,False,False,False,False,False,AI/ML,True,False,False,False,False,False,False,False
+github actions,1,0.0,0.25,0,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.2144,0.7817,0.00747,6,False,False,False,False,False,False,True,False,DevOps,False,False,False,True,False,False,False,False
+gitops,1,0.0,0.75,1,1,1,0.8,1,0.1,0.0,0.447213595499958,0.3665,0.5925,0.00431,0,True,False,False,False,False,False,False,False,DevOps,False,False,False,True,False,False,False,False
+golang,22,-2.499999999999999,0.6931818181818182,0,1,1,0.8,9,0.9,-2.5,4.929503017546495,0.4053,0.5813,0.00431,2,False,False,True,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+grpc,1,0.0,0.25,0,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.4515,0.5395,0.00431,7,False,False,False,False,False,False,False,True,Other,False,False,False,False,True,False,False,False
+helm charts,1,0.0,0.75,0,1,1,0.8,1,0.1,0.0,0.447213595499958,0.299,0.6988,0.00747,1,False,True,False,False,False,False,False,False,DevOps,False,False,False,True,False,False,False,False
+html,7,0.0,0.0,0,1,4,0.2,7,0.7,0.0,3.1304951684997055,0.4061,0.5442,0.00431,1,False,True,False,False,False,False,False,False,Web/Mobile,False,False,False,False,False,False,False,True
+hyperparameter tuning,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.2958,0.7729,0.00746,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+infrastructure as code,1,0.0,0.5,1,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.4656,0.5171,0.00964,2,False,False,True,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+java,28,-3.1999999999999993,0.1875,0,1,4,0.2,10,1.0,-5.0,6.348228099241551,0.5345,0.4398,0.00431,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+javascript,22,-3.9999999999999987,0.1590909090909091,0,1,4,0.2,10,1.0,-4.0,5.319774431308154,0.4225,0.5749,0.00431,4,False,False,False,False,True,False,False,False,Web/Mobile,False,False,False,False,False,False,False,True
+jwt authentication,1,0.0,0.25,0,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.1634,0.8325,0.00747,3,False,False,False,True,False,False,False,False,Other,False,False,False,False,True,False,False,False
+kpi tracking,1,0.0,0.0,0,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.3674,0.6151,0.00747,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+kubernetes,45,1.6999999999999995,0.6722222222222223,1,1,2,0.6,10,1.0,1.0,10.535653752852738,0.4405,0.544,0.00431,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+lighthouse audits,1,0.0,0.75,0,0,0,1.0,1,0.1,0.0,0.447213595499958,0.2864,0.7641,0.00747,2,False,False,True,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+linux,11,0.0,0.0,0,1,1,0.8,8,0.8,0.0,4.919349550499538,0.4942,0.4968,0.00431,1,False,True,False,False,False,False,False,False,Systems/Infra,False,False,False,False,False,False,True,False
+llm,15,-6.999999999999998,0.8166666666666667,1,1,1,0.8,9,0.9,-7.0,4.795831523312719,0.3829,0.6315,0.00431,1,False,True,False,False,False,False,False,False,AI/ML,True,False,False,False,False,False,False,False
+llm apis,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.4518,0.5943,0.00745,3,False,False,False,True,False,False,False,False,AI/ML,True,False,False,False,False,False,False,False
+llm fine-tuning,1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.3739,0.7013,0.00962,1,False,True,False,False,False,False,False,False,AI/ML,True,False,False,False,False,False,False,False
+load balancing,1,0.0,0.0,0,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.4674,0.5558,0.00747,0,True,False,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+machine learning,9,0.9999999999999998,0.1388888888888889,0,1,5,0.0,7,0.7,1.0,2.489979919597747,0.6318,0.3423,0.00746,1,False,True,False,False,False,False,False,False,AI/ML,True,False,False,False,False,False,False,False
+message queues,1,0.0,0.5,0,1,1,0.8,1,0.1,0.0,0.44721359549995804,0.4245,0.5827,0.00747,0,True,False,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+microservices,28,0.4000000000000001,0.5357142857142857,0,1,4,0.2,10,1.0,0.5,4.979959839195493,0.4962,0.4966,0.00431,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+mlops,14,-2.499999999999999,0.6607142857142857,1,1,5,0.0,9,0.9,-2.5,3.1144823004794877,0.4518,0.5244,0.00431,0,True,False,False,False,False,False,False,False,AI/ML,True,False,False,False,False,False,False,False
+model deployment,14,-2.5,0.16071428571428573,0,1,2,0.6,9,0.9,-2.5,3.420526275297414,0.3995,0.6257,0.00745,6,False,False,False,False,False,False,True,False,Other,False,False,False,False,True,False,False,False
+model drift detection,1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.2968,0.7618,0.00962,6,False,False,False,False,False,False,True,False,Other,False,False,False,False,True,False,False,False
+model monitoring,1,0.0,0.5,1,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.4949,0.5573,0.00745,6,False,False,False,False,False,False,True,False,DevOps,False,False,False,True,False,False,False,False
+multi-cloud,11,-2.9999999999999996,0.8409090909090909,1,1,1,0.8,7,0.7,-3.0,3.1937438845342627,0.5413,0.4495,0.00744,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+multi-cloud strategy,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.4555,0.5556,0.0096,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+multithreading,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.4049,0.6294,0.00431,0,True,False,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+networking,8,0.0,0.0,0,0,0,1.0,8,0.8,0.0,3.5777087639996643,0.5297,0.473,0.00431,1,False,True,False,False,False,False,False,False,Systems/Infra,False,False,False,False,False,False,True,False
+next.js,10,0.5000000000000001,0.725,1,0,0,1.0,7,0.7,0.0,3.391164991562634,0.3512,0.7059,0.00746,4,False,False,False,False,True,False,False,False,Other,False,False,False,False,True,False,False,False
+node.js,12,0.0,0.25,0,0,2,0.6,10,1.0,0.0,5.366563145999495,0.442,0.5901,0.00746,4,False,False,False,False,True,False,False,False,Web/Mobile,False,False,False,False,False,False,False,True
+oauth2,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.3121,0.7091,0.00431,3,False,False,False,True,False,False,False,False,Other,False,False,False,False,True,False,False,False
+observability,1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.2673,0.7625,0.00431,2,False,False,True,False,False,False,False,False,DevOps,False,False,False,True,False,False,False,False
+power bi,14,-1.9999999999999996,0.35714285714285715,0,0,0,1.0,9,0.9,-2.0,3.8987177379235853,0.3488,0.687,0.00747,7,False,False,False,False,False,False,False,True,Other,False,False,False,False,True,False,False,False
+prompt engineering,1,0.0,0.75,1,1,1,0.8,1,0.1,0.0,0.447213595499958,0.441,0.5626,0.00746,2,False,False,True,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+python,36,-2.5,0.3263888888888889,0,1,4,0.2,10,1.0,-2.25,4.54972526643093,0.4859,0.4821,0.00431,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+react,24,-3.3999999999999995,0.4479166666666667,0,0,2,0.6,10,1.0,-3.3333333333333335,4.658325879540846,0.2805,0.7783,0.00431,4,False,False,False,False,True,False,False,False,Web/Mobile,False,False,False,False,False,False,False,True
+react query,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.1509,0.9127,0.00746,4,False,False,False,False,True,False,False,False,Web/Mobile,False,False,False,False,False,False,False,True
+redis caching,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.2607,0.7964,0.00747,0,True,False,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+rest apis,12,-0.2285714285714287,0.3958333333333333,0,0,1,0.8,9,0.9,0.0,2.4083189157584592,0.3951,0.6348,0.00746,3,False,False,False,True,False,False,False,False,Other,False,False,False,False,True,False,False,False
+retrieval augmented generation (rag),1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.253,0.783,0.0114,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+scikit-learn,6,0.0,0.0,0,0,0,1.0,6,0.6,0.0,2.6832815729997477,0.3999,0.6208,0.00747,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+security auditing,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.3453,0.7128,0.00746,2,False,False,True,False,False,False,False,False,Security,False,False,False,False,False,True,False,False
+server components,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.458,0.5784,0.00747,0,True,False,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+service mesh (istio),1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.3091,0.7331,0.00964,3,False,False,False,True,False,False,False,False,Other,False,False,False,False,True,False,False,False
+shap,1,0.0,0.5,1,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.3947,0.6034,0.00431,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+shell scripting,3,0.0,0.0,0,0,0,1.0,3,0.3,0.0,1.3416407864998738,0.3719,0.6463,0.00747,2,False,False,True,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+siem tools,1,0.0,0.25,1,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.4491,0.6059,0.00747,2,False,False,True,False,False,False,False,False,Security,False,False,False,False,False,True,False,False
+spring boot,6,0.0,0.0,0,0,0,1.0,6,0.6,0.0,2.6832815729997477,0.3122,0.6912,0.00747,6,False,False,False,False,False,False,True,False,Other,False,False,False,False,True,False,False,False
+sql,42,-1.9999999999999996,0.11904761904761904,0,1,5,0.0,10,1.0,-2.0,11.523888232710346,0.4561,0.5041,0.00431,5,False,False,False,False,False,True,False,False,Data,False,False,True,False,False,False,False,False
+sql optimization,1,0.0,0.0,0,0,3,0.4,1,0.1,0.0,0.44721359549995804,0.421,0.585,0.00744,5,False,False,False,False,False,True,False,False,Data,False,False,True,False,False,False,False,False
+sql window functions,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.2109,0.769,0.00961,5,False,False,False,False,False,True,False,False,Data,False,False,True,False,False,False,False,False
+sre practices,1,0.0,1.0,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.3202,0.7282,0.00747,6,False,False,False,False,False,False,True,False,Other,False,False,False,False,True,False,False,False
+statistics,4,0.0,0.0,0,1,3,0.4,4,0.4,0.0,1.7888543819998322,0.4003,0.5443,0.00431,1,False,True,False,False,False,False,False,False,Data,False,False,True,False,False,False,False,False
+system design,19,0.20000000000000018,0.5263157894736842,0,0,4,0.2,9,0.9,0.25,2.16794833886788,0.5252,0.4998,0.00747,2,False,False,True,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+tableau,6,0.0,0.0,0,0,0,1.0,6,0.6,0.0,2.6832815729997477,0.366,0.6493,0.00431,1,False,True,False,False,False,False,False,False,Data,False,False,True,False,False,False,False,False
+tensorflow,22,7.999999999999998,0.42045454545454547,0,0,0,1.0,10,1.0,8.0,6.6558245169174945,0.4666,0.5627,0.00431,1,False,True,False,False,False,False,False,False,AI/ML,True,False,False,False,False,False,False,False
+terraform,17,-0.2999999999999998,0.6029411764705882,1,0,0,1.0,9,0.9,-0.3333333333333333,2.6076809620810595,0.4734,0.5597,0.00431,0,True,False,False,False,False,False,False,False,Cloud,False,True,False,False,False,False,False,False
+threat intelligence,1,0.0,1.0,0,0,0,1.0,1,0.1,0.0,0.447213595499958,0.4262,0.5963,0.00747,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+time series forecasting,1,0.0,0.5,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.3393,0.7034,0.00964,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+typescript,9,-0.9999999999999998,0.6111111111111112,0,0,0,1.0,7,0.7,-1.0,2.489979919597747,0.2281,0.8186,0.00431,4,False,False,False,False,True,False,False,False,Web/Mobile,False,False,False,False,False,False,False,True
+vector embeddings,1,0.0,0.75,1,0,0,1.0,1,0.1,0.0,0.447213595499958,0.2662,0.7479,0.00747,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+vpc configuration,1,0.0,0.0,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.23,0.8384,0.00747,7,False,False,False,False,False,False,False,True,Other,False,False,False,False,True,False,False,False
+vulnerability scanning,1,0.0,0.25,0,0,0,1.0,1,0.1,0.0,0.44721359549995804,0.4219,0.6307,0.00747,2,False,False,True,False,False,False,False,False,Security,False,False,False,False,False,True,False,False
+web performance optimization,1,0.0,0.75,0,0,0,1.0,1,0.1,0.0,0.447213595499958,0.4768,0.5821,0.00962,1,False,True,False,False,False,False,False,False,Other,False,False,False,False,True,False,False,False
+zero trust architecture,1,0.0,1.0,1,0,1,0.8,1,0.1,0.0,0.447213595499958,0.4145,0.6449,0.00962,0,True,False,False,False,False,False,False,False,Security,False,False,False,False,False,True,False,False

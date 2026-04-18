@@ -1,332 +1,1225 @@
 Institute,Semester,Course,Skill
-RVCE,3,Data Structures,Arrays
-RVCE,3,Data Structures,Linked List
-RVCE,3,Data Structures,Stack
-RVCE,3,Data Structures,Queue
-RVCE,3,Data Structures,Trees
-RVCE,3,Data Structures,Graphs
-RVCE,3,Data Structures,Sorting Algorithms
-RVCE,3,Data Structures,Searching Algorithms
-RVCE,3,Data Structures,Time Complexity
-RVCE,3,Operating Systems,Process Management
-RVCE,3,Operating Systems,Threading
-RVCE,3,Operating Systems,Concurrency
-RVCE,3,Operating Systems,CPU Scheduling
-RVCE,3,Operating Systems,Memory Management
-RVCE,3,Operating Systems,Deadlock Handling
-RVCE,3,Operating Systems,System Calls
-RVCE,4,Design and Analysis of Algorithms,Divide and Conquer
-RVCE,4,Design and Analysis of Algorithms,Greedy Algorithms
-RVCE,4,Design and Analysis of Algorithms,Dynamic Programming
-RVCE,4,Design and Analysis of Algorithms,Backtracking
-RVCE,4,Design and Analysis of Algorithms,Complexity Analysis
-RVCE,4,Database Management Systems,SQL
-RVCE,4,Database Management Systems,Advanced SQL
-RVCE,4,Database Management Systems,Normalization
-RVCE,4,Database Management Systems,Indexing
-RVCE,4,Database Management Systems,Transactions
-RVCE,4,Database Management Systems,Query Optimization
-RVCE,5,Computer Networks,TCP/IP
-RVCE,5,Computer Networks,HTTP
-RVCE,5,Computer Networks,Routing
-RVCE,5,Computer Networks,Socket Programming
-RVCE,5,Computer Networks,Network Security
-RVCE,5,Software Engineering,System Design
-RVCE,5,Software Engineering,SDLC
-RVCE,5,Software Engineering,Requirement Analysis
-RVCE,5,Software Engineering,Design Patterns
-RVCE,5,Software Engineering,Software Testing
-RVCE,6,Artificial Intelligence,Machine Learning
-RVCE,6,Artificial Intelligence,Neural Networks
-RVCE,6,Artificial Intelligence,Model Evaluation
-RVCE,6,Artificial Intelligence,Search Algorithms
-RVCE,6,Cloud Computing,Cloud Architecture
-RVCE,6,Cloud Computing,Virtualization
-RVCE,6,Cloud Computing,AWS
-RVCE,6,Cloud Computing,Multi-Cloud
-RVCE,6,Distributed Systems,Distributed Systems
-RVCE,6,Distributed Systems,Consistency Models
-RVCE,6,Distributed Systems,Scalability
-RVCE,7,Information Security,Cryptography
-RVCE,7,Information Security,Access Control
-RVCE,7,Information Security,Network Security
-RVCE,7,Information Security,Cloud Security
-RVCE,7,Data Engineering,Data Engineering
-RVCE,7,Data Engineering,Data Pipelines
-RVCE,7,Data Engineering,MLOps
-MSRIT,3,Data Structures,Arrays
-MSRIT,3,Data Structures,Linked List
-MSRIT,3,Data Structures,Stack
-MSRIT,3,Data Structures,Queue
-MSRIT,3,Data Structures,Trees
-MSRIT,3,Data Structures,Graphs
-MSRIT,3,Data Structures,Hashing
-MSRIT,3,Data Structures,Sorting Algorithms
-MSRIT,3,Data Structures,Searching Algorithms
-MSRIT,3,Data Structures,Time Complexity
-MSRIT,3,Programming Fundamentals,C Programming
-MSRIT,3,Programming Fundamentals,Object Oriented Programming
-MSRIT,3,Programming Fundamentals,Java
-MSRIT,3,Programming Fundamentals,Python Basics
-MSRIT,3,Programming Fundamentals,Data Types and Variables
-MSRIT,4,Design and Analysis of Algorithms,Divide and Conquer
-MSRIT,4,Design and Analysis of Algorithms,Greedy Algorithms
-MSRIT,4,Design and Analysis of Algorithms,Dynamic Programming
-MSRIT,4,Design and Analysis of Algorithms,Backtracking
-MSRIT,4,Design and Analysis of Algorithms,Graph Algorithms
-MSRIT,4,Design and Analysis of Algorithms,Complexity Analysis
-MSRIT,4,Database Management Systems,SQL
-MSRIT,4,Database Management Systems,Advanced SQL
-MSRIT,4,Database Management Systems,Normalization
-MSRIT,4,Database Management Systems,Indexing
-MSRIT,4,Database Management Systems,Transactions
-MSRIT,4,Database Management Systems,Query Optimization
-MSRIT,4,Database Management Systems,ER Modeling
-MSRIT,4,Operating Systems,Process Management
-MSRIT,4,Operating Systems,Threading
-MSRIT,4,Operating Systems,Concurrency
-MSRIT,4,Operating Systems,CPU Scheduling
-MSRIT,4,Operating Systems,Memory Management
-MSRIT,4,Operating Systems,Deadlock Handling
-MSRIT,4,Operating Systems,File Systems
-MSRIT,5,Computer Networks,TCP/IP
-MSRIT,5,Computer Networks,HTTP
-MSRIT,5,Computer Networks,Routing
-MSRIT,5,Computer Networks,Socket Programming
-MSRIT,5,Computer Networks,Network Security
-MSRIT,5,Computer Networks,DNS
-MSRIT,5,Software Engineering,System Design
-MSRIT,5,Software Engineering,SDLC
-MSRIT,5,Software Engineering,Requirement Analysis
-MSRIT,5,Software Engineering,Design Patterns
-MSRIT,5,Software Engineering,Software Testing
-MSRIT,5,Software Engineering,Agile Methodology
-MSRIT,6,Artificial Intelligence,Machine Learning
-MSRIT,6,Artificial Intelligence,Neural Networks
-MSRIT,6,Artificial Intelligence,Deep Learning
-MSRIT,6,Artificial Intelligence,Model Evaluation
-MSRIT,6,Artificial Intelligence,Natural Language Processing
-MSRIT,6,Web Technologies,HTML/CSS
-MSRIT,6,Web Technologies,JavaScript
-MSRIT,6,Web Technologies,ReactJS
-MSRIT,6,Web Technologies,NodeJS
-MSRIT,6,Web Technologies,REST APIs
-MSRIT,6,Cloud Computing,Cloud Architecture
-MSRIT,6,Cloud Computing,AWS
-MSRIT,6,Cloud Computing,Azure
-MSRIT,6,Cloud Computing,Containerization
-MSRIT,7,Information Security,Cryptography
-MSRIT,7,Information Security,Ethical Hacking
-MSRIT,7,Information Security,Network Security
-MSRIT,7,Information Security,Cloud Security
-MSRIT,7,Information Security,Vulnerability Assessment
-MSRIT,7,Data Science,Data Wrangling
-MSRIT,7,Data Science,Statistical Analysis
-MSRIT,7,Data Science,Data Visualization
-MSRIT,7,Data Science,Feature Engineering
-MSRIT,7,Data Science,Model Deployment
-BIT,3,Data Structures,Arrays
-BIT,3,Data Structures,Linked List
-BIT,3,Data Structures,Stack
-BIT,3,Data Structures,Queue
-BIT,3,Data Structures,Trees
-BIT,3,Data Structures,Graphs
-BIT,3,Data Structures,Sorting Algorithms
-BIT,3,Data Structures,Searching Algorithms
-BIT,3,Data Structures,Hashing
-BIT,3,Programming Fundamentals,C Programming
-BIT,3,Programming Fundamentals,Object Oriented Programming
-BIT,3,Programming Fundamentals,Java
-BIT,3,Programming Fundamentals,Python Basics
-BIT,4,Design and Analysis of Algorithms,Divide and Conquer
-BIT,4,Design and Analysis of Algorithms,Greedy Algorithms
-BIT,4,Design and Analysis of Algorithms,Dynamic Programming
-BIT,4,Design and Analysis of Algorithms,Backtracking
-BIT,4,Design and Analysis of Algorithms,Complexity Analysis
-BIT,4,Database Management Systems,SQL
-BIT,4,Database Management Systems,Normalization
-BIT,4,Database Management Systems,Indexing
-BIT,4,Database Management Systems,Transactions
-BIT,4,Database Management Systems,ER Modeling
-BIT,4,Database Management Systems,PL/SQL
-BIT,4,Operating Systems,Process Management
-BIT,4,Operating Systems,CPU Scheduling
-BIT,4,Operating Systems,Memory Management
-BIT,4,Operating Systems,File Systems
-BIT,4,Operating Systems,Deadlock Handling
-BIT,4,Operating Systems,System Calls
-BIT,5,Computer Networks,TCP/IP
-BIT,5,Computer Networks,HTTP
-BIT,5,Computer Networks,Routing
-BIT,5,Computer Networks,Socket Programming
-BIT,5,Computer Networks,Wireless Networks
-BIT,5,Software Engineering,System Design
-BIT,5,Software Engineering,SDLC
-BIT,5,Software Engineering,Requirement Analysis
-BIT,5,Software Engineering,Design Patterns
-BIT,5,Software Engineering,Software Testing
-BIT,5,Web Technologies,HTML/CSS
-BIT,5,Web Technologies,JavaScript
-BIT,5,Web Technologies,ReactJS
-BIT,5,Web Technologies,NodeJS
-BIT,6,Artificial Intelligence,Machine Learning
-BIT,6,Artificial Intelligence,Neural Networks
-BIT,6,Artificial Intelligence,Model Evaluation
-BIT,6,Artificial Intelligence,Computer Vision
-BIT,6,Cloud Computing,Cloud Architecture
-BIT,6,Cloud Computing,AWS
-BIT,6,Cloud Computing,Virtualization
-BIT,6,Cloud Computing,DevOps
-BIT,6,Distributed Systems,Distributed Systems
-BIT,6,Distributed Systems,Microservices
-BIT,6,Distributed Systems,Scalability
-BIT,7,Information Security,Cryptography
-BIT,7,Information Security,Network Security
-BIT,7,Information Security,Access Control
-BIT,7,Information Security,Penetration Testing
-BIT,7,Data Engineering,Data Pipelines
-BIT,7,Data Engineering,ETL Processes
-BIT,7,Data Engineering,Data Warehousing
-BIT,7,Data Engineering,MLOps
-BIT,7,Data Engineering,Big Data
-PESIT,3,Data Structures,Arrays
-PESIT,3,Data Structures,Linked List
-PESIT,3,Data Structures,Stack
-PESIT,3,Data Structures,Queue
-PESIT,3,Data Structures,Trees
-PESIT,3,Data Structures,Graphs
-PESIT,3,Data Structures,Sorting Algorithms
-PESIT,3,Data Structures,Searching Algorithms
-PESIT,3,Data Structures,Time Complexity
-PESIT,3,Data Structures,Space Complexity
-PESIT,3,Programming Fundamentals,C Programming
-PESIT,3,Programming Fundamentals,Java
-PESIT,3,Programming Fundamentals,Python Basics
-PESIT,3,Programming Fundamentals,Object Oriented Programming
-PESIT,4,Design and Analysis of Algorithms,Divide and Conquer
-PESIT,4,Design and Analysis of Algorithms,Greedy Algorithms
-PESIT,4,Design and Analysis of Algorithms,Dynamic Programming
-PESIT,4,Design and Analysis of Algorithms,Backtracking
-PESIT,4,Design and Analysis of Algorithms,Graph Algorithms
-PESIT,4,Design and Analysis of Algorithms,NP Completeness
-PESIT,4,Database Management Systems,SQL
-PESIT,4,Database Management Systems,Advanced SQL
-PESIT,4,Database Management Systems,Normalization
-PESIT,4,Database Management Systems,Indexing
-PESIT,4,Database Management Systems,Transactions
-PESIT,4,Database Management Systems,Query Optimization
-PESIT,4,Database Management Systems,NoSQL
-PESIT,4,Operating Systems,Process Management
-PESIT,4,Operating Systems,Threading
-PESIT,4,Operating Systems,Concurrency
-PESIT,4,Operating Systems,CPU Scheduling
-PESIT,4,Operating Systems,Memory Management
-PESIT,4,Operating Systems,Deadlock Handling
-PESIT,5,Computer Networks,TCP/IP
-PESIT,5,Computer Networks,HTTP
-PESIT,5,Computer Networks,Routing
-PESIT,5,Computer Networks,Socket Programming
-PESIT,5,Computer Networks,Network Security
-PESIT,5,Computer Networks,Protocols
-PESIT,5,Software Engineering,System Design
-PESIT,5,Software Engineering,SDLC
-PESIT,5,Software Engineering,Design Patterns
-PESIT,5,Software Engineering,Software Testing
-PESIT,5,Software Engineering,Agile Methodology
-PESIT,5,Software Engineering,DevOps Practices
-PESIT,5,Web Technologies,HTML/CSS
-PESIT,5,Web Technologies,JavaScript
-PESIT,5,Web Technologies,ReactJS
-PESIT,5,Web Technologies,REST APIs
-PESIT,6,Artificial Intelligence,Machine Learning
-PESIT,6,Artificial Intelligence,Neural Networks
-PESIT,6,Artificial Intelligence,Deep Learning
-PESIT,6,Artificial Intelligence,Natural Language Processing
-PESIT,6,Artificial Intelligence,Reinforcement Learning
-PESIT,6,Cloud Computing,Cloud Architecture
-PESIT,6,Cloud Computing,AWS
-PESIT,6,Cloud Computing,Azure
-PESIT,6,Cloud Computing,GCP
-PESIT,6,Cloud Computing,Kubernetes
-PESIT,6,Distributed Systems,Microservices
-PESIT,6,Distributed Systems,Consistency Models
-PESIT,6,Distributed Systems,Scalability
-PESIT,7,Information Security,Cryptography
-PESIT,7,Information Security,Access Control
-PESIT,7,Information Security,Cloud Security
-PESIT,7,Information Security,Ethical Hacking
-PESIT,7,Information Security,Zero Trust Architecture
-PESIT,7,Data Science,Statistical Analysis
-PESIT,7,Data Science,Data Visualization
-PESIT,7,Data Science,Feature Engineering
-PESIT,7,Data Science,Model Deployment
-PESIT,7,Data Engineering,Data Pipelines
-PESIT,7,Data Engineering,MLOps
-PESIT,7,Data Engineering,Big Data
-DSCE,3,Data Structures,Arrays
-DSCE,3,Data Structures,Linked List
-DSCE,3,Data Structures,Stack
-DSCE,3,Data Structures,Queue
-DSCE,3,Data Structures,Trees
-DSCE,3,Data Structures,Graphs
-DSCE,3,Data Structures,Sorting Algorithms
-DSCE,3,Data Structures,Searching Algorithms
-DSCE,3,Data Structures,Hashing
-DSCE,3,Programming Fundamentals,C Programming
-DSCE,3,Programming Fundamentals,Java
-DSCE,3,Programming Fundamentals,Python Basics
-DSCE,3,Programming Fundamentals,Object Oriented Programming
-DSCE,4,Design and Analysis of Algorithms,Divide and Conquer
-DSCE,4,Design and Analysis of Algorithms,Greedy Algorithms
-DSCE,4,Design and Analysis of Algorithms,Dynamic Programming
-DSCE,4,Design and Analysis of Algorithms,Backtracking
-DSCE,4,Design and Analysis of Algorithms,Complexity Analysis
-DSCE,4,Database Management Systems,SQL
-DSCE,4,Database Management Systems,Normalization
-DSCE,4,Database Management Systems,Indexing
-DSCE,4,Database Management Systems,Transactions
-DSCE,4,Database Management Systems,Query Optimization
-DSCE,4,Database Management Systems,PL/SQL
-DSCE,4,Operating Systems,Process Management
-DSCE,4,Operating Systems,Threading
-DSCE,4,Operating Systems,CPU Scheduling
-DSCE,4,Operating Systems,Memory Management
-DSCE,4,Operating Systems,Deadlock Handling
-DSCE,4,Operating Systems,System Calls
-DSCE,5,Computer Networks,TCP/IP
-DSCE,5,Computer Networks,HTTP
-DSCE,5,Computer Networks,Routing
-DSCE,5,Computer Networks,Socket Programming
-DSCE,5,Computer Networks,Network Security
-DSCE,5,Software Engineering,System Design
-DSCE,5,Software Engineering,SDLC
-DSCE,5,Software Engineering,Requirement Analysis
-DSCE,5,Software Engineering,Design Patterns
-DSCE,5,Software Engineering,Software Testing
-DSCE,5,Web Technologies,HTML/CSS
-DSCE,5,Web Technologies,JavaScript
-DSCE,5,Web Technologies,Angular
-DSCE,5,Web Technologies,NodeJS
-DSCE,6,Artificial Intelligence,Machine Learning
-DSCE,6,Artificial Intelligence,Neural Networks
-DSCE,6,Artificial Intelligence,Deep Learning
-DSCE,6,Artificial Intelligence,Model Evaluation
-DSCE,6,Artificial Intelligence,Computer Vision
-DSCE,6,Cloud Computing,Cloud Architecture
-DSCE,6,Cloud Computing,AWS
-DSCE,6,Cloud Computing,Virtualization
-DSCE,6,Cloud Computing,Containerization
-DSCE,6,Distributed Systems,Distributed Systems
-DSCE,6,Distributed Systems,Microservices
-DSCE,6,Distributed Systems,Scalability
-DSCE,7,Information Security,Cryptography
-DSCE,7,Information Security,Network Security
-DSCE,7,Information Security,Access Control
-DSCE,7,Information Security,Cloud Security
-DSCE,7,Data Engineering,Data Pipelines
-DSCE,7,Data Engineering,ETL Processes
-DSCE,7,Data Engineering,Big Data
-DSCE,7,Data Engineering,MLOps
-DSCE,7,Data Science,Statistical Analysis
-DSCE,7,Data Science,Data Visualization
-DSCE,7,Data Science,Feature Engineering
+RVCE,3,Data Structures,arrays
+RVCE,3,Data Structures,linked list
+RVCE,3,Data Structures,stack
+RVCE,3,Data Structures,queue
+RVCE,3,Data Structures,trees
+RVCE,3,Data Structures,graphs
+RVCE,3,Data Structures,sorting algorithms
+RVCE,3,Data Structures,searching algorithms
+RVCE,3,Data Structures,time complexity
+RVCE,3,Operating Systems,process management
+RVCE,3,Operating Systems,threading
+RVCE,3,Operating Systems,concurrency
+RVCE,3,Operating Systems,cpu scheduling
+RVCE,3,Operating Systems,memory management
+RVCE,3,Operating Systems,deadlock handling
+RVCE,3,Operating Systems,system calls
+RVCE,4,Design and Analysis of Algorithms,divide and conquer
+RVCE,4,Design and Analysis of Algorithms,greedy algorithms
+RVCE,4,Design and Analysis of Algorithms,dynamic programming
+RVCE,4,Design and Analysis of Algorithms,backtracking
+RVCE,4,Design and Analysis of Algorithms,complexity analysis
+RVCE,4,Database Management Systems,sql
+RVCE,4,Database Management Systems,advanced sql
+RVCE,4,Database Management Systems,normalization
+RVCE,4,Database Management Systems,indexing
+RVCE,4,Database Management Systems,transactions
+RVCE,4,Database Management Systems,query optimization
+RVCE,5,Computer Networks,tcp/ip
+RVCE,5,Computer Networks,http
+RVCE,5,Computer Networks,routing
+RVCE,5,Computer Networks,socket programming
+RVCE,5,Computer Networks,network security
+RVCE,5,Software Engineering,system design
+RVCE,5,Software Engineering,sdlc
+RVCE,5,Software Engineering,requirement analysis
+RVCE,5,Software Engineering,design patterns
+RVCE,5,Software Engineering,software testing
+RVCE,6,Artificial Intelligence,machine learning
+RVCE,6,Artificial Intelligence,neural networks
+RVCE,6,Artificial Intelligence,model evaluation
+RVCE,6,Artificial Intelligence,search algorithms
+RVCE,6,Cloud Computing,cloud architecture
+RVCE,6,Cloud Computing,virtualization
+RVCE,6,Cloud Computing,aws
+RVCE,6,Cloud Computing,multi-cloud
+RVCE,6,Distributed Systems,distributed systems
+RVCE,6,Distributed Systems,consistency models
+RVCE,6,Distributed Systems,scalability
+RVCE,7,Information Security,cryptography
+RVCE,7,Information Security,access control
+RVCE,7,Information Security,network security
+RVCE,7,Information Security,cloud security
+RVCE,7,Data Engineering,data engineering
+RVCE,7,Data Engineering,data pipelines
+RVCE,7,Data Engineering,mlops
+BIT,3,Data Structures,arrays
+BIT,3,Data Structures,linked list
+BIT,3,Data Structures,stack
+BIT,3,Data Structures,queue
+BIT,3,Data Structures,trees
+BIT,3,Data Structures,graphs
+BIT,3,Data Structures,sorting algorithms
+BIT,3,Data Structures,searching algorithms
+BIT,3,Data Structures,hashing
+BIT,3,Programming Fundamentals,c programming
+BIT,3,Programming Fundamentals,object oriented programming
+BIT,3,Programming Fundamentals,java
+BIT,3,Programming Fundamentals,python basics
+BIT,4,Design and Analysis of Algorithms,divide and conquer
+BIT,4,Design and Analysis of Algorithms,greedy algorithms
+BIT,4,Design and Analysis of Algorithms,dynamic programming
+BIT,4,Design and Analysis of Algorithms,backtracking
+BIT,4,Design and Analysis of Algorithms,complexity analysis
+BIT,4,Database Management Systems,sql
+BIT,4,Database Management Systems,normalization
+BIT,4,Database Management Systems,indexing
+BIT,4,Database Management Systems,transactions
+BIT,4,Database Management Systems,er modeling
+BIT,4,Database Management Systems,pl/sql
+BIT,4,Operating Systems,process management
+BIT,4,Operating Systems,cpu scheduling
+BIT,4,Operating Systems,memory management
+BIT,4,Operating Systems,file systems
+BIT,4,Operating Systems,deadlock handling
+BIT,4,Operating Systems,system calls
+BIT,5,Computer Networks,tcp/ip
+BIT,5,Computer Networks,http
+BIT,5,Computer Networks,routing
+BIT,5,Computer Networks,socket programming
+BIT,5,Computer Networks,wireless networks
+BIT,5,Software Engineering,system design
+BIT,5,Software Engineering,sdlc
+BIT,5,Software Engineering,requirement analysis
+BIT,5,Software Engineering,design patterns
+BIT,5,Software Engineering,software testing
+BIT,5,Web Technologies,html/css
+BIT,5,Web Technologies,javascript
+BIT,5,Web Technologies,reactjs
+BIT,5,Web Technologies,nodejs
+BIT,6,Artificial Intelligence,machine learning
+BIT,6,Artificial Intelligence,neural networks
+BIT,6,Artificial Intelligence,model evaluation
+BIT,6,Artificial Intelligence,computer vision
+BIT,6,Cloud Computing,cloud architecture
+BIT,6,Cloud Computing,aws
+BIT,6,Cloud Computing,virtualization
+BIT,6,Cloud Computing,devops
+BIT,6,Distributed Systems,distributed systems
+BIT,6,Distributed Systems,microservices
+BIT,6,Distributed Systems,scalability
+BIT,7,Information Security,cryptography
+BIT,7,Information Security,network security
+BIT,7,Information Security,access control
+BIT,7,Information Security,penetration testing
+BIT,7,Data Engineering,data pipelines
+BIT,7,Data Engineering,etl processes
+BIT,7,Data Engineering,data warehousing
+BIT,7,Data Engineering,mlops
+BIT,7,Data Engineering,big data
+PESIT,3,Data Structures,arrays
+PESIT,3,Data Structures,linked list
+PESIT,3,Data Structures,stack
+PESIT,3,Data Structures,queue
+PESIT,3,Data Structures,trees
+PESIT,3,Data Structures,graphs
+PESIT,3,Data Structures,sorting algorithms
+PESIT,3,Data Structures,searching algorithms
+PESIT,3,Data Structures,time complexity
+PESIT,3,Data Structures,space complexity
+PESIT,3,Programming Fundamentals,c programming
+PESIT,3,Programming Fundamentals,java
+PESIT,3,Programming Fundamentals,python basics
+PESIT,3,Programming Fundamentals,object oriented programming
+PESIT,4,Design and Analysis of Algorithms,divide and conquer
+PESIT,4,Design and Analysis of Algorithms,greedy algorithms
+PESIT,4,Design and Analysis of Algorithms,dynamic programming
+PESIT,4,Design and Analysis of Algorithms,backtracking
+PESIT,4,Design and Analysis of Algorithms,graph algorithms
+PESIT,4,Design and Analysis of Algorithms,np completeness
+PESIT,4,Database Management Systems,sql
+PESIT,4,Database Management Systems,advanced sql
+PESIT,4,Database Management Systems,normalization
+PESIT,4,Database Management Systems,indexing
+PESIT,4,Database Management Systems,transactions
+PESIT,4,Database Management Systems,query optimization
+PESIT,4,Database Management Systems,nosql
+PESIT,4,Operating Systems,process management
+PESIT,4,Operating Systems,threading
+PESIT,4,Operating Systems,concurrency
+PESIT,4,Operating Systems,cpu scheduling
+PESIT,4,Operating Systems,memory management
+PESIT,4,Operating Systems,deadlock handling
+PESIT,5,Computer Networks,tcp/ip
+PESIT,5,Computer Networks,http
+PESIT,5,Computer Networks,routing
+PESIT,5,Computer Networks,socket programming
+PESIT,5,Computer Networks,network security
+PESIT,5,Computer Networks,protocols
+PESIT,5,Software Engineering,system design
+PESIT,5,Software Engineering,sdlc
+PESIT,5,Software Engineering,design patterns
+PESIT,5,Software Engineering,software testing
+PESIT,5,Software Engineering,agile methodology
+PESIT,5,Software Engineering,devops practices
+PESIT,5,Web Technologies,html/css
+PESIT,5,Web Technologies,javascript
+PESIT,5,Web Technologies,reactjs
+PESIT,5,Web Technologies,rest apis
+PESIT,6,Artificial Intelligence,machine learning
+PESIT,6,Artificial Intelligence,neural networks
+PESIT,6,Artificial Intelligence,deep learning
+PESIT,6,Artificial Intelligence,natural language processing
+PESIT,6,Artificial Intelligence,reinforcement learning
+PESIT,6,Cloud Computing,cloud architecture
+PESIT,6,Cloud Computing,aws
+PESIT,6,Cloud Computing,azure
+PESIT,6,Cloud Computing,gcp
+PESIT,6,Cloud Computing,kubernetes
+PESIT,6,Distributed Systems,microservices
+PESIT,6,Distributed Systems,consistency models
+PESIT,6,Distributed Systems,scalability
+PESIT,7,Information Security,cryptography
+PESIT,7,Information Security,access control
+PESIT,7,Information Security,cloud security
+PESIT,7,Information Security,ethical hacking
+PESIT,7,Information Security,zero trust architecture
+PESIT,7,Data Science,statistical analysis
+PESIT,7,Data Science,data visualization
+PESIT,7,Data Science,feature engineering
+PESIT,7,Data Science,model deployment
+PESIT,7,Data Engineering,data pipelines
+PESIT,7,Data Engineering,mlops
+PESIT,7,Data Engineering,big data
+DSCE,3,Data Structures,arrays
+DSCE,3,Data Structures,linked list
+DSCE,3,Data Structures,stack
+DSCE,3,Data Structures,queue
+DSCE,3,Data Structures,trees
+DSCE,3,Data Structures,graphs
+DSCE,3,Data Structures,sorting algorithms
+DSCE,3,Data Structures,searching algorithms
+DSCE,3,Data Structures,hashing
+DSCE,3,Programming Fundamentals,c programming
+DSCE,3,Programming Fundamentals,java
+DSCE,3,Programming Fundamentals,python basics
+DSCE,3,Programming Fundamentals,object oriented programming
+DSCE,4,Design and Analysis of Algorithms,divide and conquer
+DSCE,4,Design and Analysis of Algorithms,greedy algorithms
+DSCE,4,Design and Analysis of Algorithms,dynamic programming
+DSCE,4,Design and Analysis of Algorithms,backtracking
+DSCE,4,Design and Analysis of Algorithms,complexity analysis
+DSCE,4,Database Management Systems,sql
+DSCE,4,Database Management Systems,normalization
+DSCE,4,Database Management Systems,indexing
+DSCE,4,Database Management Systems,transactions
+DSCE,4,Database Management Systems,query optimization
+DSCE,4,Database Management Systems,pl/sql
+DSCE,4,Operating Systems,process management
+DSCE,4,Operating Systems,threading
+DSCE,4,Operating Systems,cpu scheduling
+DSCE,4,Operating Systems,memory management
+DSCE,4,Operating Systems,deadlock handling
+DSCE,4,Operating Systems,system calls
+DSCE,5,Computer Networks,tcp/ip
+DSCE,5,Computer Networks,http
+DSCE,5,Computer Networks,routing
+DSCE,5,Computer Networks,socket programming
+DSCE,5,Computer Networks,network security
+DSCE,5,Software Engineering,system design
+DSCE,5,Software Engineering,sdlc
+DSCE,5,Software Engineering,requirement analysis
+DSCE,5,Software Engineering,design patterns
+DSCE,5,Software Engineering,software testing
+DSCE,5,Web Technologies,html/css
+DSCE,5,Web Technologies,javascript
+DSCE,5,Web Technologies,angular
+DSCE,5,Web Technologies,nodejs
+DSCE,6,Artificial Intelligence,machine learning
+DSCE,6,Artificial Intelligence,neural networks
+DSCE,6,Artificial Intelligence,deep learning
+DSCE,6,Artificial Intelligence,model evaluation
+DSCE,6,Artificial Intelligence,computer vision
+DSCE,6,Cloud Computing,cloud architecture
+DSCE,6,Cloud Computing,aws
+DSCE,6,Cloud Computing,virtualization
+DSCE,6,Cloud Computing,containerization
+DSCE,6,Distributed Systems,distributed systems
+DSCE,6,Distributed Systems,microservices
+DSCE,6,Distributed Systems,scalability
+DSCE,7,Information Security,cryptography
+DSCE,7,Information Security,network security
+DSCE,7,Information Security,access control
+DSCE,7,Information Security,cloud security
+DSCE,7,Data Engineering,data pipelines
+DSCE,7,Data Engineering,etl processes
+DSCE,7,Data Engineering,big data
+DSCE,7,Data Engineering,mlops
+DSCE,7,Data Science,statistical analysis
+DSCE,7,Data Science,data visualization
+DSCE,7,Data Science,feature engineering
+MSRIT,3,Digital Design and Computer Organization,verilog
+MSRIT,3,Digital Design and Computer Organization,hdl
+MSRIT,3,Digital Design and Computer Organization,sequential logic
+MSRIT,3,Digital Design and Computer Organization,combinational logic
+MSRIT,3,Digital Design and Computer Organization,flip-flops
+MSRIT,3,Digital Design and Computer Organization,adders-subtractor
+MSRIT,3,Digital Design and Computer Organization,decoders-encoders
+MSRIT,3,Digital Design and Computer Organization,multiplexers-demultiplexers
+MSRIT,3,Digital Design and Computer Organization,alu-design
+MSRIT,3,Digital Design and Computer Organization,instruction-execution
+MSRIT,3,Digital Design and Computer Organization,memory-operation
+MSRIT,3,Digital Design and Computer Organization,pipelining
+MSRIT,3,Digital Design and Computer Organization,cache-memories
+MSRIT,3,Digital Design and Computer Organization,bus-structure
+MSRIT,3,Digital Design and Computer Organization,machine-instructions
+MSRIT,3,Digital Design and Computer Organization,memory-location
+MSRIT,3,Digital Design and Computer Organization,interrupts
+MSRIT,3,Digital Design and Computer Organization,direct-memory-access
+MSRIT,3,Digital Design and Computer Organization,register-transfers
+MSRIT,3,Digital Design and Computer Organization,alu-operations
+MSRIT,3,Digital Design and Computer Organization,fetching-storing-memory
+MSRIT,3,Digital Design and Computer Organization,pipeline-performance
+MSRIT,3,Data Structures,data structures
+MSRIT,3,Data Structures,arrays
+MSRIT,3,Data Structures,dynamic memory allocation
+MSRIT,3,Data Structures,pointers
+MSRIT,3,Data Structures,stacks
+MSRIT,3,Data Structures,recursion
+MSRIT,3,Data Structures,queues
+MSRIT,3,Data Structures,linked lists
+MSRIT,3,Data Structures,trees
+MSRIT,3,Data Structures,graphs
+MSRIT,3,Data Structures,hashing
+MSRIT,3,Data Structures,hashing algorithms
+MSRIT,3,Data Structures,multiway search trees
+MSRIT,3,Data Structures,b-trees
+MSRIT,3,Data Structures,b+ trees
+MSRIT,3,Operating System,process management
+MSRIT,3,Operating System,memory management
+MSRIT,3,Operating System,storage management
+MSRIT,3,Operating System,synchronization
+MSRIT,3,Operating System,deadlock handling
+MSRIT,3,Operating System,semaphores
+MSRIT,3,Operating System,paging
+MSRIT,3,Operating System,file system management
+MSRIT,3,Operating System,disk scheduling
+MSRIT,3,Operating System,access control
+MSRIT,3,Operating System,linux architecture
+MSRIT,3,Operating System,process management in linux
+MSRIT,3,Operating System,synchronization in linux
+MSRIT,3,Operating System,memory management in linux
+MSRIT,3,Operating System,file system structure in linux
+MSRIT,3,Operating System,storage management in linux
+MSRIT,3,Operating System,security and protection in linux
+MSRIT,3,Operating System,user management in linux
+MSRIT,3,Operating System,access control in linux
+MSRIT,3,Discrete Mathematical Structures,set theory
+MSRIT,3,Discrete Mathematical Structures,logical reasoning
+MSRIT,3,Discrete Mathematical Structures,relation operations
+MSRIT,3,Discrete Mathematical Structures,graph theory
+MSRIT,3,Discrete Mathematical Structures,group properties
+MSRIT,3,Data Structures Lab,dynamic memory allocation
+MSRIT,3,Data Structures Lab,stack implementation
+MSRIT,3,Data Structures Lab,queue data structure
+MSRIT,3,Data Structures Lab,memory management
+MSRIT,3,Data Structures,linked list implementation
+MSRIT,3,Data Structures,binary search tree
+MSRIT,3,Data Structures,preorder traversal
+MSRIT,3,Unix System Programming,shell programming
+MSRIT,3,Unix System Programming,file system operations
+MSRIT,3,Unix System Programming,file permissions management
+MSRIT,3,Unix System Programming,string manipulation
+MSRIT,3,Unix System Programming,command line arguments handling
+MSRIT,3,Unix System Programming,number manipulation
+MSRIT,3,Unix System Programming,fibonacci sequence generation
+MSRIT,3,Unix System Programming,linear search algorithm
+MSRIT,3,Unix System Programming,unix system programming using c++
+MSRIT,3,Unix System Programming,unix concepts and applications
+MSRIT,3,Unix System Programming,unix system programming using c
+MSRIT,3,Unix System Programming,unix shell programming
+MSRIT,3,Numerical Analysis with Python,numpy
+MSRIT,3,Numerical Analysis with Python,matplotlib
+MSRIT,3,Numerical Analysis with Python,pandas
+MSRIT,4,MICROCONTROLLERS,arm embedded systems
+MSRIT,4,MICROCONTROLLERS,risc design philosophy
+MSRIT,4,MICROCONTROLLERS,arm design philosophy
+MSRIT,4,MICROCONTROLLERS,introduction to embedded systems
+MSRIT,4,MICROCONTROLLERS,design of embedded systems
+MSRIT,4,MICROCONTROLLERS,applications
+MSRIT,4,MICROCONTROLLERS,embedded processors
+MSRIT,4,MICROCONTROLLERS,operating system
+MSRIT,4,MICROCONTROLLERS,connectivity
+MSRIT,4,MICROCONTROLLERS,internal components of system-on-chip
+MSRIT,4,MICROCONTROLLERS,general microprocessor unit
+MSRIT,4,MICROCONTROLLERS,mcu pin diagram
+MSRIT,4,MICROCONTROLLERS,timers and counters
+MSRIT,4,MICROCONTROLLERS,pulse width modulator
+MSRIT,4,MICROCONTROLLERS,serial communication
+MSRIT,4,MICROCONTROLLERS,direct memory access
+MSRIT,4,MICROCONTROLLERS,semiconductor memory
+MSRIT,4,MICROCONTROLLERS,designing low power systems
+MSRIT,4,MICROCONTROLLERS,bus architecture
+MSRIT,4,MICROCONTROLLERS,embedded systems – the software
+MSRIT,4,MICROCONTROLLERS,endian-ness
+MSRIT,4,MICROCONTROLLERS,data alignment and memory banks
+MSRIT,4,MICROCONTROLLERS,peripheral i/o and memory mapped i/o
+MSRIT,4,MICROCONTROLLERS,load store architecture
+MSRIT,4,MICROCONTROLLERS,stack
+MSRIT,4,MICROCONTROLLERS,flags
+MSRIT,4,MICROCONTROLLERS,the architecture of arm 7
+MSRIT,4,MICROCONTROLLERS,arm 7 architecture
+MSRIT,4,MICROCONTROLLERS,interrupts and exceptions
+MSRIT,4,MICROCONTROLLERS,arm7 pipeline
+MSRIT,4,MICROCONTROLLERS,advanced features
+MSRIT,4,MICROCONTROLLERS,assembly programming of arm7
+MSRIT,4,MICROCONTROLLERS,embedded program development
+MSRIT,4,MICROCONTROLLERS,arm7 instruction set
+MSRIT,4,MICROCONTROLLERS,assembly language programming
+MSRIT,4,MICROCONTROLLERS,accessing memory
+MSRIT,4,MICROCONTROLLERS,programming of arm7 using c
+MSRIT,4,MICROCONTROLLERS,arm7 soc
+MSRIT,4,MICROCONTROLLERS,architecture of arm cortex-m
+MSRIT,4,MICROCONTROLLERS,cortex-m processors
+MSRIT,4,MICROCONTROLLERS,cortex-m0
+MSRIT,4,MICROCONTROLLERS,modes and states
+MSRIT,4,MICROCONTROLLERS,programming model
+MSRIT,4,MICROCONTROLLERS,memory model
+MSRIT,4,MICROCONTROLLERS,nested vetor interrupt controller
+MSRIT,4,MICROCONTROLLERS,power management using sleep modes
+MSRIT,4,MICROCONTROLLERS,cortex-m processors
+MSRIT,4,Design and Analysis of Algorithms,divide-and-conquer
+MSRIT,4,Design and Analysis of Algorithms,probabilistic analysis
+MSRIT,4,Design and Analysis of Algorithms,randomized algorithms
+MSRIT,4,Design and Analysis of Algorithms,recurrences
+MSRIT,4,Design and Analysis of Algorithms,recursion-tree method
+MSRIT,4,Design and Analysis of Algorithms,master method
+MSRIT,4,Design and Analysis of Algorithms,heapsort
+MSRIT,4,Design and Analysis of Algorithms,priority queues
+MSRIT,4,Design and Analysis of Algorithms,quicksort
+MSRIT,4,Design and Analysis of Algorithms,counting sort
+MSRIT,4,Design and Analysis of Algorithms,radix sort
+MSRIT,4,Design and Analysis of Algorithms,bucket sort
+MSRIT,4,Design and Analysis of Algorithms,hash tables
+MSRIT,4,Design and Analysis of Algorithms,binary search trees
+MSRIT,4,Design and Analysis of Algorithms,red-black trees
+MSRIT,4,Design and Analysis of Algorithms,amortized analysis
+MSRIT,4,Design and Analysis of Algorithms,dynamic programming
+MSRIT,4,Design and Analysis of Algorithms,greedy algorithms
+MSRIT,4,Design and Analysis of Algorithms,graph traversal
+MSRIT,4,Design and Analysis of Algorithms,shortest paths
+MSRIT,4,Design and Analysis of Algorithms,maximum flow
+MSRIT,4,Design and Analysis of Algorithms,computational complexity
+MSRIT,4,Design and Analysis of Algorithms,approximation algorithms
+MSRIT,4,Design and Analysis of Algorithms,backtracking algorithm
+MSRIT,4,Design and Analysis of Algorithms,sorting algorithms
+MSRIT,4,Design and Analysis of Algorithms,graph algorithms
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,data models
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,schemas and instances
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,entity relationship model
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,relational model
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,relational algebra
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,sql data definition
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,sql data types
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,database design
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,functional dependencies
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,normal forms
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,transaction processing
+MSRIT,4,DATABASE MANAGEMENT SYSTEMS,two-phase locking techniques
+MSRIT,4,Advanced Java,java
+MSRIT,4,Advanced Java,inheritance
+MSRIT,4,Advanced Java,exception handling
+MSRIT,4,Advanced Java,lambda expressions
+MSRIT,4,Advanced Java,multithreaded programming
+MSRIT,4,Advanced Java,generics
+MSRIT,4,Advanced Java,swing
+MSRIT,4,Advanced Java,jdbc
+MSRIT,4,Advanced Java,servlets
+MSRIT,4,Advanced Java,jsp
+MSRIT,4,Database Systems,sql
+MSRIT,4,Database Systems,mongodb
+MSRIT,4,Database Systems,sql queries
+MSRIT,4,Database Systems,data definition language utilities
+MSRIT,4,Database Systems,plsql
+MSRIT,4,Database Systems,database schema
+MSRIT,4,Database Systems,data update problems
+MSRIT,4,Database Systems,query problems
+MSRIT,4,Database Systems,programmatic components
+MSRIT,4,Advanced Java Lab,java
+MSRIT,4,Advanced Java Lab,queue implementation
+MSRIT,4,Advanced Java Lab,custom exceptions
+MSRIT,4,Advanced Java Lab,string operations
+MSRIT,4,Advanced Java Lab,inheritance
+MSRIT,4,Advanced Java Lab,polymorphism
+MSRIT,4,Advanced Java Lab,encapsulation
+MSRIT,3,Data Structures,collections
+MSRIT,3,Data Structures,sorting
+MSRIT,4,Data Structures,stacks
+MSRIT,4,Data Structures,queues
+MSRIT,4,Data Structures,push pop clear isempty display methods
+MSRIT,4,Database Systems,jdbc
+MSRIT,4,Database Systems,mysql database
+MSRIT,4,Database Systems,database design
+MSRIT,4,Java Programming,java
+MSRIT,4,Java Programming,swing
+MSRIT,4,Java Programming,validation
+MSRIT,4,Java Programming,dialog boxes
+MSRIT,4,Java Programming,gui components
+MSRIT,4,Java Programming,jdbctemplate
+MSRIT,4,Web Development,jsp
+MSRIT,4,Web Development,html
+MSRIT,4,Web Development,css
+MSRIT,4,Web Development,data visualization
+MSRIT,6,Devops,ci/cd
+MSRIT,6,Devops,ci/cd pipelines
+MSRIT,6,Devops,circuit breaker pattern
+MSRIT,6,Devops,disaster recovery planning
+MSRIT,6,Devops,docker
+MSRIT,6,Devops,event-driven architecture
+MSRIT,6,Devops,excel
+MSRIT,6,Devops,feature engineering
+MSRIT,6,Devops,feature stores
+MSRIT,6,Devops,github actions
+MSRIT,6,Devops,gitops
+MSRIT,6,Devops,golang
+MSRIT,4,Data Analytics with Python,data visualization
+MSRIT,4,Data Analytics with Python,deep learning
+MSRIT,4,Data Analytics with Python,generative ai
+MSRIT,4,Data Analytics with Python,llm
+MSRIT,4,Data Analytics with Python,llm fine-tuning
+MSRIT,4,Data Analytics with Python,machine learning
+MSRIT,4,Data Analytics with Python,python
+MSRIT,5,Software Management,agile planning
+MSRIT,5,Software Management,quality management
+MSRIT,5,Software Management,project scheduling
+MSRIT,5,Software Management,software pricing
+MSRIT,5,Software Management,software quality
+MSRIT,5,Software Management,teamwork
+MSRIT,5,Software Management,risk management
+MSRIT,5,Software Management,plan-driven development
+MSRIT,5,Software Management,project planning
+MSRIT,5,Software Management,managing people
+MSRIT,5,Software Engineering,software engineering
+MSRIT,5,Software Engineering,software development processes
+MSRIT,5,Software Engineering,software architectural design
+MSRIT,5,Software Engineering,software testing
+MSRIT,5,Software Engineering,software project management
+MSRIT,5,Software Engineering,software evolution processes
+MSRIT,5,Software Engineering,software project management issues
+MSRIT,5,Software Engineering,process improvement
+MSRIT,5,Artificial Intelligence,problem-solving
+MSRIT,5,Artificial Intelligence,intelligent agents
+MSRIT,5,Artificial Intelligence,rationality
+MSRIT,5,Artificial Intelligence,agents and environments
+MSRIT,5,Artificial Intelligence,search algorithms
+MSRIT,5,Artificial Intelligence,uninformed search strategies
+MSRIT,5,Artificial Intelligence,informed search strategies
+MSRIT,5,Artificial Intelligence,greedy best-first search
+MSRIT,5,Artificial Intelligence,a* search
+MSRIT,5,Artificial Intelligence,heuristic functions
+MSRIT,5,Artificial Intelligence,adversarial search
+MSRIT,5,Artificial Intelligence,optimal decisions in games
+MSRIT,5,Artificial Intelligence,heuristic alpha-beta tree search
+MSRIT,5,Artificial Intelligence,logical agents
+MSRIT,5,Artificial Intelligence,knowledge based agents
+MSRIT,5,Artificial Intelligence,first-order logic
+MSRIT,5,Artificial Intelligence,representation revisited
+MSRIT,5,Artificial Intelligence,syntax and semantics of first-order logic
+MSRIT,5,Artificial Intelligence,inference in first-order logic
+MSRIT,5,Artificial Intelligence,propositional versus first-order inference
+MSRIT,5,Artificial Intelligence,unification
+MSRIT,5,Artificial Intelligence,forward chaining
+MSRIT,5,Artificial Intelligence,backward chaining
+MSRIT,5,Artificial Intelligence,resolution
+MSRIT,5,Computer Networks,networking
+MSRIT,5,Computer Networks,tcp/ip
+MSRIT,5,Computer Networks,osi model
+MSRIT,5,Computer Networks,data link layer
+MSRIT,5,Computer Networks,arp
+MSRIT,5,Computer Networks,crc
+MSRIT,5,Computer Networks,checksum
+MSRIT,5,Computer Networks,ip addresses
+MSRIT,5,Computer Networks,ipv4
+MSRIT,5,Computer Networks,ipv6
+MSRIT,5,Computer Networks,icmp
+MSRIT,5,Computer Networks,routing algorithms
+MSRIT,5,Computer Networks,distance vector routing
+MSRIT,5,Computer Networks,link state routing
+MSRIT,5,Computer Networks,multicast distance vector
+MSRIT,5,Computer Networks,transport layer protocols
+MSRIT,5,Computer Networks,simple protocol
+MSRIT,5,Computer Networks,stop-and-wait protocol
+MSRIT,5,Computer Networks,go-back-n protocol
+MSRIT,5,Computer Networks,selective-repeat protocol
+MSRIT,5,Computer Networks,piggybacking
+MSRIT,5,Computer Networks,udp
+MSRIT,5,Computer Networks,tcp
+MSRIT,5,Computer Networks,dns
+MSRIT,5,Computer Networks,port numbers
+MSRIT,5,Computer Networks,domain name system
+MSRIT,5,Theory of Computation,finite automata
+MSRIT,5,Theory of Computation,deterministic finite automata
+MSRIT,5,Theory of Computation,nondeterministic finite automata
+MSRIT,5,Theory of Computation,finite automata with epsilon-transitions
+MSRIT,5,Theory of Computation,regular expressions
+MSRIT,5,Theory of Computation,equivalence and minimization of automata
+MSRIT,5,Theory of Computation,context-free grammars
+MSRIT,5,Theory of Computation,parse trees
+MSRIT,5,Theory of Computation,pushdown automata
+MSRIT,5,Theory of Computation,turing machine
+MSRIT,5,Computer Networks,ns2
+MSRIT,5,Operations Research,linear programming
+MSRIT,5,Operations Research,simplex method
+MSRIT,5,Operations Research,duality
+MSRIT,5,Operations Research,game theory
+MSRIT,5,Operations Research,project management
+MSRIT,5,Operations Research,transportation problem
+MSRIT,5,Operations Research,assignment problem
+MSRIT,5,Mobile Application Development,swift
+MSRIT,5,Mobile Application Development,xcode
+MSRIT,5,Mobile Application Development,swift strings
+MSRIT,5,Mobile Application Development,interface builder
+MSRIT,5,Mobile Application Development,swift programming
+MSRIT,5,Mobile Application Development,uikit
+MSRIT,5,Mobile Application Development,auto layout
+MSRIT,5,Mobile Application Development,swift fundamentals
+MSRIT,5,Mobile Application Development,swift data collections
+MSRIT,5,Mobile Application Development,swift language
+MSRIT,5,Mobile Application Development,swift constructs
+MSRIT,5,Mobile Application Development,class
+MSRIT,5,Mobile Application Development,structures
+MSRIT,5,Mobile Application Development,enums
+MSRIT,5,Mobile Application Development,segues
+MSRIT,5,Mobile Application Development,navigation controllers
+MSRIT,5,Mobile Application Development,tab bar controllers
+MSRIT,5,Mobile Application Development,table views
+MSRIT,5,Mobile Application Development,scroll views
+MSRIT,5,Distributed Systems,distributed transactions
+MSRIT,5,Distributed Systems,remote procedure call
+MSRIT,5,Distributed Systems,synchronizing physical clocks
+MSRIT,5,SOFTWARE DESIGN PATTERNS,design patterns
+MSRIT,5,SOFTWARE DESIGN PATTERNS,open-closed principle
+MSRIT,5,SOFTWARE DESIGN PATTERNS,uml
+MSRIT,5,SOFTWARE DESIGN PATTERNS,facade pattern
+MSRIT,5,SOFTWARE DESIGN PATTERNS,adapter pattern
+MSRIT,5,SOFTWARE DESIGN PATTERNS,strategy pattern
+MSRIT,5,SOFTWARE DESIGN PATTERNS,bridge pattern
+MSRIT,5,SOFTWARE DESIGN PATTERNS,abstract factory pattern
+MSRIT,5,SOFTWARE DESIGN PATTERNS,observer pattern
+MSRIT,5,SOFTWARE DESIGN PATTERNS,template method pattern
+MSRIT,5,SOFTWARE DESIGN PATTERNS,singleton pattern
+MSRIT,5,SOFTWARE DESIGN PATTERNS,factory method pattern
+MSRIT,5,NoSQL Databases,nosql databases
+MSRIT,5,NoSQL Databases,key value database
+MSRIT,5,NoSQL Databases,document databases
+MSRIT,5,NoSQL Databases,column family databases
+MSRIT,5,NoSQL Databases,graph databases
+MSRIT,5,Frontend Development Using React JS,jsx
+MSRIT,5,Frontend Development Using React JS,react components
+MSRIT,5,Frontend Development Using React JS,event handling in react
+MSRIT,5,Frontend Development Using React JS,react devtools
+MSRIT,5,Frontend Development Using React JS,react routing
+MSRIT,5,Frontend Development Using React JS,css modules
+MSRIT,5,Frontend Development Using React JS,hooks in react
+MSRIT,6,Machine Learning,supervised learning
+MSRIT,6,Machine Learning,clustering
+MSRIT,6,Machine Learning,validation methods
+MSRIT,6,Machine Learning Lab,scikit-learn
+MSRIT,6,Machine Learning Lab,confusion matrix
+MSRIT,6,Machine Learning Lab,roc & auc curves
+MSRIT,6,Machine Learning Lab,auc
+MSRIT,6,Machine Learning Lab,decision tree
+MSRIT,6,Machine Learning Lab,knn
+MSRIT,6,Machine Learning Lab,naive bayes classifier
+MSRIT,6,Machine Learning Lab,k-means model
+MSRIT,6,Machine Learning Lab,hierarchical clustering
+MSRIT,6,Machine Learning Lab,dbscan
+MSRIT,6,DevOps,project planning
+MSRIT,6,DevOps,clean code structure
+MSRIT,6,DevOps,git operations
+MSRIT,6,DevOps,github collaboration
+MSRIT,6,DevOps,kanban boards
+MSRIT,6,DevOps,dashboard creation
+MSRIT,6,DevOps,jenkins configuration
+MSRIT,6,DevOps,azure pipelines
+MSRIT,6,DevOps,ansible configuration
+MSRIT,6,DevOps,dockerfile creation
+MSRIT,6,DevOps,kubernetes deployment
+MSRIT,6,DevOps,test automation
+MSRIT,6,DevOps,devops culture
+MSRIT,6,DevOps,continuous integration
+MSRIT,6,DevOps,containerization
+MSRIT,6,DevOps,azure devops configuration
+MSRIT,6,iOS Development,swift
+MSRIT,6,iOS Development,data collections
+MSRIT,6,iOS Development,scroll view
+MSRIT,6,iOS Development,table view controllers
+MSRIT,6,iOS Development,system view controllers
+MSRIT,6,iOS Development,complex views
+MSRIT,6,iOS Development,data encoding
+MSRIT,6,iOS Development,data decoding
+MSRIT,6,iOS Development,web services
+MSRIT,6,iOS Development,collection views
+MSRIT,6,iOS Development,project design
+MSRIT,6,iOS Development,project prototyping
+MSRIT,6,iOS Development,project architecture
+MSRIT,6,Internet of Things,iot protocols
+MSRIT,6,Internet of Things,iot communication apis
+MSRIT,6,Internet of Things,iot enabling technologies
+MSRIT,6,Internet of Things,communication protocols
+MSRIT,6,Internet of Things,embedded systems
+MSRIT,6,Internet of Things,iot levels
+MSRIT,6,Internet of Things,iot system management
+MSRIT,6,Internet of Things,snmp
+MSRIT,6,Internet of Things,sdn
+MSRIT,6,Internet of Things,nfv
+MSRIT,6,Internet of Things,m2m
+MSRIT,6,Internet of Things,iot design methodology
+MSRIT,6,Internet of Things,iot platforms
+MSRIT,6,Internet of Things,python
+MSRIT,6,Internet of Things,raspberry pi
+MSRIT,6,Internet of Things,linux
+MSRIT,6,Internet of Things,iot devices
+MSRIT,6,Internet of Things,python web application framework
+MSRIT,6,Internet of Things,django
+MSRIT,6,Blockchain,distributed systems
+MSRIT,6,Blockchain,blockchain technology
+MSRIT,6,Blockchain,blockchain consensus
+MSRIT,6,Blockchain,cap theorem
+MSRIT,6,Blockchain,decentralization using blockchain
+MSRIT,6,Blockchain,symmetric cryptography
+MSRIT,6,Blockchain,public key cryptography
+MSRIT,6,Blockchain,asymmetric cryptography
+MSRIT,6,Blockchain,cryptographic keys
+MSRIT,6,Blockchain,transactions
+MSRIT,6,Blockchain,blockchain
+MSRIT,6,Blockchain,mining
+MSRIT,6,Blockchain,smart contract templates
+MSRIT,6,Blockchain,oracles
+MSRIT,6,Blockchain,deploying smart contracts on blockchain
+MSRIT,6,Blockchain,ethereum virtual machine
+MSRIT,6,Blockchain,ethereum network
+MSRIT,6,Blockchain,ethereum ecosystem
+MSRIT,6,Blockchain,blocks and blockchain
+MSRIT,6,Blockchain,wallets and client software
+MSRIT,6,Blockchain,nodes and miners
+MSRIT,6,Blockchain,hyperledger reference architecture
+MSRIT,6,Blockchain,hyperledger fabric
+MSRIT,6,Blockchain,hyperledger sawtooth
+MSRIT,6,Blockchain,discrete-event-system-simulation
+MSRIT,6,Blockchain,model-building
+MSRIT,6,Blockchain,verification-and-validation
+MSRIT,6,Blockchain,calibration-and-validation
+MSRIT,6,Blockchain,output-analysis
+MSRIT,6,Business Analytics,machine-learning-algorithms
+MSRIT,6,Business Analytics,predictive-analytics
+MSRIT,6,Business Analytics,descriptive-analysis
+MSRIT,6,Business Analytics,prescriptive-analytics
+MSRIT,6,Business Analytics,data-visualization
+MSRIT,6,Business Analytics,data-mining
+MSRIT,6,Business Analytics,anomaly-detection
+MSRIT,6,Business Analytics,association-rule-learning
+MSRIT,6,Business Analytics,cluster-analysis
+MSRIT,6,Business Analytics,statistical-classification
+MSRIT,6,Business Analytics,regression-analysis
+MSRIT,6,Business Analytics,automatic-summarization
+MSRIT,6,Business Analytics,data-warehousing
+MSRIT,6,Business Analytics,data-mart
+MSRIT,6,Business Analytics,master-data-management
+MSRIT,6,Business Analytics,dimension-data-warehouse
+MSRIT,6,Business Analytics,slowly-changing-dimension
+MSRIT,6,Business Analytics,data-vault-modeling
+MSRIT,6,Business Analytics,extract-transform-load
+MSRIT,6,Business Analytics,star-schema
+MSRIT,6,Business Analytics,mapping-problems-to-machine-learning-tasks
+MSRIT,6,Business Analytics,evaluating-models
+MSRIT,6,Business Analytics,validating-models
+MSRIT,6,Data Engineering and MLOps,data engineering
+MSRIT,6,Data Engineering and MLOps,data architecture
+MSRIT,6,Data Engineering and MLOps,mlops
+MSRIT,6,Data Engineering and MLOps,machine learning
+MSRIT,6,Data Engineering and MLOps,model deployment
+MSRIT,6,Data Engineering and MLOps,ci/cd pipelines
+MSRIT,6,Data Engineering and MLOps,containerization
+MSRIT,6,Data Engineering and MLOps,scaling deployments
+MSRIT,6,Data Engineering and MLOps,model governance
+MSRIT,6,Data Engineering and MLOps,responsible ai
+MSRIT,6,Data Engineering and MLOps,data maturity
+MSRIT,6,Data Engineering and MLOps,data lifecycle
+MSRIT,6,Data Engineering and MLOps,data engineering lifecycle
+MSRIT,6,Data Engineering and MLOps,distributed systems
+MSRIT,6,Data Engineering and MLOps,event-driven architecture
+MSRIT,6,Data Engineering and MLOps,microservices
+MSRIT,6,Data Engineering and MLOps,hybrid cloud
+MSRIT,6,Data Engineering and MLOps,multicloud
+MSRIT,6,Data Engineering and MLOps,blockchain
+MSRIT,6,Data Engineering and MLOps,model risk evaluation
+MSRIT,6,Data Engineering and MLOps,model validation
+MSRIT,6,Data Engineering and MLOps,quality assurance
+MSRIT,6,Data Engineering and MLOps,model deployment types
+MSRIT,6,Data Engineering and MLOps,model deployment requirements
+MSRIT,6,Data Engineering and MLOps,runtime environments
+MSRIT,6,Data Engineering and MLOps,adaptation from development to production
+MSRIT,6,Data Engineering and MLOps,model retraining
+MSRIT,6,Data Engineering and MLOPs,model degradation
+MSRIT,6,Data Engineering and MLOPs,ground truth evaluation
+MSRIT,6,Data Engineering and MLOPs,input drift detection
+MSRIT,6,Data Engineering and MLOPs,drift detection in practice
+MSRIT,6,Data Engineering and MLOPs,logging
+MSRIT,6,Data Engineering and MLOPs,model evaluation
+MSRIT,6,Data Engineering and MLOPs,online evaluation
+MSRIT,6,Data Engineering and MLOPs,model governance
+MSRIT,6,Data Engineering and MLOPs,governance the organization needs
+MSRIT,6,Data Engineering and MLOPs,matching governance with risk level
+MSRIT,6,Data Engineering and MLOPs,current regulations driving mlops governance
+MSRIT,6,Data Engineering and MLOPs,pharmaceutical regulation in the us
+MSRIT,6,Data Engineering and MLOPs,financial model risk management regulation
+MSRIT,6,Data Engineering and MLOPs,gdpr and ccpa data privacy regulations
+MSRIT,6,Data Engineering and MLOPs,the new wave of ai-specific regulation
+MSRIT,6,Data Engineering and MLOPs,the emergence of responsible ai
+MSRIT,6,Data Engineering and MLOPs,key elements of model governance
+MSRIT,6,DATA ANALYTICS WITH PYTHON,numpy
+MSRIT,6,DATA ANALYTICS WITH PYTHON,pandas
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data structures
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data manipulation
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data visualization
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data transformation
+MSRIT,6,DATA ANALYTICS WITH PYTHON,feature scaling
+MSRIT,6,DATA ANALYTICS WITH PYTHON,feature extraction
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data cleaning
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data normalization
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data loading
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data storage
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data file formats
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data aggregation
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data sampling
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data permutation
+MSRIT,6,DATA ANALYTICS WITH PYTHON,data correlation
+MSRIT,6,DATA ANALYTICS WITH PYTHON,time series
+MSRIT,6,DATA ANALYTICS WITH PYTHON,date and time data
+MSRIT,6,DATA ANALYTICS WITH PYTHON,machine learning
+MSRIT,6,DATA ANALYTICS WITH PYTHON,supervised learning
+MSRIT,6,DATA ANALYTICS WITH PYTHON,unsupervised learning
+MSRIT,6,DATA ANALYTICS WITH PYTHON,classification
+MSRIT,6,DATA ANALYTICS WITH PYTHON,regression
+MSRIT,6,DATA ANALYTICS WITH PYTHON,linear regression
+MSRIT,6,DATA ANALYTICS WITH PYTHON,logistic regression
+MSRIT,6,DATA ANALYTICS WITH PYTHON,decision trees
+MSRIT,6,DATA ANALYTICS WITH PYTHON,random forests
+MSRIT,6,DATA ANALYTICS WITH PYTHON,support vector machines
+MSRIT,6,DATA ANALYTICS WITH PYTHON,k-means clustering
+MSRIT,6,DATA ANALYTICS WITH PYTHON,hierarchical clustering
+MSRIT,6,DATA ANALYTICS WITH PYTHON,principal component analysis
+MSRIT,6,DATA ANALYTICS WITH PYTHON,model evaluation
+MSRIT,6,DATA ANALYTICS WITH PYTHON,model validation
+MSRIT,6,DATA ANALYTICS WITH PYTHON,train-test split
+MSRIT,6,DATA ANALYTICS WITH PYTHON,cross-validation
+MSRIT,6,DATA ANALYTICS WITH PYTHON,performance metrics
+MSRIT,6,DATA ANALYTICS WITH PYTHON,accuracy
+MSRIT,6,DATA ANALYTICS WITH PYTHON,precision
+MSRIT,6,DATA ANALYTICS WITH PYTHON,recall
+MSRIT,6,DATA ANALYTICS WITH PYTHON,f1-score
+MSRIT,6,DATA ANALYTICS WITH PYTHON,roc curve
+MSRIT,6,DATA ANALYTICS WITH PYTHON,auc
+MSRIT,7,Data Science,data structures
+MSRIT,7,Data Science,data visualization
+MSRIT,7,Data Science,machine learning
+MSRIT,5,Artificial Intelligence,deep learning
+MSRIT,5,Artificial Intelligence,generative ai
+MSRIT,7,Cloud & Distributed Computing,cloud architecture
+MSRIT,7,Cloud & Distributed Computing,cloud cost optimization
+MSRIT,7,Cloud & Distributed Computing,cloud security
+MSRIT,7,Cloud & Distributed Computing,distributed systems
+MSRIT,7,Cloud & Distributed Computing,kubernetes
+MSRIT,7,Cloud & Distributed Computing,load balancing
+MSRIT,7,Cloud & Distributed Computing,microservices
+MSRIT,7,Cloud & Distributed Computing,message queues
+MSRIT,7,Cloud & Distributed Computing,docker
+MSRIT,7,Cloud & Distributed Computing,linux
+MSRIT,7,Cloud & Distributed Computing,jwt authentication
+MSRIT,7,Cloud & Distributed Computing,security
+MSRIT,7,Cloud & Distributed Computing,project management
+MSRIT,7,Cloud & Distributed Computing,lifelong learning
+MSRIT,7,Cloud & Distributed Computing,software development practices
+MSRIT,7,Cloud & Distributed Computing,computing models
+MSRIT,7,Cloud & Distributed Computing,data engineering
+MSRIT,7,Distributed Computing,distributed systems
+MSRIT,7,Information Security,cloud security
+MSRIT,7,Gen AI Lab,generative ai
+MSRIT,7,Big Data Lab,data visualization
+MSRIT,7,Predictive analytics,machine learning
+MSRIT,7,Statistical Machine Learning,machine learning
+MSRIT,7,Software Testing,ci/cd pipelines
+MSRIT,7,Introduction to Artificial Intelligence,llm fine-tuning
+MSRIT,7,Fundamental of Cloud Computing,cloud architecture
+MSRIT,8,Distributed Computing,parallel programming
+MSRIT,8,Distributed Computing,gpu programming
+MSRIT,8,Distributed Computing,mpi programming
+MSRIT,8,Distributed Computing,open mp programming
+MSRIT,8,Distributed Computing,cuda programming
+MSRIT,8,Distributed Computing,distributed memory programming
+MSRIT,8,Distributed Computing,shared memory programming
+MSRIT,8,Distributed Computing,heterogeneous computing
+MSRIT,8,Distributed Computing,gpu architectures
+MSRIT,8,Distributed Computing,vector addition
+MSRIT,8,Distributed Computing,cuda trapezoidal rule
+MSRIT,5,Information Security,cryptography
+MSRIT,5,Information Security,symmetric ciphers
+MSRIT,5,Information Security,public key algorithms
+MSRIT,5,Information Security,hash and mac algorithms
+MSRIT,5,Information Security,entity authentication
+MSRIT,5,Information Security,key management
+MSRIT,5,Information Security,automated attack and penetration tools
+MSRIT,5,Information Security,malware detection
+MSRIT,7,Deep Learning,neural networks
+MSRIT,7,Deep Learning,activation functions
+MSRIT,7,Deep Learning,loss functions
+MSRIT,7,Deep Learning,hyperparameters
+MSRIT,7,Deep Learning,convolutional neural networks
+MSRIT,7,Deep Learning,recurrent neural networks
+MSRIT,7,Deep Learning,recursive neural networks
+MSRIT,7,Deep Learning,unsupervised pretrained networks
+MSRIT,7,Deep Learning,tuning deep networks
+MSRIT,7,Deep Learning,weight initialization strategies
+MSRIT,7,Deep Learning,learning rates
+MSRIT,7,Deep Learning,sparsity
+MSRIT,7,Deep Learning,parallelization
+MSRIT,7,Deep Learning,gpus
+MSRIT,7,Deep Learning,regularization
+MSRIT,7,Deep Learning,class imbalance
+MSRIT,7,Deep Learning,overfitting
+MSRIT,7,Deep Learning,cnn
+MSRIT,7,Deep Learning,rnn
+MSRIT,7,Deep Learning,vggnet
+MSRIT,7,Deep Learning,googlenet
+MSRIT,7,Deep Learning,alexnet
+MSRIT,7,Deep Learning,capsule networks
+MSRIT,7,Deep Learning,autoencoders
+MSRIT,7,Deep Learning,undercomplete autoencoders
+MSRIT,7,Deep Learning,regularized autoencoders
+MSRIT,7,Deep Learning,stochastic encoders and decoders
+MSRIT,7,Deep Learning,denoising autoencoders
+MSRIT,7,Deep Learning,contractive autoencoders
+MSRIT,7,Deep Learning,boltzmann machines
+MSRIT,7,Deep Learning,restricted boltzmann machines
+MSRIT,7,Deep Learning,deep belief networks
+MSRIT,7,Deep Learning,deep boltzmann machines
+MSRIT,7,Deep Learning,generative models
+MSRIT,7,Predictive Analytics,data visualization
+MSRIT,7,Predictive Analytics,predictive modeling
+MSRIT,7,Predictive Analytics,data preparation
+MSRIT,7,Predictive Analytics,descriptive modeling
+MSRIT,7,Predictive Analytics,principal component analysis
+MSRIT,7,Predictive Analytics,association rules
+MSRIT,7,Predictive Analytics,text mining
+MSRIT,7,Predictive Analytics,regression models
+MSRIT,5,Software Engineering,test plan documentation
+MSRIT,5,Software Engineering,defect documentation
+MSRIT,5,Software Engineering,communication with stakeholders
+MSRIT,5,Software Engineering,code coverage
+MSRIT,5,Software Engineering,defect tracking metrics
+MSRIT,5,Software Engineering,test effectiveness reports
+MSRIT,5,Software Engineering,software development lifecycle
+MSRIT,5,Software Engineering,testing techniques
+MSRIT,5,Software Engineering,test results analysis
+MSRIT,5,Software Engineering,testing strategies evaluation
+MSRIT,5,Software Engineering,test plan creation
+MSRIT,7,Generative AI,image generation
+MSRIT,7,Generative AI,video generation
+MSRIT,7,Generative AI,copilot
+MSRIT,7,Generative AI,claudes
+MSRIT,7,Generative AI,brad
+MSRIT,7,Generative AI,large language models
+MSRIT,7,Generative AI,prompt engineering
+MSRIT,7,Generative AI,dnn tensor flow
+MSRIT,7,Generative AI,word embeddings
+MSRIT,7,Generative AI,hugging face models
+MSRIT,7,Generative AI,langchain basics
+MSRIT,7,Generative AI,langchain model io
+MSRIT,7,Generative AI,langchain rag
+MSRIT,7,Generative AI,langchain memory
+MSRIT,7,Generative AI,langchain agents
+MSRIT,7,Generative AI,recurrent neural network
+MSRIT,7,Generative AI,long short-term memory
+MSRIT,7,Generative AI,transformers
+MSRIT,7,Generative AI,project based learning
+MSRIT,7,Generative AI,deep learning
+MSRIT,7,Generative AI,machine learning
+MSRIT,7,Generative AI,data visualization
+MSRIT,7,Generative AI,natural language processing
+MSRIT,7,Generative AI,deep learning
+MSRIT,7,Generative AI,natural language processing
+MSRIT,7,Generative AI,deep learning
+MSRIT,7,Generative AI,nlp
+MSRIT,7,Generative AI,api gateway
+MSRIT,7,Generative AI,chatbot development
+MSRIT,7,Generative AI,machine learning
+MSRIT,7,Generative AI,machine learning
+MSRIT,7,Generative AI,deep learning
+MSRIT,7,Generative AI,machine learning
+MSRIT,7,Big Data Analytics,hadoop
+MSRIT,7,Big Data Analytics,mapreduce
+MSRIT,7,Big Data Analytics,apache spark
+MSRIT,7,Big Data Analytics,pig
+MSRIT,5,Artificial Intelligence,weak ai
+MSRIT,5,Artificial Intelligence,strong ai
+MSRIT,5,Artificial Intelligence,supervised learning
+MSRIT,5,Artificial Intelligence,decision trees
+MSRIT,5,Artificial Intelligence,artificial neural networks
+MSRIT,5,Artificial Intelligence,support vector machine
+MSRIT,5,Artificial Intelligence,ensemble learning
+MSRIT,5,Artificial Intelligence,breadth-first search
+MSRIT,5,Artificial Intelligence,depth-first search
+MSRIT,5,Artificial Intelligence,greedy algorithms
+MSRIT,5,Artificial Intelligence,a* algorithm
+MSRIT,5,Artificial Intelligence,propositional logic
+MSRIT,5,Artificial Intelligence,unification and lifting
+MSRIT,5,Artificial Intelligence,linear models
+MSRIT,5,Artificial Intelligence,regression
+MSRIT,5,Artificial Intelligence,classification
+MSRIT,5,Artificial Intelligence,ethical considerations in ai
+MSRIT,5,Artificial Intelligence,bias
+MSRIT,5,Artificial Intelligence,privacy
+MSRIT,5,Artificial Intelligence,accountability
+MSRIT,6,Mobile Application Development 2,golang
+MSRIT,6,Mobile Application Development 2,grpc
+MSRIT,6,Mobile Application Development 2,helm charts
+MSRIT,6,Mobile Application Development 2,html
+MSRIT,6,Mobile Application Development 2,javascript
+MSRIT,6,Mobile Application Development 2,jwt authentication
+MSRIT,6,Mobile Application Development 2,kubernetes
+MSRIT,6,Mobile Application Development 2,linux
+MSRIT,6,Mobile Application Development 2,microservices
+MSRIT,6,Internet of Things,aws
+MSRIT,6,Internet of Things,azure
+MSRIT,6,Internet of Things,cloud architecture
+MSRIT,6,Internet of Things,cloud security
+MSRIT,6,Internet of Things,iot
+MSRIT,6,Block chain essentials and DApps,blockchain
+MSRIT,6,Block chain essentials and DApps,ethereum
+MSRIT,6,Block chain essentials and DApps,smart contracts
+MSRIT,5,System Simulation and Modeling,matlab
+MSRIT,5,System Simulation and Modeling,simulink
+MSRIT,6,Business Analytics,data visualization
+MSRIT,6,Business Analytics,excel
+MSRIT,6,Business Analytics,kpi tracking
+MSRIT,7,Data Engineering and MLOps,aws
+MSRIT,7,Data Engineering and MLOps,azure
+MSRIT,7,Data Engineering and MLOps,cloud architecture
+MSRIT,7,Data Engineering and MLOps,cloud cost optimization
+MSRIT,7,Data Engineering and MLOps,python
+MSRIT,6,Natural Language Processing,deep learning
+MSRIT,6,Natural Language Processing,generative ai
+MSRIT,6,Natural Language Processing,llm
+MSRIT,6,Natural Language Processing,nlp
+MSRIT,5,Cloud Computing,aws
+MSRIT,5,Cloud Computing,azure
+MSRIT,5,Cloud Computing,cloud architecture
+MSRIT,5,Cloud Computing,cloud cost optimization
+MSRIT,5,Cloud Computing,cloud security
+MSRIT,5,Cloud Computing,kubernetes
+MSRIT,5,Computer Networks,crc (16-bits) technique
+MSRIT,5,Computer Networks,priority queuing
+MSRIT,5,Computer Networks,leaky bucket algorithm
+MSRIT,5,Computer Networks,tcp/ip sockets
+MSRIT,5,Computer Networks,ns-2 simulation
+MSRIT,5,Computer Networks,c/c++ programming
+MSRIT,5,Research Methodology and Intellectual Property Rights,citations
+MSRIT,5,Research Methodology and Intellectual Property Rights,bibliographic databases
+MSRIT,5,Research Methodology and Intellectual Property Rights,research design
+MSRIT,5,Research Methodology and Intellectual Property Rights,experimental design
+MSRIT,5,Research Methodology and Intellectual Property Rights,data analysis
+MSRIT,5,Research Methodology and Intellectual Property Rights,hypothesis testing
+MSRIT,5,Research Methodology and Intellectual Property Rights,sampling design
+MSRIT,5,Research Methodology and Intellectual Property Rights,intellectual property rights
+MSRIT,5,Research Methodology and Intellectual Property Rights,patent law
+MSRIT,5,Research Methodology and Intellectual Property Rights,patent applications
+MSRIT,5,NOSQL DATABASE,nosql database
+MSRIT,5,NOSQL DATABASE,distributed databases
+MSRIT,5,NOSQL DATABASE,acid and base
+MSRIT,5,NOSQL DATABASE,key value databases
+MSRIT,5,NOSQL DATABASE,key value database terminology
+MSRIT,5,NOSQL DATABASE,key value architecture
+MSRIT,5,NOSQL DATABASE,key design and partitioning
+MSRIT,5,NOSQL DATABASE,document databases
+MSRIT,5,NOSQL DATABASE,document database terminology
+MSRIT,5,NOSQL DATABASE,data modelling and query processing
+MSRIT,5,NOSQL DATABASE,column family databases
+MSRIT,5,NOSQL DATABASE,column family database terminology
+MSRIT,5,NOSQL DATABASE,designing for column family databases
+MSRIT,5,NOSQL DATABASE,graph databases
+MSRIT,5,NOSQL DATABASE,graph database terminology
+MSRIT,5,NOSQL DATABASE,graph database querying
+MSRIT,6,Management & Entrepreneurship,leadership
+MSRIT,6,Management & Entrepreneurship,management by objectives
+MSRIT,6,Management & Entrepreneurship,organizing
+MSRIT,6,Management & Entrepreneurship,planning
+MSRIT,6,Management & Entrepreneurship,staffing
+MSRIT,6,Management & Entrepreneurship,controlling
+MSRIT,6,Management & Entrepreneurship,entrepreneurship
+MSRIT,6,Management & Entrepreneurship,creative thinking
+MSRIT,6,Management & Entrepreneurship,business planning
+MSRIT,6,Management & Entrepreneurship,forms of business ownership
+MSRIT,6,Management & Entrepreneurship,franchising
+MSRIT,6,NLP using Quantum Computing,natural language processing
+MSRIT,6,NLP using Quantum Computing,quantum computing
+MSRIT,6,NLP using Quantum Computing,computational linguistics
+MSRIT,6,NLP using Quantum Computing,speech recognition
+MSRIT,6,NLP using Quantum Computing,information retrieval
+MSRIT,6,NLP using Quantum Computing,n-gram models
+MSRIT,6,NLP using Quantum Computing,pos tagging
+MSRIT,6,NLP using Quantum Computing,spell checking
+MSRIT,6,NLP using Quantum Computing,pronunciation-related tasks
+MSRIT,6,NLP using Quantum Computing,unification
+MSRIT,6,NLP using Quantum Computing,early parsing algorithms
+MSRIT,6,NLP using Quantum Computing,probabilistic context free grammar
+MSRIT,6,NLP using Quantum Computing,first order predicate calculus
+MSRIT,6,NLP using Quantum Computing,syntax-driven methods
+MSRIT,6,NLP using Quantum Computing,semantic analysis
+MSRIT,6,NLP using Quantum Computing,lexical semantics
+MSRIT,6,NLP using Quantum Computing,wordnet
+MSRIT,6,NLP using Quantum Computing,reference resolution
+MSRIT,6,NLP using Quantum Computing,coherent text understanding
+MSRIT,6,CLOUD COMPUTING,cloud architecture
+MSRIT,6,CLOUD COMPUTING,cloud cost optimization
+MSRIT,6,CLOUD COMPUTING,cloud security
+MSRIT,6,CLOUD COMPUTING,distributed systems
+MSRIT,6,CLOUD COMPUTING,infrastructure as code
+MSRIT,6,CLOUD COMPUTING,kubernetes
+MSRIT,6,CLOUD COMPUTING,load balancing
+MSRIT,6,CLOUD COMPUTING,microservices
+MSRIT,6,CLOUD COMPUTING,virtualization
+MSRIT,6,Cloud Computing,distributed systems
+MSRIT,6,Cloud Computing,virtualization
+MSRIT,4,Data Structures & Algorithms,dynamic programming
+MSRIT,4,Data Structures & Algorithms,greedy algorithms
+MSRIT,4,Data Structures & Algorithms,divide and conquer algorithms
+MSRIT,4,Data Structures & Algorithms,segment trees
+MSRIT,4,Data Structures & Algorithms,fenwick trees
+MSRIT,4,Data Structures & Algorithms,tries
+MSRIT,5,Computer Networks,osi vs tcp/ip
+MSRIT,5,Computer Networks,tcp vs udp
+MSRIT,5,Computer Networks,routing protocols and algorithms
+MSRIT,5,Computer Networks,subnetting
+MSRIT,5,Computer Networks,http/1.1 to http/2 to http/3
+MSRIT,5,Computer Networks,network security basics
+MSRIT,4,Database Management Systems,advanced sql
+MSRIT,4,Database Management Systems,transactions and acid
+MSRIT,4,Database Management Systems,indexing and query optimization
+MSRIT,4,Database Management Systems,normalization vs denormalization
+MSRIT,4,Database Management Systems,concurrency control
+MSRIT,4,Database Management Systems,deadlocks
+MSRIT,4,Database Management Systems,recovery
+MSRIT,4,Database Management Systems,triggers
+MSRIT,4,Database Management Systems,stored procedures
+MSRIT,4,Database Management Systems,nosql basics
+MSRIT,6,Object-Oriented Programming,abstraction
+MSRIT,6,Object-Oriented Programming,encapsulation
+MSRIT,6,Object-Oriented Programming,inheritance
+MSRIT,6,Object-Oriented Programming,polymorphism
+MSRIT,6,Object-Oriented Programming,method overloading vs overridding
+MSRIT,6,Object-Oriented Programming,abstract class vs interface
+MSRIT,6,Object-Oriented Programming,multiple inheritance
+MSRIT,6,Object-Oriented Programming,static vs dynamic binding
+MSRIT,6,Object-Oriented Programming,heap vs stack memory in oop
+MSRIT,5,Software Engineering,singleton design pattern
+MSRIT,5,Software Engineering,factory design pattern
+MSRIT,5,Software Engineering,adapter design pattern
+MSRIT,5,Software Engineering,decorator design pattern
+MSRIT,5,Software Engineering,observer design pattern
+MSRIT,5,Software Engineering,strategy design pattern
+MSRIT,5,Software Engineering,solid principles
+MSRIT,5,Software Engineering,clean code best practices
+MSRIT,5,Software Engineering,low-level design
+MSRIT,3,Operating Systems,linux
+MSRIT,3,Operating Systems,kernel
+MSRIT,3,Operating Systems,kernel design
+MSRIT,3,Operating Systems,system calls
+MSRIT,3,Operating Systems,device drivers
+MSRIT,3,Operating Systems,process management
+MSRIT,3,Operating Systems,memory management
+MSRIT,3,Operating Systems,paging
+MSRIT,3,Operating Systems,segmentation
+MSRIT,3,Operating Systems,virtual memory
+MSRIT,3,Operating Systems,thrashing
+MSRIT,3,Operating Systems,deadlocks
+MSRIT,3,Operating Systems,file systems
+MSRIT,3,Operating Systems,linux commands
+MSRIT,3,Operating Systems,signals
+MSRIT,3,Operating Systems,hard links
+MSRIT,3,Operating Systems,package management
+MSRIT,3,Operating Systems,log management
+MSRIT,7,STATISTICAL MACHINE LEARNING,probability
+MSRIT,7,STATISTICAL MACHINE LEARNING,statistics
+MSRIT,7,STATISTICAL MACHINE LEARNING,bayes theorem
+MSRIT,7,STATISTICAL MACHINE LEARNING,conditional probability
+MSRIT,7,STATISTICAL MACHINE LEARNING,descriptive measures
+MSRIT,7,STATISTICAL MACHINE LEARNING,probability distribution
+MSRIT,7,STATISTICAL MACHINE LEARNING,random variables
+MSRIT,7,STATISTICAL MACHINE LEARNING,theoretical support
+MSRIT,7,STATISTICAL MACHINE LEARNING,Single-Factor ANOVA
+MSRIT,7,STATISTICAL MACHINE LEARNING,Multiple Comparisons in ANOVA
+MSRIT,7,STATISTICAL MACHINE LEARNING,More on Single-Factor ANOVA
+MSRIT,7,STATISTICAL MACHINE LEARNING,Two-Factor ANOVA
+MSRIT,7,STATISTICAL MACHINE LEARNING,Three-Factor ANOVA
+MSRIT,7,STATISTICAL MACHINE LEARNING,Distribution free procedures: Wilcoxon single rank test
+MSRIT,7,STATISTICAL MACHINE LEARNING,distribution-free confidence intervals
+MSRIT,7,STATISTICAL MACHINE LEARNING,distribution-free ANOVA
+MSRIT,7,SOFTWARE TESTING,black-box testing
+MSRIT,7,SOFTWARE TESTING,white-box testing
+MSRIT,7,SOFTWARE TESTING,gray-box testing
+MSRIT,7,SOFTWARE TESTING,manual testing
+MSRIT,7,SOFTWARE TESTING,automation testing
+MSRIT,7,SOFTWARE TESTING,unit testing
+MSRIT,7,SOFTWARE TESTING,integration testing
+MSRIT,7,SOFTWARE TESTING,system testing
+MSRIT,7,SOFTWARE TESTING,acceptance testing
+MSRIT,7,SOFTWARE TESTING,equivalence partitioning
+MSRIT,7,SOFTWARE TESTING,boundary value analysis
+MSRIT,7,SOFTWARE TESTING,decision table testing
+MSRIT,7,SOFTWARE TESTING,error guessing
+MSRIT,7,SOFTWARE TESTING,data-driven testing
+MSRIT,7,SOFTWARE TESTING,keyword-driven testing
+MSRIT,7,SOFTWARE TESTING,behavior-driven testing
+MSRIT,7,SOFTWARE TESTING,test case design
+MSRIT,7,SOFTWARE TESTING,test execution process
+MSRIT,7,SOFTWARE TESTING,defect management
+MSRIT,7,SOFTWARE TESTING,bug reporting
+MSRIT,7,SOFTWARE TESTING,tracking and resolution
+MSRIT,7,SOFTWARE TESTING,non-functional testing
+MSRIT,7,SOFTWARE TESTING,performance testing
+MSRIT,7,SOFTWARE TESTING,security testing
+MSRIT,7,SOFTWARE TESTING,usability testing
+MSRIT,7,SOFTWARE TESTING,agile testing principles
+MSRIT,7,SOFTWARE TESTING,test-driven development
+MSRIT,7,SOFTWARE TESTING,continuous integration and continuous delivery
+MSRIT,7,SOFTWARE TESTING,exploratory testing
+MSRIT,7,SOFTWARE TESTING,api testing
+MSRIT,7,SOFTWARE TESTING,owasp top 10
+MSRIT,7,SOFTWARE TESTING,common vulnerabilities
+MSRIT,7,SOFTWARE TESTING,security testing methodologies
+MSRIT,7,SOFTWARE TESTING,mobile testing
+MSRIT,7,SOFTWARE TESTING,best practices for mobile app testing
+MSRIT,7,Fundamental of Cloud Computing,cloud computing
+MSRIT,7,Fundamental of Cloud Computing,distributed systems
+MSRIT,7,Fundamental of Cloud Computing,virtualization
+MSRIT,7,Fundamental of Cloud Computing,cloud computing reference model
+MSRIT,7,Fundamental of Cloud Computing,parallel computing
+MSRIT,7,Fundamental of Cloud Computing,distributed computing
+MSRIT,7,Fundamental of Cloud Computing,interprocess communication
+MSRIT,7,Fundamental of Cloud Computing,virtualization techniques
+MSRIT,7,Fundamental of Cloud Computing,execution virtualization
+MSRIT,7,Fundamental of Cloud Computing,infrastructure-as-a-service
+MSRIT,7,Fundamental of Cloud Computing,platform-as-a-service
+MSRIT,7,Fundamental of Cloud Computing,software-as-a-service
+MSRIT,7,Fundamental of Cloud Computing,cloud interoperability
+MSRIT,7,Fundamental of Cloud Computing,scalability
+MSRIT,7,Fundamental of Cloud Computing,fault tolerance
+MSRIT,7,Fundamental of Cloud Computing,cloud security
+MSRIT,7,Fundamental of Cloud Computing,cloud storage
+MSRIT,7,Fundamental of Cloud Computing,distributed file systems
+MSRIT,7,Fundamental of Cloud Computing,general parallel file system
+MSRIT,7,Fundamental of Cloud Computing,google file system
+MSRIT,7,Fundamental of Cloud Computing,bigtable
+MSRIT,7,Fundamental of Cloud Computing,megastore
