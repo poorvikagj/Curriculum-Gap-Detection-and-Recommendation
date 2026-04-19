@@ -106,65 +106,8 @@
 <!-- Main Content Area -->
 <main class="pt-20 p-8 min-h-screen bg-surface">
 <div class="max-w-7xl mx-auto">
-<!-- Header Section -->
-<header class="mb-10">
-<h1 class="text-4xl font-extrabold text-on-surface tracking-tight mb-2">Curriculum Guidance</h1>
-<p class="text-on-surface-variant max-w-2xl">Shape your academic journey with AI-driven insights tailored to your semester, skillset, and career aspirations.</p>
-</header>
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-<!-- Left Column: Controls (5/12) -->
-<section class="lg:col-span-5 space-y-6">
-<div class="bg-surface-container-low rounded-xl p-1 shadow-sm">
-<div class="bg-white rounded-xl p-6 shadow-sm border border-outline-variant/10">
-<h3 class="text-primary font-bold text-lg mb-6 flex items-center gap-2">
-<span class="material-symbols-outlined">tune</span>
-                                Parameter Tuning
-                            </h3>
-<form class="space-y-6">
-<!-- Semester Dropdown -->
-<div>
-<label class="block text-xs font-bold text-on-surface-variant uppercase tracking-wider mb-2">Current Semester</label>
-<div class="relative">
-<select class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 appearance-none focus:ring-2 focus:ring-primary/20 transition-all text-sm font-medium">
-<option>Semester 1</option>
-<option>Semester 2</option>
-<option>Semester 3</option>
-<option>Semester 4</option>
-<option selected="">Semester 5</option>
-<option>Semester 6</option>
-<option>Semester 7</option>
-<option>Semester 8</option>
-</select>
-<span class="material-symbols-outlined absolute right-3 top-3 pointer-events-none text-on-surface-variant">expand_more</span>
-</div>
-</div>
-<!-- Skills Multiselect Simulation -->
-<div>
-<label class="block text-xs font-bold text-on-surface-variant uppercase tracking-wider mb-2">Skills Inventory</label>
-<div id="skillsList" class="flex flex-wrap gap-2 mb-3 min-h-[2.5rem]"></div>
-<div class="relative">
-<input id="skillInput" class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/20 transition-all text-sm" placeholder="Add skills (e.g. React, C++)..." type="text"/>
-<button id="skillAddBtn" class="absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary transition-colors" type="button">
-<span class="material-symbols-outlined">add</span>
-</button>
-</div>
-</div>
-<!-- Target Role -->
-<div>
-<label class="block text-xs font-bold text-on-surface-variant uppercase tracking-wider mb-2">Target Career Role</label>
-<input class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/20 transition-all text-sm font-medium" placeholder="e.g. Full Stack Developer" type="text" value="AI Research Engineer"/>
-</div>
-<!-- Get Guidance Button -->
-<button class="w-full bg-gradient-to-r from-primary to-primary-container text-white py-4 rounded-xl font-bold shadow-lg shadow-primary/20 hover:opacity-90 active:scale-95 transition-all flex justify-center items-center gap-2" type="button">
-<span class="material-symbols-outlined">magic_button</span>
-                                    Get Guidance
-                                </button>
-</form>
-</div>
-</div>
-</section>
-<!-- Right Column: Chatbot Interface (7/12) -->
-<section class="lg:col-span-7 h-[calc(100vh-280px)] flex flex-col">
+<!-- Chatbot Section -->
+<section class="h-[calc(100vh-180px)] flex flex-col">
 <div class="bg-surface-container-low flex-1 rounded-3xl overflow-hidden flex flex-col shadow-inner relative">
 <!-- Chat Header -->
 <div class="px-6 py-4 bg-white/50 backdrop-blur-md flex items-center justify-between border-b border-outline-variant/10">
@@ -176,70 +119,28 @@
 <div class="text-sm font-bold">Academic Curator AI</div>
 <div class="text-[10px] text-green-600 font-bold uppercase tracking-widest flex items-center gap-1">
 <span class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
-                                        Online
-                                    </div>
+Online
 </div>
 </div>
-<div class="flex gap-2">
-<button class="p-2 hover:bg-surface-container rounded-full transition-colors">
-<span class="material-symbols-outlined text-on-surface-variant">more_vert</span>
-</button>
 </div>
 </div>
-<!-- Chat Messages Scrollable -->
-<div class="flex-1 overflow-y-auto p-6 space-y-6">
-<!-- User Message -->
-<div class="flex justify-end">
-<div class="max-w-[80%] bg-primary text-white p-4 rounded-2xl rounded-tr-none shadow-md">
-<div class="text-[10px] uppercase tracking-tighter opacity-70 mb-1">Query Summary</div>
-<p class="text-sm font-medium">I'm in Semester 5, skilled in Python, Java, and SQL. I want to become an AI Research Engineer. What should be my focus?</p>
-</div>
-</div>
-<!-- AI Response -->
+<!-- Chat Messages -->
+<div class="flex-1 overflow-y-auto p-6 space-y-6 chat-scroll">
 <div class="flex justify-start">
 <div class="max-w-[85%] bg-white p-6 rounded-2xl rounded-tl-none shadow-sm border border-outline-variant/10">
 <div class="flex items-center gap-2 mb-4">
 <span class="bg-secondary-fixed text-on-secondary-fixed text-[10px] px-2 py-0.5 rounded font-bold uppercase tracking-widest">Academic Insight</span>
 </div>
 <div class="prose prose-sm text-on-surface-variant space-y-4">
-<p class="font-medium text-on-surface leading-relaxed">Based on your semester, skills, and target role, you should focus on the following roadmap:</p>
-<ul class="space-y-3 list-none pl-0">
-<li class="flex gap-3">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span><strong>Advanced Mathematics:</strong> Since you're in Semester 5, prioritize Linear Algebra and Probability modules. These are critical for AI Research.</span>
-</li>
-<li class="flex gap-3">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span><strong>Framework Deep-Dive:</strong> Transition from basic Python to PyTorch or TensorFlow. Build a small neural network from scratch to understand the math.</span>
-</li>
-<li class="flex gap-3">
-<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
-<span><strong>Electives:</strong> Select "Machine Learning" and "Natural Language Processing" for your upcoming professional electives.</span>
-</li>
-</ul>
-<div class="bg-surface-container-low p-4 rounded-xl mt-4 italic border-l-4 border-primary">
-                                            "A strong research profile starts with identifying a specific niche. Have you considered Computer Vision or Reinforcement Learning?"
-                                        </div>
-</div>
-<div class="mt-6 flex gap-2">
-<button class="text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 bg-surface-container-high rounded-full hover:bg-surface-container-highest transition-colors">Save Advice</button>
-<button class="text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 bg-surface-container-high rounded-full hover:bg-surface-container-highest transition-colors">Download Roadmap</button>
+<p class="font-medium text-on-surface leading-relaxed">Hello! I'm your Academic Curator AI. Tell me about your current semester, skills, and career goals, and I'll provide personalized guidance.</p>
 </div>
 </div>
-</div>
-<!-- Loading Spinner Effect Simulation -->
-<div class="flex justify-start items-center gap-3">
-<div class="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-sm">
-<div class="w-4 h-4 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
-</div>
-<span class="text-xs font-medium text-on-surface-variant italic">AI is curating your personalized path...</span>
 </div>
 </div>
 <!-- Chat Input -->
 <div class="p-4 bg-white/80 backdrop-blur-md border-t border-outline-variant/10">
 <div class="flex items-center gap-3 bg-surface-container-low rounded-2xl px-4 py-2 border border-transparent focus-within:border-primary/30 transition-all">
-<span class="material-symbols-outlined text-on-surface-variant">attach_file</span>
-<input class="flex-1 bg-transparent border-none focus:ring-0 text-sm py-2" placeholder="Ask a follow-up question..." type="text"/>
+<input class="flex-1 bg-transparent border-none focus:ring-0 text-sm py-2" placeholder="Ask a question..." type="text"/>
 <button class="w-10 h-10 bg-primary text-white rounded-xl flex items-center justify-center hover:bg-primary-container transition-colors">
 <span class="material-symbols-outlined">send</span>
 </button>
@@ -248,79 +149,13 @@
 </div>
 </section>
 </div>
-<!-- Bento-style Supplementary Grid -->
-<section class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-<div class="md:col-span-2 bg-gradient-to-br from-tertiary/5 to-tertiary/10 p-8 rounded-3xl relative overflow-hidden group">
-<div class="relative z-10">
-<h4 class="text-xl font-bold text-tertiary mb-2">Upcoming Tech Symposium</h4>
-<p class="text-sm text-on-surface-variant mb-4 max-w-md">The 12th International Conference on Computational Intelligence is happening at MSRIT next month. Research students are invited to submit abstracts.</p>
-<a class="inline-flex items-center gap-2 text-primary font-bold text-sm" href="#">
-                            Learn more <span class="material-symbols-outlined text-sm">arrow_forward</span>
-</a>
-</div>
-<div class="absolute -right-10 -bottom-10 opacity-10 group-hover:scale-110 transition-transform duration-500">
-<span class="material-symbols-outlined text-[180px]">school</span>
-</div>
-</div>
-<div class="bg-secondary-fixed p-8 rounded-3xl flex flex-col justify-between">
-<div>
-<h4 class="text-lg font-bold text-on-secondary-fixed mb-1">Skill Gap Alert</h4>
-<p class="text-xs text-on-secondary-fixed/70">Our AI detected you might need "Cloud Architecture" basics for your target role.</p>
-</div>
-<button class="mt-4 bg-on-secondary-fixed text-white py-3 rounded-xl text-xs font-bold uppercase tracking-widest shadow-lg">Start Mini-Course</button>
-</div>
-</section>
-</div>
 </main>
 <script>
-const skillInput = document.getElementById('skillInput');
-const skillsList = document.getElementById('skillsList');
-const addSkillBtn = document.getElementById('skillAddBtn');
 const profileToggle = document.getElementById('profileToggle');
 const profileMenu = document.getElementById('profileMenu');
 const logoutBtn = document.getElementById('logoutBtn');
 
-function normalizeSkill(value) {
-    return value.trim().toLowerCase();
-}
-
-function skillExists(value) {
-    const normalizedValue = normalizeSkill(value);
-    return Array.from(skillsList.querySelectorAll('[data-skill]')).some(tag => tag.dataset.skill === normalizedValue);
-}
-
-function createSkillTag(value) {
-    const normalizedValue = normalizeSkill(value);
-    const tag = document.createElement('span');
-    tag.className = 'bg-primary-fixed text-on-primary-fixed-variant px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-2';
-    tag.dataset.skill = normalizedValue;
-    tag.innerHTML = `<span>${value.trim()}</span><button type="button" class="material-symbols-outlined text-[14px] hover:text-red-500">close</button>`;
-    tag.querySelector('button').addEventListener('click', () => {
-        skillsList.removeChild(tag);
-    });
-    return tag;
-}
-
-function addSkill() {
-    const value = skillInput.value.trim();
-    if (!value || skillExists(value)) {
-        skillInput.value = '';
-        return;
-    }
-    skillsList.appendChild(createSkillTag(value));
-    skillInput.value = '';
-}
-
-addSkillBtn.addEventListener('click', addSkill);
-skillInput.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        event.preventDefault();
-        addSkill();
-    }
-});
-
 profileToggle.addEventListener('click', function(event) {
-    event.stopPropagation();
     profileMenu.classList.toggle('hidden');
 });
 
@@ -329,7 +164,7 @@ logoutBtn.addEventListener('click', function() {
 });
 
 document.addEventListener('click', function(event) {
-    if (!profileMenu.contains(event.target) && !profileToggle.contains(event.target)) {
+    if (!profileToggle.contains(event.target) && !profileMenu.contains(event.target)) {
         profileMenu.classList.add('hidden');
     }
 });

@@ -132,6 +132,9 @@
 <!-- Form Side -->
 <section class="flex flex-col justify-center p-8 md:p-16 bg-surface-container-lowest">
 <div class="mb-10 text-center md:text-left">
+<a href="Home.html" class="inline-flex items-center gap-1 text-primary font-bold text-sm mb-4 hover:underline">
+<span class="material-symbols-outlined text-sm">arrow_back</span> Back to Home
+</a>
 <h2 class="text-3xl font-bold text-on-surface mb-2">Welcome Back</h2>
 <p class="text-on-surface-variant text-sm font-medium">Please sign in to access your dashboard</p>
 </div>
@@ -148,7 +151,7 @@
 <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
 <span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">alternate_email</span>
 </div>
-<input class="block w-full pl-12 pr-4 py-4 bg-surface-container-low border-0 rounded-xl focus:ring-2 focus:ring-primary/20 focus:bg-white text-on-surface placeholder:text-outline-variant transition-all outline-none" id="email" placeholder="username@msrit.edu" type="email" value="student@gmail.com"/>
+<input class="block w-full pl-12 pr-12 py-4 bg-surface-container-low border-0 rounded-xl focus:ring-2 focus:ring-primary/20 focus:bg-white text-on-surface placeholder:text-outline-variant transition-all outline-none" id="email" placeholder="Username" type="text"/>
 <div class="absolute inset-y-0 right-4 flex items-center">
 <span class="material-symbols-outlined text-error text-[18px]">warning</span>
 </div>
@@ -156,25 +159,20 @@
 </div>
 <!-- Password Field -->
 <div class="space-y-2">
-<div class="flex justify-between items-center px-1">
+<div class="px-1">
 <label class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant" for="password">Security Key</label>
-<a class="text-[10px] font-bold text-primary hover:underline transition-all" href="#">FORGOT?</a>
 </div>
 <div class="relative group">
 <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
 <span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">lock</span>
 </div>
 <input class="block w-full pl-12 pr-12 py-4 bg-surface-container-low border-0 rounded-xl focus:ring-2 focus:ring-primary/20 focus:bg-white text-on-surface placeholder:text-outline-variant transition-all outline-none" id="password" placeholder="••••••••" type="password"/>
-<button class="absolute inset-y-0 right-4 flex items-center text-on-surface-variant hover:text-primary transition-colors" type="button">
+<button class="absolute inset-y-0 right-4 flex items-center text-on-surface-variant hover:text-primary transition-colors" type="button" id="togglePassword">
 <span class="material-symbols-outlined">visibility</span>
 </button>
 </div>
 </div>
-<!-- Remember Me -->
-<div class="flex items-center gap-2 px-1">
-<input class="w-4 h-4 rounded-lg border-outline-variant text-primary focus:ring-primary/20 transition-all cursor-pointer" id="remember" type="checkbox"/>
-<label class="text-xs font-medium text-on-surface-variant cursor-pointer" for="remember">Keep me logged in for 30 days</label>
-</div>
+
 <!-- Submit Button -->
 <button class="w-full py-4 px-6 bg-gradient-to-r from-primary to-primary-container text-on-primary font-bold rounded-xl shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 active:scale-[0.98] transition-all flex items-center justify-center gap-3" type="submit">
 <span>Log In to Curator</span>
@@ -221,6 +219,18 @@ document.querySelector('form').addEventListener('submit', function(event) {
             warningIcon.style.display = 'none';
         }
         errorMessage.style.display = 'flex';
+    }
+});
+
+document.getElementById('togglePassword').addEventListener('click', function() {
+    const passwordInput = document.getElementById('password');
+    const icon = this.querySelector('.material-symbols-outlined');
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+        icon.textContent = 'visibility_off';
+    } else {
+        passwordInput.type = 'password';
+        icon.textContent = 'visibility';
     }
 });
 </script>

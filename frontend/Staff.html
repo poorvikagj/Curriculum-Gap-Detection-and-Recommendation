@@ -87,132 +87,88 @@
         .chat-scroll::-webkit-scrollbar-thumb { background: #e2e2e2; border-radius: 10px; }
     </style>
 </head>
-<body class="bg-background text-on-background min-h-screen">
-<!-- Main Canvas -->
-<main class="py-12 px-6 lg:px-12">
-<div class="max-w-6xl mx-auto">
-<!-- Hero Greeting -->
-<section class="mb-8">
-<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-on-surface mb-2 font-headline">Syllabus Analysis Assistant</h1>
-<p class="text-on-surface-variant max-w-2xl text-lg">Interact with AI to refine curriculum, identify gaps, and generate industry-aligned visualizations.</p>
-</section>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-40 shadow-sm dark:shadow-none font-headline text-sm tracking-tight flex justify-between items-center px-6 py-3 w-full backdrop-blur-md bg-white/80 dark:bg-gray-900/80">
+<div class="flex items-center gap-4">
+<span class="text-xl font-bold tracking-tighter text-[#892852] dark:text-[#a8406a]">MSRIT AI</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[#892852] font-bold border-b-2 border-[#892852] cursor-pointer active:opacity-70" href="#">Staff Dashboard</a>
+</div>
+<div class="flex items-center gap-4 relative">
+<div class="relative">
+<button id="profileToggle" class="material-symbols-outlined text-[#892852] cursor-pointer">settings</button>
+<div id="profileMenu" class="hidden absolute right-0 mt-2 w-44 rounded-3xl bg-white border border-outline-variant/10 shadow-lg text-left overflow-hidden z-50">
+<button id="logoutBtn" class="w-full px-4 py-3 text-left text-primary font-semibold hover:bg-surface-container-low transition-all">Logout</button>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full bg-gradient-to-r from-transparent via-[#dac0c6]/20 to-transparent h-[1px]"></div>
+</nav>
+<!-- Main Content Area -->
+<main class="pt-20 p-8 min-h-screen bg-surface">
+<div class="max-w-7xl mx-auto">
 <!-- Chatbot Section -->
-<section class="mb-12 bg-surface-container-low rounded-xl p-6 shadow-sm border border-outline-variant/20">
-<div class="flex flex-col h-[400px]">
-<!-- Chat History Area -->
-<div class="flex-1 overflow-y-auto pr-2 mb-4 chat-scroll space-y-4">
-<!-- AI Message -->
+<section class="h-[calc(100vh-180px)] flex flex-col">
+<div class="bg-surface-container-low flex-1 rounded-3xl overflow-hidden flex flex-col shadow-inner relative">
+<!-- Chat Header -->
+<div class="px-6 py-4 bg-white/50 backdrop-blur-md flex items-center justify-between border-b border-outline-variant/10">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined">smart_toy</span>
+</div>
+<div>
+<div class="text-sm font-bold">Syllabus Analysis AI</div>
+<div class="text-[10px] text-green-600 font-bold uppercase tracking-widest flex items-center gap-1">
+<span class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
+Online
+</div>
+</div>
+</div>
+</div>
+<!-- Chat Messages -->
+<div class="flex-1 overflow-y-auto p-6 space-y-6 chat-scroll">
 <div class="flex gap-3 max-w-[85%]">
 <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
 <span class="material-symbols-outlined text-white text-sm">smart_toy</span>
 </div>
 <div class="bg-surface-container-lowest p-4 rounded-2xl rounded-tl-none shadow-sm text-sm text-on-surface">
-<p>Hello! I've analyzed <strong>CSE-402-AI-2024.pdf</strong>. I can suggest improvements, identify skill gaps, or generate visualizations based on industry demand. How can I help you today?</p>
-</div>
-</div>
-<!-- User Message -->
-<div class="flex gap-3 max-w-[85%] ml-auto flex-row-reverse">
-<div class="w-8 h-8 rounded-full bg-secondary flex items-center justify-center flex-shrink-0">
-<span class="material-symbols-outlined text-white text-sm">person</span>
-</div>
-<div class="bg-primary text-on-primary p-4 rounded-2xl rounded-tr-none shadow-sm text-sm">
-<p>Can you show me a visualization of current industry demand for AI skills versus our current syllabus coverage?</p>
-</div>
-</div>
-<!-- AI Message with Visual Feedback -->
-<div class="flex gap-3 max-w-[85%]">
-<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
-<span class="material-symbols-outlined text-white text-sm">smart_toy</span>
-</div>
-<div class="bg-surface-container-lowest p-4 rounded-2xl rounded-tl-none shadow-sm text-sm text-on-surface">
-<p>Certainly. I've updated the <strong>Analysis Results</strong> section below with a visualization comparing industry needs and your syllabus modules.</p>
+<p>Hello! I've analyzed the syllabus. I can help you identify skill gaps, suggest improvements, or answer questions about curriculum. How can I help you today?</p>
 </div>
 </div>
 </div>
 <!-- Input Area -->
-<div class="relative mt-auto">
-<input class="w-full bg-surface-container-lowest border-outline-variant rounded-full py-4 pl-6 pr-14 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm outline-none shadow-sm" placeholder="Ask about the syllabus or request a visualization..." type="text"/>
-<button class="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-primary text-on-primary rounded-full flex items-center justify-center hover:opacity-90 transition-opacity">
+<div class="p-4 bg-white/80 backdrop-blur-md border-t border-outline-variant/10">
+<div class="flex items-center gap-3 bg-surface-container-low rounded-2xl px-4 py-2 border border-transparent focus-within:border-primary/30 transition-all">
+<input class="flex-1 bg-transparent border-none focus:ring-0 text-sm py-2" placeholder="Ask about the syllabus..." type="text"/>
+<button class="w-10 h-10 bg-primary text-white rounded-xl flex items-center justify-center hover:bg-primary-container transition-colors">
 <span class="material-symbols-outlined">send</span>
 </button>
-</div>
-</div>
-</section>
-<!-- Output Section -->
-<section class="space-y-6">
-<h2 class="text-2xl font-bold font-headline mb-6">Analysis Results</h2>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<!-- Suggested Improvements -->
-<div class="space-y-4">
-<div class="flex items-center gap-2 mb-2">
-<span class="text-xl">📌</span>
-<h3 class="font-bold text-lg font-headline">Suggested Improvements</h3>
-</div>
-<div class="bg-surface-container-lowest rounded-xl shadow-sm border-l-4 border-primary p-5 group hover:shadow-md transition-all">
-<div class="flex justify-between items-start cursor-pointer">
-<div>
-<h4 class="font-bold text-on-surface mb-2">Update Machine Learning Modules</h4>
-<p class="text-sm text-on-surface-variant leading-relaxed">The current syllabus focuses heavily on legacy regression models. It is recommended to introduce Transformer architectures and Large Language Model (LLM) fine-tuning techniques early in Module 3.</p>
-</div>
-<span class="material-symbols-outlined text-primary">expand_more</span>
-</div>
-</div>
-<div class="bg-surface-container-lowest rounded-xl shadow-sm border-l-4 border-primary p-5 group hover:shadow-md transition-all">
-<div class="flex justify-between items-start cursor-pointer">
-<div>
-<h4 class="font-bold text-on-surface mb-2">Integrate Ethical AI Frameworks</h4>
-<p class="text-sm text-on-surface-variant leading-relaxed">Lack of ethical discourse in the primary chapters. Suggested inclusion: Bias mitigation in datasets and European AI Act compliance overviews.</p>
-</div>
-<span class="material-symbols-outlined text-primary">expand_more</span>
-</div>
-</div>
-<div class="bg-surface-container-lowest rounded-xl shadow-sm border-l-4 border-primary p-5 group hover:shadow-md transition-all">
-<div class="flex justify-between items-start cursor-pointer">
-<div>
-<h4 class="font-bold text-on-surface mb-2">Hands-on Cloud Labs</h4>
-<p class="text-sm text-on-surface-variant leading-relaxed">Shift the final project focus from local Jupyter notebooks to scalable AWS Sagemaker or Azure ML deployments to mirror industry environments.</p>
-</div>
-<span class="material-symbols-outlined text-primary">expand_more</span>
-</div>
-</div>
-</div>
-<!-- Skill Gaps & Visualizations -->
-<div class="space-y-4">
-<div class="flex items-center gap-2 mb-2">
-<span class="text-xl">📊</span>
-<h3 class="font-bold text-lg font-headline">Skill Gaps &amp; Industry Insights</h3>
-</div>
-<!-- Dynamic Data Visualization -->
-<div class="p-6 bg-surface-container-lowest border border-outline-variant/20 rounded-xl shadow-sm">
-<h4 class="text-sm font-bold text-on-surface mb-4">Skill Gap Analysis: Syllabus vs. Industry</h4>
-<img alt="Data Analytics Visualization" class="w-full h-48 object-cover rounded-lg mb-4" data-alt="Close up of a computer screen showing complex data analytics charts and heatmaps in deep blue and purple tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbJsoUnx9Il6oiWwgrKIEKSRP_Tjv5oY0aGe-4jaMP6x7jJ30SO_xhRbizHADMjrMLiZah2QGl1ZS4hZe2_njKK8MWNdzwOy9IGulJeL_bn6x6BKF-PQ47CYk3Wznwkn6eRznmYlvAEL_GTFJApNN3rscxgltwA6d8JtAczlivBdo0wDw5WcGd-M8xn06mrm4l9NBj8hOiYDTPVeDSH1ARZWRF6H8tPvWksfRFOmAQuaK9cMoUyw4CKo6OBQHyuqlaUhaCsWMmqqY-"/>
-<p class="text-xs text-on-surface-variant italic">AI generated visualization based on current job market data for AI Engineers (2024).</p>
-</div>
-<div class="bg-surface-container-low rounded-xl p-6 relative overflow-hidden">
-<div class="relative z-10">
-<div class="bg-secondary-fixed text-on-secondary-fixed text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded inline-block mb-3">Critical Gap</div>
-<p class="text-on-surface font-medium mb-4">"The syllabus lacks modern AI tools like Vector Databases (Pinecone/ChromaDB) which are essential for contemporary RAG architectures."</p>
-<div class="flex items-center gap-4">
-<div class="flex-1 h-2 bg-surface-container-highest rounded-full overflow-hidden">
-<div class="w-[85%] h-full bg-secondary"></div>
-</div>
-<span class="text-xs font-bold text-secondary">85% Industry Demand</span>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-low rounded-xl p-6">
-<div class="bg-tertiary-fixed text-on-tertiary-fixed text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded inline-block mb-3">Technical Gap</div>
-<p class="text-on-surface font-medium mb-4">"Missing emphasis on PyTorch Lightning and modern MLOps pipelines. Students may struggle with enterprise-scale code management."</p>
-<div class="flex items-center gap-4">
-<div class="flex-1 h-2 bg-surface-container-highest rounded-full overflow-hidden">
-<div class="w-[60%] h-full bg-tertiary"></div>
-</div>
-<span class="text-xs font-bold text-tertiary">60% Industry Demand</span>
-</div>
 </div>
 </div>
 </div>
 </section>
 </div>
 </main>
+<script>
+const profileToggle = document.getElementById('profileToggle');
+const profileMenu = document.getElementById('profileMenu');
+const logoutBtn = document.getElementById('logoutBtn');
+
+profileToggle.addEventListener('click', function(event) {
+    event.stopPropagation();
+    profileMenu.classList.toggle('hidden');
+});
+
+logoutBtn.addEventListener('click', function() {
+    window.location.href = 'StaffLogin.html';
+});
+
+document.addEventListener('click', function(event) {
+    if (!profileToggle.contains(event.target) && !profileMenu.contains(event.target)) {
+        profileMenu.classList.add('hidden');
+    }
+});
+</script>
 </body></html>
