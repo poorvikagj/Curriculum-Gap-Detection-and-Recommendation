@@ -1,0 +1,33 @@
+# Backend (API)
+fastapi
+uvicorn
+
+# Environment variables
+python-dotenv
+
+# Vector DB / RAG
+chromadb
+sentence-transformers
+
+# Data processing
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+imbalanced-learn
+xgboost
+
+# NLP
+spacy
+rapidfuzz
+
+# Analysis / Graph
+networkx
+ruptures
+
+# PDF processing
+PyMuPDF
+
+# LLM API
+groq
