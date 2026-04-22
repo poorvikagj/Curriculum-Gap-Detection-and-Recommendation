@@ -128,7 +128,7 @@ Online
 </div>
 </div>
 <!-- Chat Messages -->
-<div class="flex-1 overflow-y-auto p-6 space-y-6 chat-scroll">
+<div class="flex-1 overflow-y-auto p-6 space-y-6 chat-scroll" id="chatMessages">
 <div class="flex gap-3 max-w-[85%]">
 <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
 <span class="material-symbols-outlined text-white text-sm">smart_toy</span>
@@ -141,8 +141,8 @@ Online
 <!-- Input Area -->
 <div class="p-4 bg-white/80 backdrop-blur-md border-t border-outline-variant/10">
 <div class="flex items-center gap-3 bg-surface-container-low rounded-2xl px-4 py-2 border border-transparent focus-within:border-primary/30 transition-all">
-<input class="flex-1 bg-transparent border-none focus:ring-0 text-sm py-2" placeholder="Ask about the syllabus..." type="text"/>
-<button class="w-10 h-10 bg-primary text-white rounded-xl flex items-center justify-center hover:bg-primary-container transition-colors">
+<input class="flex-1 bg-transparent border-none focus:ring-0 text-sm py-2" id="staffChatInput" placeholder="Ask about the syllabus..." type="text"/>
+<button class="w-10 h-10 bg-primary text-white rounded-xl flex items-center justify-center hover:bg-primary-container transition-colors" id="staffSendBtn">
 <span class="material-symbols-outlined">send</span>
 </button>
 </div>
@@ -155,14 +155,209 @@ Online
 const profileToggle = document.getElementById('profileToggle');
 const profileMenu = document.getElementById('profileMenu');
 const logoutBtn = document.getElementById('logoutBtn');
+const chatMessages = document.getElementById('chatMessages');
+const staffChatInput = document.getElementById('staffChatInput');
+const staffSendBtn = document.getElementById('staffSendBtn');
+
+async function verifyStaffAccess() {
+  try {
+    const response = await fetch('/api/auth/authorize?page=staff', {
+      method: 'GET',
+      credentials: 'include'
+    });
+
+    if (response.ok) {
+      return;
+    }
+
+    if (response.status === 401) {
+      window.location.href = '/StaffLogin.html';
+      return;
+    }
+
+    if (response.status === 403) {
+      window.location.href = '/Student.html';
+      return;
+    }
+
+    window.location.href = '/Home.html';
+  } catch (error) {
+    window.location.href = '/StaffLogin.html';
+  }
+}
 
 profileToggle.addEventListener('click', function(event) {
     event.stopPropagation();
     profileMenu.classList.toggle('hidden');
 });
 
-logoutBtn.addEventListener('click', function() {
-    window.location.href = 'StaffLogin.html';
+function appendUserMessage(message) {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'flex justify-end';
+  const bubble = document.createElement('div');
+  bubble.className = 'max-w-[85%] bg-primary text-white p-4 rounded-2xl rounded-tr-none shadow-sm text-sm leading-relaxed whitespace-pre-wrap';
+  bubble.textContent = message;
+  wrapper.appendChild(bubble);
+  chatMessages.appendChild(wrapper);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+function appendBotMessage(message) {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'flex gap-3 max-w-[85%]';
+  const iconWrap = document.createElement('div');
+  iconWrap.className = 'w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0';
+  const icon = document.createElement('span');
+  icon.className = 'material-symbols-outlined text-white text-sm';
+  icon.textContent = 'smart_toy';
+  iconWrap.appendChild(icon);
+
+  const bubble = document.createElement('div');
+  bubble.className = 'bg-surface-container-lowest p-4 rounded-2xl rounded-tl-none shadow-sm text-sm text-on-surface whitespace-pre-wrap leading-relaxed';
+  bubble.textContent = message;
+
+  wrapper.appendChild(iconWrap);
+  wrapper.appendChild(bubble);
+  chatMessages.appendChild(wrapper);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+function appendPendingMessage() {
+  const wrapper = document.createElement('div');
+  wrapper.className = 'flex gap-3 max-w-[85%]';
+
+  const iconWrap = document.createElement('div');
+  iconWrap.className = 'w-8 h-8 rounded-full bg-primary flex items-center justify-center flex-shrink-0';
+  const icon = document.createElement('span');
+  icon.className = 'material-symbols-outlined text-white text-sm';
+  icon.textContent = 'smart_toy';
+  iconWrap.appendChild(icon);
+
+  const bubble = document.createElement('div');
+  bubble.className = 'bg-surface-container-lowest p-4 rounded-2xl rounded-tl-none shadow-sm text-sm text-on-surface whitespace-pre-wrap leading-relaxed animate-pulse';
+  bubble.textContent = 'Responding...';
+
+  wrapper.appendChild(iconWrap);
+  wrapper.appendChild(bubble);
+  chatMessages.appendChild(wrapper);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+  return { wrapper, bubble };
+}
+
+function formatResponseDuration(seconds) {
+  if (seconds < 1) {
+    return `${Math.max(1, Math.round(seconds * 1000))} ms`;
+  }
+  return `${seconds.toFixed(2)} secs`;
+}
+
+function appendResponseTime(wrapper, seconds) {
+  const timeLabel = document.createElement('div');
+  timeLabel.className = 'mt-1 ml-11 text-[10px] text-on-surface-variant/80';
+  timeLabel.textContent = `responded in ${formatResponseDuration(seconds)}`;
+  wrapper.appendChild(timeLabel);
+}
+
+function clearInitialGreeting() {
+  if (chatMessages.children.length > 0) {
+    chatMessages.innerHTML = '';
+  }
+}
+
+async function loadStaffHistory() {
+  try {
+    const response = await fetch('/api/chat/history', {
+      method: 'GET',
+      credentials: 'include'
+    });
+
+    if (!response.ok) {
+      return;
+    }
+
+    const data = await response.json().catch(() => ({}));
+    const messages = Array.isArray(data.messages) ? data.messages : [];
+    if (!messages.length) {
+      return;
+    }
+
+    clearInitialGreeting();
+    messages.forEach(function(item) {
+      if (item.sender === 'user') {
+        appendUserMessage(item.text || '');
+      } else {
+        appendBotMessage(item.text || '');
+      }
+    });
+  } catch (error) {
+    console.error('Unable to load staff chat history:', error);
+  }
+}
+
+async function sendStaffMessage() {
+  const query = staffChatInput.value.trim();
+  if (!query) {
+    return;
+  }
+
+  appendUserMessage(query);
+  staffChatInput.value = '';
+  staffSendBtn.disabled = true;
+  const requestStartTime = performance.now();
+  const pendingMessage = appendPendingMessage();
+  const pendingBubble = pendingMessage.bubble;
+
+  try {
+    const response = await fetch('/api/chat/query', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+      body: JSON.stringify({ query })
+    });
+
+    if (response.status === 401) {
+      window.location.href = '/StaffLogin.html';
+      return;
+    }
+
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      pendingBubble.textContent = data.detail || 'Unable to process your request right now.';
+      pendingBubble.classList.remove('animate-pulse');
+      return;
+    }
+
+    pendingBubble.textContent = data.response || 'No response generated.';
+    pendingBubble.classList.remove('animate-pulse');
+    appendResponseTime(pendingMessage.wrapper, (performance.now() - requestStartTime) / 1000);
+  } catch (error) {
+    pendingBubble.textContent = 'Server error. Please try again.';
+    pendingBubble.classList.remove('animate-pulse');
+    appendResponseTime(pendingMessage.wrapper, (performance.now() - requestStartTime) / 1000);
+  } finally {
+    staffSendBtn.disabled = false;
+    staffChatInput.focus();
+  }
+}
+
+staffSendBtn.addEventListener('click', sendStaffMessage);
+staffChatInput.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    sendStaffMessage();
+  }
+});
+
+logoutBtn.addEventListener('click', async function() {
+  try {
+    await fetch('/api/auth/logout', {
+      method: 'POST',
+      credentials: 'include'
+    });
+  } catch (error) {
+    console.error('Logout failed:', error);
+  }
+  window.location.href = '/StaffLogin.html';
 });
 
 document.addEventListener('click', function(event) {
@@ -170,5 +365,8 @@ document.addEventListener('click', function(event) {
         profileMenu.classList.add('hidden');
     }
 });
+
+  verifyStaffAccess();
+  loadStaffHistory();
 </script>
 </body></html>

@@ -139,11 +139,11 @@
 <p class="text-on-surface-variant text-sm font-medium">Please sign in to access your dashboard</p>
 </div>
 <!-- Error Message State -->
-<div class="mb-6 p-4 rounded-xl bg-error-container/40 border border-error/10 flex items-start gap-3">
+<div class="mb-6 p-4 rounded-xl bg-error-container/40 border border-error/10 items-start gap-3 hidden" id="error-message">
 <span class="material-symbols-outlined text-error text-[20px]">error</span>
-<p class="text-sm font-semibold text-on-error-container">Only MSRIT domain emails are allowed</p>
+<p class="text-sm font-semibold text-on-error-container" id="error-text">Invalid credentials</p>
 </div>
-<form class="space-y-6" onsubmit="return false;">
+<form class="space-y-6" id="student-login-form">
 <!-- Email Field -->
 <div class="space-y-2">
 <label class="text-[10px] font-bold tracking-widest uppercase text-on-surface-variant ml-1" for="email">University Email</label>
@@ -151,7 +151,7 @@
 <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
 <span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">alternate_email</span>
 </div>
-<input class="block w-full pl-12 pr-12 py-4 bg-surface-container-low border-0 rounded-xl focus:ring-2 focus:ring-primary/20 focus:bg-white text-on-surface placeholder:text-outline-variant transition-all outline-none" id="email" placeholder="Username" type="text"/>
+<input class="block w-full pl-12 pr-12 py-4 bg-surface-container-low border-0 rounded-xl focus:ring-2 focus:ring-primary/20 focus:bg-white text-on-surface placeholder:text-outline-variant transition-all outline-none" id="email" placeholder="student@msrit.edu" type="text"/>
 <div class="absolute inset-y-0 right-4 flex items-center">
 <span class="material-symbols-outlined text-error text-[18px]">warning</span>
 </div>
@@ -199,26 +199,59 @@
 </div>
 </div>
 <script>
-document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
-    const errorMessage = document.querySelector('.mb-6.p-4');
-    const errorText = errorMessage.querySelector('p');
-    const warningIcon = document.querySelector('.absolute.inset-y-0.right-4 .material-symbols-outlined');
-    
-    if (email.endsWith('@msrit.edu') && password) {
-        localStorage.setItem('msritStudentEmail', email.toLowerCase());
-        window.location.href = 'Student.html';
-    } else {
-        if (!email.endsWith('@msrit.edu')) {
-            errorText.textContent = 'Only MSRIT domain emails are allowed';
-            warningIcon.style.display = 'block';
-        } else {
-            errorText.textContent = 'Invalid password';
-            warningIcon.style.display = 'none';
+const studentLoginForm = document.getElementById('student-login-form');
+const errorMessage = document.getElementById('error-message');
+const errorText = document.getElementById('error-text');
+
+async function redirectIfAlreadyAuthenticated() {
+    try {
+        const response = await fetch('/api/auth/me', {
+            method: 'GET',
+            credentials: 'include'
+        });
+
+        if (!response.ok) {
+            return;
         }
-        errorMessage.style.display = 'flex';
+
+        const data = await response.json();
+        if (data.authenticated) {
+            window.location.href = '/Student.html';
+        }
+    } catch (error) {
+        console.error('Unable to validate current session:', error);
+    }
+}
+
+studentLoginForm.addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById('email').value.trim().toLowerCase();
+    const password = document.getElementById('password').value;
+
+    try {
+        const response = await fetch('/api/auth/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            credentials: 'include',
+            body: JSON.stringify({ email, password })
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json().catch(() => ({}));
+            errorText.textContent = errorData.detail || 'Invalid email or password';
+            errorMessage.classList.remove('hidden');
+            errorMessage.classList.add('flex');
+            return;
+        }
+
+        window.location.href = '/Student.html';
+    } catch (error) {
+        errorText.textContent = 'Unable to reach the server. Please try again.';
+        errorMessage.classList.remove('hidden');
+        errorMessage.classList.add('flex');
     }
 });
 
@@ -233,5 +266,7 @@ document.getElementById('togglePassword').addEventListener('click', function() {
         icon.textContent = 'visibility';
     }
 });
+
+redirectIfAlreadyAuthenticated();
 </script>
 </body></html>

@@ -1,14 +1,16 @@
 import chromadb
+from functools import lru_cache
 
 client = chromadb.PersistentClient(path="../outputs/chroma_db")
 
 collection = client.get_or_create_collection(name="curriculum_intelligence")
 
 
-def get_response(query):
+@lru_cache(maxsize=512)
+def _query_cached(query: str, top_k: int) -> str:
     results = collection.query(
         query_texts=[query],
-        n_results=3
+        n_results=top_k,
     )
 
     docs = results.get("documents", [[]])[0]
@@ -17,3 +19,11 @@ def get_response(query):
         return "No relevant data found."
 
     return " ".join(docs)
+
+
+def get_response(query, top_k=2):
+    cleaned_query = str(query).strip()
+    if not cleaned_query:
+        return "No relevant data found."
+
+    return _query_cached(cleaned_query, top_k)
