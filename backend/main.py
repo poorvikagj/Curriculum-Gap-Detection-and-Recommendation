@@ -13,9 +13,9 @@ from fastapi.responses import FileResponse, RedirectResponse
 from pydantic import BaseModel
 
 try:
-    from .rag import get_response
+    from .rag_engine import ask_nlp
 except ImportError:
-    from rag import get_response
+    from rag_engine import ask_nlp
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -198,6 +198,10 @@ def _to_points(raw_text: str, max_points: int = 4) -> list[str]:
 
     return chunks[:max_points]
 
+def _is_simple_query(query: str) -> bool:
+    q = query.lower().strip()
+    return q in ["hi", "hello", "hey"] or len(q.split()) <= 2
+
 
 def _build_role_prompt(role: str, query: str) -> str:
     cleaned_query = query.strip()
@@ -308,8 +312,10 @@ def authorize(request: Request, page: str) -> dict[str, Any]:
 
 
 @app.post("/api/rag/query")
-def rag_query(payload: RagRequest) -> dict[str, str]:
-    return {"response": get_response(payload.query)}
+def rag_query(payload: RagRequest, request: Request) -> dict[str, str]:
+    user = _current_user(request)
+    user_type = str(user.get("role", "student")).lower() if user else "student"
+    return {"response": ask_nlp(payload.query, user_type=user_type)}
 
 
 @app.post("/api/chat/query")
@@ -330,9 +336,12 @@ def chat_query(payload: ChatRequest, request: Request, response: Response) -> di
     cache_hit = bool(response_text)
 
     if not response_text:
-        rag_prompt = _build_role_prompt(role, query)
-        rag_answer = get_response(rag_prompt)
-        response_text = _format_chat_response(role, query, rag_answer)
+        if _is_simple_query(query):
+            response_text = "Hello! How can I help you with curriculum insights today?"
+        else:
+            rag_answer = ask_nlp(query, user_type=role)
+            response_text = rag_answer.strip()
+
         _cache_set(cache_key, response_text)
 
     _append_history(session_id, "user", query)
