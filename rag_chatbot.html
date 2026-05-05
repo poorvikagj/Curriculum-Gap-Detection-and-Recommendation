@@ -1,0 +1,422 @@
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --acc: #1D9E75; --acc-l: #E1F5EE; --acc-d: #0F6E56;
+  --warn: #BA7517; --warn-l: #FAEEDA;
+  --danger: #D85A30; --danger-l: #FAECE7;
+  --info: #378ADD; --info-l: #E6F1FB;
+  --pur: #7F77DD; --pur-l: #EEEDFE;
+}
+.wrap { border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden; font-family: var(--font-sans); }
+.hdr { background: var(--acc-l); padding: 10px 14px; display: flex; align-items: center; gap: 8px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+.hav { width: 28px; height: 28px; border-radius: 50%; background: var(--acc); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 11px; font-weight: 600; flex-shrink: 0; }
+.hname { font-size: 13px; font-weight: 500; color: var(--acc-d); }
+.hsub { font-size: 11px; color: var(--acc-d); opacity: 0.7; }
+.mwrap { margin-left: auto; display: flex; background: #fff; border-radius: 20px; padding: 2px; gap: 2px; border: 0.5px solid var(--color-border-tertiary); }
+.mbtn { padding: 3px 10px; font-size: 11px; border-radius: 20px; cursor: pointer; border: none; background: none; color: var(--color-text-secondary); font-family: var(--font-sans); }
+.mbtn.on { background: var(--acc); color: #fff; }
+.msgs { padding: 12px; max-height: 420px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; background: var(--color-background-primary); scrollbar-width: thin; }
+.msg { display: flex; gap: 8px; }
+.msg.u { flex-direction: row-reverse; }
+.bbl { max-width: 84%; padding: 8px 12px; border-radius: var(--border-radius-lg); font-size: 13px; line-height: 1.65; }
+.msg.b .bbl { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); color: var(--color-text-primary); }
+.msg.u .bbl { background: var(--acc); color: #fff; }
+.av2 { width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 600; flex-shrink: 0; margin-top: 2px; }
+.msg.b .av2 { background: var(--acc-l); color: var(--acc-d); }
+.msg.u .av2 { background: var(--pur-l); color: #3C3489; }
+.pill { display: inline-block; border-radius: 12px; padding: 2px 8px; font-size: 11px; font-weight: 500; margin: 2px; }
+.pr { background: var(--danger-l); color: var(--danger); }
+.po { background: var(--warn-l); color: var(--warn); }
+.pg { background: var(--acc-l); color: var(--acc-d); }
+.pb { background: var(--info-l); color: #185FA5; }
+.chip { font-size: 11px; padding: 2px 8px; border-radius: 12px; background: var(--info-l); color: #185FA5; display: inline-block; margin: 2px; }
+.srow { margin: 5px 0 3px; display: flex; flex-wrap: wrap; gap: 4px; }
+.tdots { display: flex; gap: 3px; padding: 4px 0; }
+.td { width: 6px; height: 6px; border-radius: 50%; background: var(--acc); animation: bop 1.2s infinite; }
+.td:nth-child(2) { animation-delay:.2s } .td:nth-child(3) { animation-delay:.4s }
+@keyframes bop { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-5px)} }
+.sqw { padding: 8px 12px; border-top: 0.5px solid var(--color-border-tertiary); background: var(--color-background-secondary); display: flex; gap: 6px; flex-wrap: wrap; }
+.sq { font-size: 11px; padding: 4px 10px; border-radius: 12px; border: 0.5px solid var(--color-border-secondary); background: var(--color-background-primary); cursor: pointer; color: var(--color-text-secondary); font-family: var(--font-sans); }
+.sq:hover { background: var(--acc-l); border-color: var(--acc); color: var(--acc-d); }
+.iw { padding: 10px 12px; border-top: 0.5px solid var(--color-border-tertiary); background: var(--color-background-primary); display: flex; gap: 8px; align-items: flex-end; }
+.inp { flex:1; border: 0.5px solid var(--color-border-secondary); border-radius: var(--border-radius-md); padding: 7px 12px; font-size: 13px; font-family: var(--font-sans); color: var(--color-text-primary); background: var(--color-background-primary); resize: none; outline: none; }
+.inp:focus { border-color: var(--acc); }
+.snd { width:32px; height:32px; border-radius:50%; background:var(--acc); border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.snd:hover { background:var(--acc-d); }
+.snd svg { width:14px; height:14px; fill:#fff; }
+strong { font-weight:500; }
+table.rt { width:100%; font-size:12px; border-collapse:collapse; margin-top:6px; }
+table.rt th { text-align:left; padding:4px 7px; color:var(--color-text-secondary); border-bottom:0.5px solid var(--color-border-tertiary); font-weight:500; }
+table.rt td { padding:5px 7px; border-bottom:0.5px solid var(--color-border-tertiary); vertical-align:top; }
+table.rt tr:last-child td { border-bottom:none; }
+</style>
+
+<div class="wrap">
+  <div class="hdr">
+    <div class="hav" id="av">AR</div>
+    <div>
+      <div class="hname" id="hn">ARIA — Curriculum Intelligence Analyst</div>
+      <div class="hsub" id="hs">Faculty mode · 10 companies · 2021–2025</div>
+    </div>
+    <div class="mwrap">
+      <button class="mbtn on" id="sb" onclick="setMode('staff')">Faculty</button>
+      <button class="mbtn" id="stb" onclick="setMode('student')">Student</button>
+    </div>
+  </div>
+  <div class="msgs" id="msgs"></div>
+  <div class="sqw" id="sqw"></div>
+  <div class="iw">
+    <textarea class="inp" id="inp" rows="1" placeholder="Ask about gaps, electives, skills by semester…"
+      onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();doSend();}"></textarea>
+    <button class="snd" onclick="doSend()">
+      <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+    </button>
+  </div>
+</div>
+
+<script>
+var mode = 'staff';
+
+/* ── Intent detection ────────────────────────────────────────────────── */
+function extractSem(q) {
+  var m = q.match(/\b(1st|2nd|3rd|4th|5th|6th|7th|8th|1|2|3|4|5|6|7|8)\s*(sem|semester|yr|year)?\b/);
+  if (!m) return null;
+  var map = {'1st':'1','2nd':'2','3rd':'3','4th':'4','5th':'5','6th':'6','7th':'7','8th':'8'};
+  var raw = m[1];
+  return map[raw] || raw;
+}
+
+function hasAny(q, words) {
+  return words.some(function(w){ return q.indexOf(w) !== -1; });
+}
+
+/* ── Staff response bank ─────────────────────────────────────────────── */
+var SEM_RESP = {
+  '1': `<strong>Sem 1 — Elective recommendations:</strong><br>
+Sem 1 is foundation-only in most curricula and typically has no open electives. However, if there is a lab or bridge module slot:<br><br>
+<span class="pill pg">Python Programming fundamentals</span> <span class="pill pg">Linux CLI basics</span> <span class="pill pg">Version control (Git)</span>
+<div class="srow"><span class="chip">Git: demanded by 10/10 companies — the earlier the better</span></div>
+These aren't electives in the traditional sense, but integrating Git and Linux into the first programming lab has zero curriculum cost and high long-term payoff.`,
+
+  '2': `<strong>Sem 2 — Elective recommendations:</strong><br>
+Sem 2 typically runs alongside core math and programming. A well-scoped elective here:<br><br>
+<span class="pill pg">Data Structures in Python</span> <span class="pill pg">Linux & Shell scripting</span> <span class="pill pg">Introduction to Databases (SQL)</span>
+<div class="srow"><span class="chip">SQL: demanded by 10/10 companies · currently present in later sems only</span></div>
+Moving SQL exposure earlier builds the foundation for Data Engineering and Analytics electives in Sem 5–6. Shell scripting is a co-required skill for Kubernetes, Docker, and CI/CD — teaching it early compounds value.`,
+
+  '3': `<strong>Sem 3 — Elective recommendation:</strong><br>
+Gap analysis shows Sem 3 students are at the ideal point to introduce applied data skills. The recommended elective:<br><br>
+<strong>→ "Foundations of Data Engineering"</strong><br>
+<span class="pill pr">Advanced SQL (window functions, CTEs, query optimisation)</span>
+<span class="pill pr">Python for data (Pandas, NumPy)</span>
+<span class="pill po">Basic ETL concepts + pipeline thinking</span>
+<span class="pill pg">Introduction to cloud data platforms (overview)</span>
+<div class="srow"><span class="chip">SQL + Python: covers 10/10 companies in the dataset</span><span class="chip">Co-occur in 94% of data-role postings</span></div>
+These two skills underpin every data-adjacent career path. Teaching them together in Sem 3 means Sem 5–6 electives can go straight to Spark, Databricks, and ML — skipping remedial catch-up. No new lab infrastructure needed.`,
+
+  '4': `<strong>Sem 4 — Elective recommendation:</strong><br>
+Sem 4 is typically when OS and networks land. A complementary elective:<br><br>
+<strong>→ "Applied Networking & Infrastructure"</strong><br>
+<span class="pill pr">Containerisation basics (Docker)</span>
+<span class="pill po">REST API design + testing</span>
+<span class="pill po">Intro to networking for developers (not theory — curl, DNS, TLS)</span>
+<span class="pill pg">Version control workflows (Git branching, PRs)</span>
+<div class="srow"><span class="chip">Docker: CLI 2yr · demanded by 8/10 companies</span><span class="chip">Pre-req for Kubernetes in Sem 6</span></div>
+Docker taught here means students arrive at the Sem 6 cloud elective ready for Kubernetes immediately — no time lost on container basics.`,
+
+  '5': `<strong>Sem 5 — Elective recommendation:</strong><br>
+Sem 5 is the natural home for ML introduction alongside algorithms. Recommended elective:<br><br>
+<strong>→ "Machine Learning Engineering Fundamentals"</strong><br>
+<span class="pill pr">ML pipeline: data prep → model → evaluation (sklearn)</span>
+<span class="pill pr">Feature engineering concepts (velocity, importance)</span>
+<span class="pill po">Model deployment basics (FastAPI + Docker)</span>
+<span class="pill po">Experiment tracking (MLflow intro)</span>
+<span class="pill pg">Ethics and bias in ML models</span>
+<div class="srow"><span class="chip">MLOps: Priority 0.84 · 7/10 companies · CLI 3yr</span></div>
+Most institutes teach ML theory here without touching deployment. Adding FastAPI + Docker deployment (even a single lab) directly bridges the MLOps gap that is costing MSRIT grads in interviews. Debt Score reduction: ~3.1 points.`,
+
+  '6': `<strong>Sem 6 — Elective recommendation:</strong><br><br>
+<strong>→ "Cloud-Native Engineering"</strong> (highest-impact elective in the entire programme)<br>
+<span class="pill pr">Docker (containers from scratch)</span>
+<span class="pill pr">Kubernetes (deploy, scale, debug)</span>
+<span class="pill pr">CI/CD with GitHub Actions</span>
+<span class="pill po">Helm charts (package Kubernetes apps)</span>
+<span class="pill pg">Cloud provider basics (AWS or Azure — 4 hrs)</span>
+<div class="srow"><span class="chip">Kubernetes: CLI 3yr · 9/10 companies · Debt 14.8</span><span class="chip">This cluster covers 4 high-priority gaps in one unit</span></div>
+The co-occurrence graph shows Docker, Kubernetes, CI/CD, and Helm form the tightest cluster in the industry dataset — they appear together in 87% of cloud/DevOps postings. Teaching them as one unit is both pedagogically sound and maximally gap-closing.`,
+
+  '7': `<strong>Sem 7 — Elective recommendation:</strong><br><br>
+<strong>→ "AI Applications & LLM Engineering"</strong><br>
+<span class="pill pr">LLMs: architecture, prompting, fine-tuning overview</span>
+<span class="pill pr">MLOps: model serving, monitoring, drift detection</span>
+<span class="pill po">Vector Databases (ChromaDB / Pinecone)</span>
+<span class="pill po">LangChain: build a RAG pipeline end-to-end</span>
+<span class="pill pg">Responsible AI and evaluation frameworks</span>
+<div class="srow"><span class="chip">LLMs: CLI 4yr · Velocity 4.2 · Watch List</span><span class="chip">MLOps: demanded by 7/10 companies</span></div>
+This elective addresses the highest Debt Score gap cluster in the entire dataset. Sem 7 is correct timing — students have Python, ML basics, and Docker from earlier sems, so they can go straight to application-layer work.`,
+
+  '8': `<strong>Sem 8 — Elective recommendation:</strong><br>
+Sem 8 is typically project-heavy. Rather than a new elective, the recommendation is an integration capstone:<br><br>
+<strong>→ "Industry-Ready Systems Project"</strong><br>
+<span class="pill pr">End-to-end project: data → model → deploy → monitor</span>
+<span class="pill po">Security review (Zero Trust checklist, DevSecOps practices)</span>
+<span class="pill po">FinOps basics: cost-aware cloud deployment</span>
+<span class="pill pg">Technical documentation + demo presentation</span>
+<div class="srow"><span class="chip">DevSecOps + Zero Trust: CLI 2–3yr · NatWest, BT Group, Thales demand these</span></div>
+This consolidates all prior elective learning into a single deployable artefact — the strongest possible placement portfolio signal.`
+};
+
+var ALL_SEM_RESP = `<strong>Full semester-wise elective roadmap (MSRIT — all 8 semesters):</strong><br><br>
+<table class="rt">
+<tr><th>Sem</th><th>Recommended Elective</th><th>Key skills</th><th>Debt impact</th></tr>
+<tr><td>1–2</td><td>Git + Linux + SQL integration (lab add-on)</td><td><span class="pill pg">Git</span><span class="pill pg">Linux</span><span class="pill pg">SQL basics</span></td><td>Foundation</td></tr>
+<tr><td>3</td><td>Foundations of Data Engineering</td><td><span class="pill pr">Advanced SQL</span><span class="pill pr">Python + Pandas</span><span class="pill po">ETL basics</span></td><td>–2.8 pts</td></tr>
+<tr><td>4</td><td>Applied Networking & Infrastructure</td><td><span class="pill pr">Docker</span><span class="pill po">REST APIs</span><span class="pill pg">Git workflows</span></td><td>–3.4 pts</td></tr>
+<tr><td>5</td><td>ML Engineering Fundamentals</td><td><span class="pill pr">sklearn pipeline</span><span class="pill po">FastAPI deploy</span><span class="pill po">MLflow</span></td><td>–4.1 pts</td></tr>
+<tr><td>6</td><td>Cloud-Native Engineering ⭐ highest impact</td><td><span class="pill pr">Kubernetes</span><span class="pill pr">CI/CD</span><span class="pill po">Helm</span><span class="pill po">Terraform</span></td><td>–7.2 pts</td></tr>
+<tr><td>7</td><td>AI Applications & LLM Engineering</td><td><span class="pill pr">MLOps</span><span class="pill pr">LLMs</span><span class="pill po">Vector DBs</span><span class="pill po">LangChain</span></td><td>–6.9 pts</td></tr>
+<tr><td>8</td><td>Industry-Ready Systems Project (capstone)</td><td><span class="pill po">Zero Trust</span><span class="pill po">DevSecOps</span><span class="pill pg">FinOps</span></td><td>–3.2 pts</td></tr>
+</table>
+<div class="srow"><span class="chip">Total Debt Score reduction: ~27.6 pts (71% of MSRIT total)</span><span class="chip">Co-occurrence graph confirms each cluster is internally connected</span></div>
+These 7 interventions are sequenced so each semester builds on the previous: Docker in Sem 4 enables Kubernetes in Sem 6; Python + ML in Sem 5 enables MLOps + LLMs in Sem 7.`;
+
+var STAFF_BANK = [
+  /* ── semester-specific ── */
+  { test: function(q){ var s=extractSem(q); return s && hasAny(q,['elective','add','recommend','course','what to teach','what should','include','sem','semester']); },
+    reply: function(q){ var s=extractSem(q); return SEM_RESP[s] || `<strong>Semester ${s} recommendations:</strong><br>No specific data found for Sem ${s} in the current index. Try asking about Sem 3–8 where elective slots are common, or ask for "all elective recommendations" to see the full roadmap.`; }
+  },
+  /* ── all electives ── */
+  { test: function(q){ return hasAny(q,['all elective','all sem','full roadmap','all semester','every sem','entire curriculum','full curriculum','complete recommendation','across sem']); },
+    reply: function(){ return ALL_SEM_RESP; }
+  },
+  /* ── debt / priority ── */
+  { test: function(q){ return hasAny(q,['debt','compounded','top 5','top5','highest priority','ranked','most overdue']); },
+    reply: function(){ return `<strong>Top 5 gap skills by Debt Score</strong> (CLI × velocity × institutional spread):<br><br>
+<span class="pill pr">LLMs — Debt 18.4</span> <span class="pill pr">Generative AI — Debt 17.2</span> <span class="pill po">Kubernetes — Debt 14.8</span> <span class="pill po">Zero Trust — Debt 13.9</span> <span class="pill po">MLOps — Debt 12.6</span>
+<div class="srow"><span class="chip">LLMs: CLI 4yr · Velocity 4.2 · 8/10 companies</span></div>
+LLMs and GenAI have been in demand since 2021 (CLI 4yr) and are still accelerating — every semester of inaction compounds the debt. Kubernetes co-occurs with CI/CD and Terraform in 87% of postings; adding it in isolation solves only part of the gap.`; }
+  },
+  /* ── AI/ML gaps ── */
+  { test: function(q){ return hasAny(q,['ai skill','ai/ml','machine learning','missing ai','deep learning','mlops','llm','generative ai','genai','ai gap','ai miss']); },
+    reply: function(){ return `<strong>AI/ML skills not in MSRIT curriculum</strong> — 8 gaps identified:<br><br>
+<span class="pill pr">LLMs</span> <span class="pill pr">Generative AI</span> <span class="pill pr">MLOps</span> <span class="pill po">LangChain</span> <span class="pill po">Vector Databases</span> <span class="pill pg">Hugging Face</span> <span class="pill pg">RLHF</span> <span class="pill pg">Advanced Computer Vision</span>
+<div class="srow"><span class="chip">MLOps: Priority 0.84 · 7/10 companies</span><span class="chip">LLMs: CLI 4yr · Watch List</span></div>
+MLOps is the most urgent (Priority 0.84) — it bridges your existing ML courses to production reality. LLMs and GenAI are Upcoming trajectory: teaching them now gives students a 1–2 year lead over peers from other institutes.`; }
+  },
+  /* ── cloud ── */
+  { test: function(q){ return hasAny(q,['cloud skill','cloud gap','cloud urgent','aws','azure','gcp','serverless','cloud miss']); },
+    reply: function(){ return `<strong>Cloud skills — urgency ranking for MSRIT:</strong><br><br>
+<span class="pill pr">Kubernetes — Priority 0.79, CLI 3yr</span> <span class="pill pr">Terraform — Priority 0.71</span> <span class="pill po">Helm — Priority 0.63</span> <span class="pill po">Multi-cloud strategy — Priority 0.58</span> <span class="pill pg">Serverless — Priority 0.47</span>
+<div class="srow"><span class="chip">Kubernetes: 9/10 companies · Debt 14.8</span></div>
+Kubernetes appears in 9 of 10 company postings and has been demanded since 2022. It co-occurs most strongly with Docker, Helm, and CI/CD — these four form a tight cluster. Adding Kubernetes without the others is a half-fix. Best addressed in a single "Cloud-Native Engineering" elective in Sem 6.`; }
+  },
+  /* ── watch list ── */
+  { test: function(q){ return hasAny(q,['watch list','watch','emerging','upcoming','early warn','new skill','watch-list']); },
+    reply: function(){ return `<strong>Early Warning Watch List</strong> — low volatility, steady uptrend:<br><br>
+<span class="pill po">LangChain — urgency 0.42</span> <span class="pill po">Vector Databases — urgency 0.38</span> <span class="pill pg">DevSecOps — urgency 0.31</span> <span class="pill pg">FinOps — urgency 0.27</span> <span class="pill pg">AI Safety / RLHF — urgency 0.24</span>
+<div class="srow"><span class="chip">Filter: low volatility = stable signal, not hype spike</span><span class="chip">Upcoming trajectory</span></div>
+Watch List skills are rising consistently, not spiking. LangChain and Vector DBs co-occur in nearly every LLM application posting — a single elective covering both would future-proof students for 2+ years. Acting now, before these cross 0.7+ priority, saves a full curriculum review cycle later.`; }
+  },
+  /* ── CLI / lag ── */
+  { test: function(q){ return hasAny(q,['cli','curriculum lag','lag index','how long','overdue','years behind','breakout']); },
+    reply: function(){ return `<strong>CLI (Curriculum Lag Index) — top overdue skills:</strong><br><br>
+<span class="pill pr">LLMs — CLI 4yr (breakout: 2021)</span> <span class="pill pr">Zero Trust — CLI 3yr</span> <span class="pill pr">Kubernetes — CLI 3yr</span> <span class="pill po">MLOps — CLI 3yr</span> <span class="pill po">Terraform — CLI 2yr</span>
+<div class="srow"><span class="chip">CLI = current year − PELT-detected demand breakout year</span></div>
+CLI is computed using PELT change-point detection on the 5-year yearly demand signal per skill — not just first appearance year. LLMs had a structural demand breakout in 2021 (post-GPT-3 wave); CLI=4 means every graduating batch since 2022 has gone out underqualified for this skill.`; }
+  },
+  /* ── security ── */
+  { test: function(q){ return hasAny(q,['security','zero trust','siem','cybersec','devsecops','pentest','vulnerability']); },
+    reply: function(){ return `<strong>Security skills gap at MSRIT:</strong><br><br>
+<span class="pill pr">Zero Trust Architecture — CLI 3yr, Debt 13.9</span> <span class="pill pr">DevSecOps — CLI 2yr, Debt 10.7</span> <span class="pill po">SIEM tools — Priority 0.61</span> <span class="pill po">API Security — Priority 0.54</span>
+<div class="srow"><span class="chip">Demanded by: Thales, BT Group, NatWest, IBM</span></div>
+Zero Trust has moved from niche to expected in enterprise hiring. DevSecOps co-occurs with Kubernetes and CI/CD in 74% of security-adjacent postings — it can be integrated into the existing Cloud-Native elective rather than requiring a standalone course.`; }
+  },
+  /* ── compare institutes ── */
+  { test: function(q){ return hasAny(q,['compare','rvce','bit','pesit','dsce','all institute','five institute','5 institute','across institute','other college']); },
+    reply: function(){ return `<strong>Cross-institute gap comparison (5 institutes):</strong><br><br>
+<table class="rt"><tr><th>Institute</th><th>Covered</th><th>Gaps</th><th>Worst domain</th></tr>
+<tr><td>RVCE</td><td style="color:var(--acc)">52</td><td style="color:var(--danger)">43</td><td>AI/ML</td></tr>
+<tr><td><strong>MSRIT</strong></td><td style="color:var(--acc)">48</td><td style="color:var(--danger)">47</td><td>Cloud</td></tr>
+<tr><td>PESIT</td><td style="color:var(--acc)">44</td><td style="color:var(--danger)">51</td><td>Security</td></tr>
+<tr><td>BIT</td><td style="color:var(--acc)">39</td><td style="color:var(--danger)">56</td><td>Cloud + DevOps</td></tr>
+<tr><td>DSCE</td><td style="color:var(--acc)">37</td><td style="color:var(--danger)">58</td><td>AI/ML + Cloud</td></tr></table>
+<div class="srow"><span class="chip">All 8 AI/ML gaps are missing from ALL 5 institutes — systemic regional problem, not just MSRIT</span></div>
+RVCE leads on coverage but still misses the entire AI/ML cluster. MSRIT's main weakness is Cloud. The 8 Upcoming-trajectory AI skills are a regional blind spot — institutes that move first will differentiate their graduates.`; }
+  },
+  /* ── data / databricks ── */
+  { test: function(q){ return hasAny(q,['databricks','spark','data engineer','data gap','etl','kafka','airflow','dbt']); },
+    reply: function(){ return `<strong>Data Engineering skills gap:</strong><br><br>
+<span class="pill pr">Databricks — CLI 2yr, Priority 0.74</span> <span class="pill po">Apache Spark — Priority 0.68</span> <span class="pill po">dbt (data build tool) — Priority 0.57</span> <span class="pill pg">Apache Kafka — Priority 0.49</span>
+<div class="srow"><span class="chip">Databricks: Velocity 2.4 — fastest-rising data skill in dataset</span><span class="chip">Demanded by Oracle, IBM, HPE</span></div>
+Your existing SQL and Python coverage gives students the foundation. Databricks and Spark are direct extensions — best added as lab sessions inside an existing Data Engineering elective (Sem 5–6).`; }
+  },
+  /* ── devops ── */
+  { test: function(q){ return hasAny(q,['devops','ci/cd','jenkins','helm','ansible','github action','pipeline','terraform','infrastructure as code','iac']); },
+    reply: function(){ return `<strong>DevOps skills — gaps and co-occurrence cluster:</strong><br><br>
+<span class="pill pr">Kubernetes + Helm (cluster)</span> <span class="pill pr">CI/CD (GitHub Actions) — CLI 2yr</span> <span class="pill po">Terraform — Priority 0.71</span> <span class="pill po">Ansible — Priority 0.55</span>
+<div class="srow"><span class="chip">CI/CD: 8/10 companies · co-occurs with Docker in 91% of postings</span></div>
+The DevOps cluster is the most interconnected in the co-occurrence graph. Teach the cluster in order: Docker → Kubernetes → CI/CD → Terraform. Students who know CI/CD without containers, or containers without IaC, cannot function in a real team. Minimum 4 weeks for the full cluster.`; }
+  }
+];
+
+var STUDENT_BANK = [
+  { test: function(q){ return hasAny(q,['ml engineer','machine learning engineer','become ml','ml career']); },
+    reply: function(){ return `You're targeting one of the hottest roles in Bangalore. Honest roadmap:<br><br>
+<strong>Must-have before placement:</strong><br>
+<span class="pill pr">Python (advanced)</span> <span class="pill pr">ML fundamentals (sklearn)</span> <span class="pill pr">MLOps</span><br><br>
+<strong>Strong differentiators:</strong><br>
+<span class="pill po">LLMs / Transformers</span> <span class="pill po">PyTorch</span> <span class="pill po">Docker + Kubernetes</span><br><br>
+<strong>Early-mover advantage:</strong><br>
+<span class="pill pg">LangChain</span> <span class="pill pg">Vector DBs</span> <span class="pill pg">RLHF concepts</span>
+<div class="srow"><span class="chip">MLOps: 7/10 companies demand it · most students skip it</span></div>
+MLOps is the gap most students miss — everyone learns models, almost nobody learns deployment. IBM and SAP Labs specifically screen for it in their first technical round.`; }
+  },
+  { test: function(q){ return hasAny(q,['placement','job ready','interview prep','what to learn','get hired','before placement']); },
+    reply: function(){ return `What actually clears screening — based on 2021–2025 data from 10 Bangalore companies:<br><br>
+<strong>Universally demanded (8–10 companies):</strong><br>
+<span class="pill pr">Python</span> <span class="pill pr">SQL</span> <span class="pill pr">Git</span> <span class="pill pr">Cloud basics (AWS or Azure)</span><br><br>
+<strong>Role-separating (5–8 companies):</strong><br>
+<span class="pill po">Docker</span> <span class="pill po">ML/DL fundamentals</span> <span class="pill po">CI/CD awareness</span> <span class="pill po">REST APIs</span><br><br>
+<strong>Stand-out skills:</strong><br>
+<span class="pill pg">LLM basics</span> <span class="pill pg">Vector DB concepts</span>
+<div class="srow"><span class="chip">Start with Python + SQL — covers 10/10 companies</span></div>
+If you have 3 months: M1 = Python + SQL solidly. M2 = Docker + one cloud. M3 = ML project you can demo. That's the sequence the data validates.`; }
+  },
+  { test: function(q){ return hasAny(q,['microsoft','microsoft skill','work at microsoft','target microsoft']); },
+    reply: function(){ return `Microsoft Bangalore campus hiring pattern (2021–2025):<br><br>
+<strong>Cloud & Infrastructure:</strong><br>
+<span class="pill pr">Azure (AKS, DevOps, Functions)</span> <span class="pill pr">Kubernetes</span> <span class="pill po">Terraform</span><br><br>
+<strong>AI / Data:</strong><br>
+<span class="pill pr">Python + ML fundamentals</span> <span class="pill po">MLOps</span> <span class="pill pg">Responsible AI</span><br><br>
+<strong>Engineering foundation:</strong><br>
+<span class="pill pg">Microservices</span> <span class="pill pg">CI/CD</span> <span class="pill pg">REST APIs + gRPC</span>
+<div class="srow"><span class="chip">Azure is 3× more prominent than AWS in Microsoft postings</span></div>
+Prioritise Azure over AWS if Microsoft is your target, and always combine with Kubernetes + CI/CD — they appear together in Microsoft JDs consistently.`; }
+  },
+  { test: function(q){ return hasAny(q,['kubernetes','k8s','alongside kubernetes','with kubernetes','learn k8s']); },
+    reply: function(){ return `Co-occurrence graph — skills that appear most with Kubernetes:<br><br>
+<strong>Always co-required (very high co-count):</strong><br>
+<span class="pill pr">Docker</span> <span class="pill pr">CI/CD (GitHub Actions or Jenkins)</span><br><br>
+<strong>Frequently co-required:</strong><br>
+<span class="pill po">Helm</span> <span class="pill po">Terraform</span> <span class="pill po">Linux shell scripting</span><br><br>
+<strong>Good add-ons:</strong><br>
+<span class="pill pg">Prometheus + Grafana</span> <span class="pill pg">ArgoCD</span>
+<div class="srow"><span class="chip">Docker → Kubernetes → CI/CD = minimum viable DevOps cluster</span></div>
+Learn Docker before Kubernetes — container fundamentals first. Helm comes after you can do manual deployments. Full cluster takes 6–8 weeks to get job-ready.`; }
+  },
+  { test: function(q){ return hasAny(q,['data engineer','data science','data analyst','data career','become data','databricks','spark career']); },
+    reply: function(){ return `Data engineering is the fastest-growing role in the 2023–2025 portion of the dataset:<br><br>
+<strong>Foundation:</strong><br>
+<span class="pill pr">SQL (advanced — window functions, CTEs)</span> <span class="pill pr">Python + Pandas</span><br><br>
+<strong>Mid-level:</strong><br>
+<span class="pill po">Apache Spark</span> <span class="pill po">Databricks</span> <span class="pill po">ETL pipeline design</span><br><br>
+<strong>Orchestration:</strong><br>
+<span class="pill pg">Apache Airflow</span> <span class="pill pg">dbt</span> <span class="pill pg">Kafka basics</span>
+<div class="srow"><span class="chip">Databricks: Velocity 2.4 — fastest-rising data skill</span><span class="chip">Oracle, IBM, HPE are top hirers</span></div>
+Databricks sits above Spark and is easier if you already know Python + SQL — which you do. That's your fastest entry point.`; }
+  },
+  { test: function(q){ return hasAny(q,['cloud career','cloud engineer','become cloud','cloud architect','aws career','azure career']); },
+    reply: function(){ return `Cloud roles — highest-volume hiring across all 10 companies. Direct path:<br><br>
+<strong>Pick one platform first:</strong><br>
+<span class="pill pr">AWS (most universal)</span> or <span class="pill pr">Azure (best for Microsoft, SAP, NatWest)</span><br><br>
+<strong>Core cluster — learn together:</strong><br>
+<span class="pill pr">Kubernetes</span> <span class="pill po">Docker</span> <span class="pill po">Terraform</span> <span class="pill po">CI/CD</span><br><br>
+<strong>Company-specific add-ons:</strong><br>
+<span class="pill pg">Helm + ArgoCD (SAP Labs, HPE)</span> <span class="pill pg">Serverless (IBM, Oracle)</span>
+<div class="srow"><span class="chip">Kubernetes + Terraform co-occur in 79% of cloud engineer postings</span></div>
+Get AWS SAA or AZ-900 before placement season — signals seriousness even before you have cloud project experience.`; }
+  },
+  { test: function(q){ return hasAny(q,['watch','emerging','upcoming skill','trending','future skill','new skill','early mover']); },
+    reply: function(){ return `Skills on a stable uptrend — learn these now for early-mover advantage:<br><br>
+<strong>Highest urgency:</strong><br>
+<span class="pill po">LangChain — urgency 0.42</span> <span class="pill po">Vector Databases — urgency 0.38</span><br><br>
+<strong>Mid-urgency:</strong><br>
+<span class="pill pg">DevSecOps — 0.31</span> <span class="pill pg">FinOps — 0.27</span> <span class="pill pg">AI Safety / RLHF — 0.24</span>
+<div class="srow"><span class="chip">Low volatility = stable uptrend, not a hype spike</span></div>
+LangChain + Vector DBs co-occur in almost every LLM application job posting. Python + any LLM API + ChromaDB = a demo project you can build this week that interviewers haven't seen before.`; }
+  },
+  { test: function(q){ return hasAny(q,['security','cybersecurity','zero trust','devsecops','pentest','ethical hack']); },
+    reply: function(){ return `Security in Bangalore hiring (NatWest, BT Group, Thales):<br><br>
+<strong>Foundation:</strong><br>
+<span class="pill pr">Linux + Networking fundamentals</span> <span class="pill pr">Python scripting</span><br><br>
+<strong>Security-specific:</strong><br>
+<span class="pill po">Zero Trust concepts</span> <span class="pill po">Vulnerability scanning (Nessus, Trivy)</span> <span class="pill po">SIEM basics (Splunk / ELK)</span><br><br>
+<strong>DevSecOps angle (growing fastest):</strong><br>
+<span class="pill pg">DevSecOps (security in CI/CD)</span> <span class="pill pg">API security testing</span>
+<div class="srow"><span class="chip">DevSecOps: demanded by 6/10 companies — highest value entry point</span></div>
+Pure pentesting roles are rare in this dataset. Security-in-development (DevSecOps) is the dominant pattern — it combines with your existing DevOps knowledge rather than requiring a completely new track.`; }
+  }
+];
+
+/* ── routing ─────────────────────────────────────────────────────────── */
+function getReply(q, bank) {
+  for (var i = 0; i < bank.length; i++) {
+    if (bank[i].test(q)) return bank[i].reply(q);
+  }
+  return null;
+}
+
+/* ── UI helpers ──────────────────────────────────────────────────────── */
+var STAFF_SQ = ['What to add to sem 3 elective?','All elective recommendations','Top 5 gaps by debt score',
+  'What AI skills are missing from MSRIT?','Which cloud skills are most urgent?','Show watch list skills',
+  'Compare all 5 institutes','DevOps gaps and priorities','CLI — most overdue skills'];
+var STUDENT_SQ = ['I want to become an ML engineer','What should I learn before placement?',
+  'What skills does Microsoft look for?','Skills to learn alongside Kubernetes',
+  'I want a cloud career','I want to be a data engineer','What are upcoming trending skills?','I want to get into cybersecurity'];
+
+function renderSQ() {
+  var w = document.getElementById('sqw'); w.innerHTML = '';
+  var list = mode==='staff' ? STAFF_SQ : STUDENT_SQ;
+  list.forEach(function(q){
+    var b = document.createElement('button'); b.className='sq'; b.textContent=q;
+    b.onclick = function(){ sendQ(q); }; w.appendChild(b);
+  });
+}
+
+function avLabel() { return mode==='staff'?'AR':'SA'; }
+
+function appendMsg(who, html) {
+  var w = document.getElementById('msgs');
+  var d = document.createElement('div'); d.className='msg '+who;
+  d.innerHTML='<div class="av2">'+( who==='b' ? avLabel() : 'ME' )+'</div><div class="bbl">'+html+'</div>';
+  w.appendChild(d); w.scrollTop=w.scrollHeight;
+}
+
+function showTyping() {
+  var w=document.getElementById('msgs');
+  var d=document.createElement('div'); d.className='msg b'; d.id='td';
+  d.innerHTML='<div class="av2">'+avLabel()+'</div><div class="bbl"><div class="tdots"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';
+  w.appendChild(d); w.scrollTop=w.scrollHeight;
+}
+function rmTyping() { var t=document.getElementById('td'); if(t)t.remove(); }
+
+function doSend() {
+  var el=document.getElementById('inp'); var q=el.value.trim(); if(!q)return;
+  el.value=''; appendMsg('u', q); showTyping();
+  var bank = mode==='staff' ? STAFF_BANK : STUDENT_BANK;
+  var reply = getReply(q.toLowerCase().replace(/[?!.,]/g,''), bank);
+  setTimeout(function(){
+    rmTyping();
+    appendMsg('b', reply || '<strong>Query noted:</strong> "'+q.substring(0,60)+(q.length>60?'…':'') +'"<br><br>In the live system this routes through spaCy query expansion → ChromaDB cosine retrieval → domain exclusivity filtering → Llama 3.3-70B grounded generation.<br><span style="font-size:11px;color:var(--color-text-secondary)">Try one of the suggested questions, or rephrase with a keyword like "sem 3", "elective", "cloud", "debt score", "watch list".</span>');
+  }, 700+Math.floor(Math.random()*400));
+}
+
+function sendQ(q){ document.getElementById('inp').value=q; doSend(); }
+
+function setMode(m) {
+  mode=m;
+  document.getElementById('sb').className='mbtn'+(m==='staff'?' on':'');
+  document.getElementById('stb').className='mbtn'+(m==='student'?' on':'');
+  document.getElementById('av').textContent=m==='staff'?'AR':'SA';
+  document.getElementById('hn').textContent=m==='staff'?'ARIA — Curriculum Intelligence Analyst':'SAGE — Skills & Growth Engine';
+  document.getElementById('hs').textContent=m==='staff'?'Faculty mode · 10 companies · 2021–2025':'Student mode · Personalised career skill advice';
+  document.getElementById('msgs').innerHTML='';
+  appendMsg('b', m==='staff'
+    ? "Hi. I'm ARIA — your curriculum intelligence analyst. Ask me about any specific semester, debt scores, institute comparisons, or the full elective roadmap."
+    : "Hey! I'm SAGE. Tell me which role you're targeting or what you want to learn — I'll give you a ranked roadmap straight from the hiring data.");
+  renderSQ();
+}
+
+setMode('staff');
+</script>
