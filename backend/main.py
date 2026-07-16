@@ -7,6 +7,8 @@ import uuid
 from collections import OrderedDict
 from pathlib import Path
 from typing import Any
+from dotenv import load_dotenv
+import os
 
 from fastapi import FastAPI, HTTPException, Request, Response, status
 from fastapi.responses import FileResponse, RedirectResponse
@@ -21,14 +23,14 @@ except ImportError:
 BASE_DIR = Path(__file__).resolve().parent.parent
 FRONTEND_DIR = BASE_DIR / "frontend"
 
-HARDCODED_USERS = {
-    "admin@msrit.edu": {
-        "password": "admin123",
+USERS = {
+    os.getenv("ADMIN_EMAIL"): {
+        "password": os.getenv("ADMIN_PASSWORD"),
         "name": "MSRIT Admin",
         "role": "admin",
     },
-    "student@msrit.edu": {
-        "password": "student123",
+    os.getenv("STUDENT_EMAIL"): {
+        "password": os.getenv("STUDENT_PASSWORD"),
         "name": "MSRIT Student",
         "role": "student",
     },
@@ -259,7 +261,7 @@ def login(payload: LoginRequest, request: Request, response: Response) -> dict[s
     email = payload.email.strip().lower()
     password = payload.password
 
-    account = HARDCODED_USERS.get(email)
+    account = USERS.get(email)
 
     if not account or password != account["password"]:
         raise HTTPException(
