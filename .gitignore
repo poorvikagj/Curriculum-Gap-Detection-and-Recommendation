@@ -1,19 +1,19 @@
 # Python
+.venv/
 venv/
 backend/venv/
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Environment
 .env
 
-# OS
-.DS_Store
-Thumbs.db
-
 # Chroma DB
 outputs/chroma_db/
 
-
 # VS Code
 .vscode/
+
+# OS
+.DS_Store
+Thumbs.db
