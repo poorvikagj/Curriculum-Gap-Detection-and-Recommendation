@@ -10,3 +10,10 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Chroma DB
+outputs/chroma_db/
+
+
+# VS Code
+.vscode/
